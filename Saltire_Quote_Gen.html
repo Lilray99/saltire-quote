@@ -1458,7 +1458,7 @@
   </div><!-- end page-quote -->
 
   <!-- ══ PAGE: CONTACTS ══ -->
-  <div id="page-contacts">
+  <div id="page-contacts" style="display:none;">
     <div class="contacts-toolbar">
       <h2>📋 Contacts — Contractors / Suppliers / Vendors</h2>
       <select class="contacts-filter" id="contactTypeFilter" onchange="window.renderContactsTable()">
@@ -2766,9 +2766,9 @@
      TAB SWITCHING
   ══════════════════════════════════════════════ */
   window.switchTab = function(tab) {
-    document.getElementById('page-quote').style.display    = tab === 'quote'    ? '' : 'none';
-    document.getElementById('page-contacts').style.display = tab === 'contacts' ? '' : 'none';
-    document.getElementById('section-nav').style.display   = tab === 'quote'    ? '' : 'none';
+    document.getElementById('page-quote').style.display    = tab === 'quote'    ? 'block' : 'none';
+    document.getElementById('page-contacts').style.display = tab === 'contacts' ? 'block' : 'none';
+    document.getElementById('section-nav').style.display   = tab === 'quote'    ? ''      : 'none';
     document.querySelectorAll('.app-tab').forEach((btn, i) => {
       btn.classList.toggle('active', (i === 0 && tab === 'quote') || (i === 1 && tab === 'contacts'));
     });
