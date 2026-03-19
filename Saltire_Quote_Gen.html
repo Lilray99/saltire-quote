@@ -1314,6 +1314,7 @@
       <textarea id="cmNotes" placeholder="Any notes about this client..."></textarea>
       <div class="client-modal-actions">
         <button class="btn-client btn-client-clear" onclick="window.closeClientModal()">Cancel</button>
+        <button class="btn-client btn-client-delete" id="btnDeleteClient" onclick="window.deleteClient()" style="display:none;background:#e74c3c;color:#fff;">🗑️ Delete</button>
         <button class="btn-client btn-client-add"  onclick="window.saveClientModal()">💾 Save Client</button>
       </div>
     </div>
@@ -2719,6 +2720,7 @@
       document.getElementById('cmAddress').value = '';
       document.getElementById('cmNotes').value   = '';
     }
+    document.getElementById('btnDeleteClient').style.display = id ? 'inline-flex' : 'none';
     document.getElementById('clientModalOverlay').classList.add('open');
   };
 
@@ -2756,6 +2758,21 @@
     await populateClientSelect();
     document.getElementById('clientSelect').value = id;
     window.selectClient();
+    window.closeClientModal();
+  };
+
+  window.deleteClient = async function() {
+    const id = document.getElementById('clientModalId').value;
+    if (!id) return;
+    if (!confirm('Delete this client? This cannot be undone.')) return;
+    const clients = getClientStore().filter(x => x.id !== id);
+    saveClientStore(clients);
+    try { await sheetsAPI({ action: 'deleteClient', id }); } catch(e) {}
+    // Clear quote fields if this client was selected
+    if (document.getElementById('clientSelect').value === id) {
+      window.clearClient();
+    }
+    await populateClientSelect();
     window.closeClientModal();
   };
 
