@@ -1,0 +1,2883 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Saltire Construction – Quote Builder</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f2f5;
+      color: #222;
+    }
+
+    /* ── HEADER ── */
+    header {
+      background: #1a2e4a;
+      color: #fff;
+      padding: 24px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .header-logo {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    header h1 {
+      font-size: 1.7rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+    header h1 span { color: #0066cc; }
+    .header-info {
+      text-align: right;
+      font-size: 0.8rem;
+      line-height: 1.7;
+      opacity: 0.88;
+    }
+    .header-info a { color: #0066cc; text-decoration: none; }
+
+    /* ── MAIN WRAPPER ── */
+    main {
+      max-width: 1200px;
+      margin: 32px auto;
+      padding: 0 20px 60px;
+    }
+
+    /* ── META CARD ── */
+    .meta-card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 24px 28px;
+      margin-bottom: 28px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    }
+    .meta-card h2 {
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #1a2e4a;
+      margin-bottom: 18px;
+      border-bottom: 2px solid #0066cc;
+      padding-bottom: 8px;
+    }
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 16px;
+    }
+    .meta-grid label {
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: #555;
+      display: block;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+    }
+    .meta-grid input, .meta-grid select {
+      width: 100%;
+      padding: 9px 12px;
+      border: 1.5px solid #dde1e7;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      transition: border-color 0.2s;
+      background: #fafbfc;
+    }
+    .meta-grid input:focus, .meta-grid select:focus {
+      border-color: #0066cc;
+      outline: none;
+      background: #fff;
+    }
+
+    /* ── SECTION MANAGEMENT ── */
+    .section-mgmt-card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 24px 28px;
+      margin-bottom: 28px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    }
+    .section-mgmt-card h2 {
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #1a2e4a;
+      margin-bottom: 18px;
+      border-bottom: 2px solid #0066cc;
+      padding-bottom: 8px;
+    }
+
+    .sections-display {
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #dde1e7;
+    }
+
+    .sections-display h3 {
+      font-size: 0.9rem;
+      color: #555;
+      margin-bottom: 12px;
+      font-weight: 600;
+    }
+
+    .section-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 16px;
+      min-height: 40px;
+    }
+
+    .section-tag {
+      background: #e8f3ff;
+      border: 1.5px solid #0066cc;
+      color: #1a2e4a;
+      padding: 8px 14px;
+      border-radius: 20px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+
+    .section-tag.hidden-tag {
+      background: #f0f0f0;
+      border-color: #bbb;
+      color: #888;
+      opacity: 0.6;
+    }
+
+    .section-tag .btn-toggle {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: inherit;
+      font-size: 1rem;
+      padding: 0;
+      display: inline-flex;
+      align-items: center;
+    }
+    .section-tag .btn-toggle:hover { opacity: 0.8; }
+
+    .section-tag .remove-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: #c0392b;
+      font-size: 1.1rem;
+      padding: 0;
+      display: inline-flex;
+      align-items: center;
+    }
+    .section-tag .remove-btn:hover { color: #a02e24; }
+
+    .hidden-sections-display {
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 1px solid #dde1e7;
+    }
+
+    .hidden-sections-display h3 {
+      font-size: 0.9rem;
+      color: #888;
+      margin-bottom: 12px;
+      font-weight: 600;
+    }
+
+    .section-input-group {
+      display: flex;
+      gap: 10px;
+      align-items: flex-end;
+      margin-top: 20px;
+      padding-top: 20px;
+      border-top: 1px solid #dde1e7;
+    }
+    .section-input-group input {
+      flex: 1;
+      padding: 10px 14px;
+      border: 1.5px solid #dde1e7;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      background: #fafbfc;
+    }
+    .section-input-group input:focus {
+      border-color: #0066cc;
+      outline: none;
+      background: #fff;
+    }
+    .btn-add-section {
+      background: #0066cc;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 0.9rem;
+      white-space: nowrap;
+      transition: background 0.2s;
+    }
+    .btn-add-section:hover { background: #0052a3; }
+
+    /* ── SECTION CARDS ── */
+    .section-card {
+      background: #fff;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      overflow: hidden;
+    }
+    .section-header {
+      background: #1a2e4a;
+      color: #fff;
+      padding: 13px 22px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+      user-select: none;
+    }
+    .section-header:hover { background: #22395e; }
+    .section-title {
+      font-size: 0.95rem;
+      font-weight: 600;
+      letter-spacing: 0.4px;
+    }
+    .section-total-badge {
+      background: #0066cc;
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 4px 12px;
+      border-radius: 20px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .toggle-arrow {
+      margin-left: 10px;
+      font-size: 0.8rem;
+      transition: transform 0.25s;
+    }
+    .toggle-arrow.open { transform: rotate(180deg); }
+
+    .section-header-buttons {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .btn-remove-section {
+      background: #c0392b;
+      color: #fff;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 0.75rem;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+    .btn-remove-section:hover { background: #a02e24; }
+
+    .section-body {
+      padding: 20px 22px;
+      display: block;
+    }
+
+    /* ── ROW TABLE ── */
+    .row-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.875rem;
+      margin-bottom: 12px;
+    }
+    .row-table thead tr {
+      background: #f0f4f8;
+    }
+    .row-table thead th {
+      padding: 9px 10px;
+      text-align: left;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #555;
+      font-weight: 700;
+      border-bottom: 2px solid #dde1e7;
+    }
+    .row-table tbody tr { 
+      border-bottom: 1px solid #eef0f3;
+      vertical-align: top;
+    }
+    .row-table tbody tr:last-child { border-bottom: none; }
+
+    .row-table td {
+      padding: 12px 6px;
+      vertical-align: top;
+    }
+
+    .col-desc  { width: 50%; }
+    .col-labour { width: 15%; }
+    .col-material { width: 15%; }
+    .col-total { width: 12%; }
+    .col-del   { width: 8%; text-align: center; }
+
+    /* ── DESCRIPTION TEXTAREA ── */
+    .desc-textarea {
+      width: 100%;
+      padding: 8px 10px;
+      border: 1.5px solid #dde1e7;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      background: #fafbfc;
+      font-family: inherit;
+      transition: border-color 0.2s;
+      min-height: 50px;
+      resize: vertical;
+      line-height: 1.4;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+    }
+
+    .desc-textarea:focus {
+      border-color: #0066cc;
+      outline: none;
+      background: #fff;
+    }
+
+    .row-table td input {
+      width: 100%;
+      padding: 8px 10px;
+      border: 1.5px solid #dde1e7;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      background: #fafbfc;
+      transition: border-color 0.2s;
+    }
+    .row-table td input:focus {
+      border-color: #0066cc;
+      outline: none;
+      background: #fff;
+    }
+
+    .row-line-total {
+      font-weight: 700;
+      color: #1a2e4a;
+      white-space: nowrap;
+      display: block;
+    }
+
+    .btn-delete {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: #c0392b;
+      font-size: 1.05rem;
+      padding: 4px 6px;
+      border-radius: 4px;
+      transition: background 0.15s;
+    }
+    .btn-delete:hover { background: #fdecea; }
+
+    .btn-add-row {
+      margin-top: 12px;
+      background: none;
+      border: 1.5px dashed #0066cc;
+      color: #1a2e4a;
+      font-weight: 600;
+      font-size: 0.82rem;
+      padding: 7px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .btn-add-row:hover { background: #e8f3ff; color: #0052a3; }
+
+    /* ── TEMPLATES SECTION ── */
+    .templates-section {
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid #dde1e7;
+    }
+
+    .templates-section h4 {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #555;
+      margin-bottom: 8px;
+      font-weight: 700;
+    }
+
+    .templates-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .template-chip {
+      background: #f0f8ff;
+      border: 1px solid #0066cc;
+      border-radius: 12px;
+      padding: 6px 10px;
+      font-size: 0.75rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      white-space: nowrap;
+    }
+
+    .template-chip span {
+      max-width: 200px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .template-chip button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 2px 4px;
+      font-size: 0.9rem;
+      display: inline-flex;
+      align-items: center;
+      transition: opacity 0.2s;
+    }
+
+    .template-chip button:first-of-type {
+      color: #0066cc;
+    }
+
+    .template-chip button:last-of-type {
+      color: #c0392b;
+    }
+
+    .template-chip button:hover {
+      opacity: 0.7;
+    }
+
+    /* ── SAVE TEMPLATE BUTTON ── */
+    .btn-save-template-small {
+      background: none;
+      border: 1px solid #27ae60;
+      color: #27ae60;
+      padding: 4px 8px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 0.7rem;
+      font-weight: 600;
+      white-space: nowrap;
+      transition: background 0.2s, color 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+    }
+    .btn-save-template-small:hover {
+      background: #27ae60;
+      color: #fff;
+    }
+
+    /* ── GRAND TOTAL ── */
+    .totals-card {
+      background: #1a2e4a;
+      color: #fff;
+      border-radius: 10px;
+      padding: 24px 28px;
+      margin-top: 28px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+    }
+    .totals-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+    .totals-item {
+      background: rgba(255,255,255,0.08);
+      border-radius: 8px;
+      padding: 14px 18px;
+      text-align: center;
+    }
+    .totals-item .label {
+      font-size: 0.75rem;
+      opacity: 0.7;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 6px;
+    }
+    .totals-item .amount {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: #0066cc;
+    }
+
+    .tax-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 14px;
+      font-size: 0.9rem;
+      padding: 0 4px;
+    }
+    .tax-row label { opacity: 0.85; }
+    .tax-input-wrap { display: flex; align-items: center; gap: 8px; }
+    .tax-input-wrap input {
+      width: 70px;
+      padding: 6px 10px;
+      border-radius: 6px;
+      border: 1.5px solid rgba(255,255,255,0.25);
+      background: rgba(255,255,255,0.1);
+      color: #fff;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+    .tax-input-wrap input:focus { outline: none; border-color: #0066cc; }
+
+    .grand-total-row {
+      border-top: 2px solid rgba(255,255,255,0.2);
+      padding-top: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .grand-total-row .gt-label {
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+    .grand-total-row .gt-amount {
+      font-size: 1.65rem;
+      font-weight: 800;
+      color: #0066cc;
+    }
+
+    /* ── NOTES ── */
+    .notes-card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 22px 28px;
+      margin-top: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    }
+    .notes-card h2 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #1a2e4a;
+      margin-bottom: 12px;
+      border-bottom: 2px solid #0066cc;
+      padding-bottom: 8px;
+    }
+    .notes-card textarea {
+      width: 100%;
+      min-height: 90px;
+      padding: 10px 14px;
+      border: 1.5px solid #dde1e7;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      font-family: inherit;
+      resize: vertical;
+      background: #fafbfc;
+    }
+    .notes-card textarea:focus { border-color: #0066cc; outline: none; background: #fff; }
+
+    /* ── ACTION BUTTONS ── */
+    .action-bar {
+      display: flex;
+      gap: 14px;
+      margin-top: 28px;
+      flex-wrap: wrap;
+    }
+    .btn {
+      padding: 12px 28px;
+      border: none;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: opacity 0.2s, transform 0.1s;
+    }
+    .btn:active { transform: scale(0.98); }
+    .btn-primary { background: #1a2e4a; color: #fff; }
+    .btn-primary:hover { background: #22395e; }
+    .btn-success { background: #27ae60; color: #fff; }
+    .btn-success:hover { background: #219a52; }
+    .btn-warning { background: #e67e22; color: #fff; }
+    .btn-warning:hover { background: #cf6d17; }
+    .btn-info { background: #0066cc; color: #fff; }
+    .btn-info:hover { background: #0052a3; }
+
+    /* ── MODAL ── */
+    .modal {
+      display: none !important;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.5);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+    }
+    .modal.active {
+      display: flex !important;
+    }
+
+    .modal-content {
+      background: #fff;
+      border-radius: 10px;
+      padding: 28px;
+      max-width: 500px;
+      width: 90%;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+      animation: slideIn 0.3s ease-out;
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateY(-50px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    .modal-content h3 {
+      font-size: 1.1rem;
+      color: #1a2e4a;
+      margin-bottom: 16px;
+      font-weight: 700;
+    }
+
+    .modal-content .form-group {
+      margin-bottom: 14px;
+    }
+
+    .modal-content label {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #555;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .modal-content input {
+      width: 100%;
+      padding: 9px 12px;
+      border: 1.5px solid #dde1e7;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      background: #fafbfc;
+      font-family: inherit;
+    }
+
+    .modal-content input:focus {
+      border-color: #0066cc;
+      outline: none;
+      background: #fff;
+    }
+
+    .modal-buttons {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+      justify-content: flex-end;
+    }
+
+    .modal-buttons button {
+      padding: 9px 18px;
+      border: none;
+      border-radius: 6px;
+      cursor: button;
+      font-size: 0.9rem;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+
+    .modal-buttons .btn-cancel {
+      background: #dde1e7;
+      color: #555;
+    }
+    .modal-buttons .btn-cancel:hover { background: #c6cad0; }
+
+    .modal-buttons .btn-save {
+      background: #27ae60;
+      color: #fff;
+    }
+    .modal-buttons .btn-save:hover { background: #219a52; }
+
+    /* ── TOTALS CONTROLS ── */
+    .totals-controls {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-bottom: 16px;
+      padding: 12px 16px;
+      background: rgba(255,255,255,0.08);
+      border-radius: 8px;
+    }
+    .toggle-label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.85rem;
+      opacity: 0.9;
+      cursor: pointer;
+      user-select: none;
+    }
+    .toggle-label input[type="checkbox"] {
+      width: 16px;
+      height: 16px;
+      cursor: pointer;
+      accent-color: #0066cc;
+    }
+    .markup-wrap {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.85rem;
+      opacity: 0.9;
+    }
+    .markup-wrap input {
+      width: 75px;
+      padding: 6px 10px;
+      border-radius: 6px;
+      border: 1.5px solid rgba(255,255,255,0.25);
+      background: rgba(255,255,255,0.1);
+      color: #fff;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+    .markup-wrap input:focus { outline: none; border-color: #0066cc; }
+
+    /* ── FLOATING SECTION NAV SIDEBAR ── */
+    #section-nav {
+      position: fixed;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+      z-index: 500;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 3px;
+      pointer-events: none;
+    }
+
+    .nav-tab {
+      pointer-events: all;
+      background: #1a2e4a;
+      color: #fff;
+      border: none;
+      border-radius: 8px 0 0 8px;
+      padding: 7px 10px 7px 12px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+      max-width: 36px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      transition: max-width 0.25s ease, background 0.15s, padding 0.25s ease;
+      text-align: left;
+      letter-spacing: 0.2px;
+      opacity: 0.82;
+      box-shadow: -2px 2px 6px rgba(0,0,0,0.18);
+    }
+
+    .nav-tab:hover, .nav-tab.active {
+      max-width: 180px;
+      background: #0066cc;
+      opacity: 1;
+      padding: 7px 14px 7px 12px;
+    }
+
+    .nav-tab.active { background: #0066cc; }
+
+    .nav-tab-anchor {
+      pointer-events: all;
+      background: #0066cc;
+      color: #fff;
+      border: none;
+      border-radius: 8px 0 0 8px;
+      padding: 7px 10px 7px 12px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      cursor: pointer;
+      white-space: nowrap;
+      max-width: 36px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      transition: max-width 0.25s ease, background 0.15s, padding 0.25s ease;
+      text-align: left;
+      letter-spacing: 0.2px;
+      opacity: 0.9;
+      box-shadow: -2px 2px 6px rgba(0,0,0,0.18);
+    }
+    .nav-tab-anchor:hover {
+      max-width: 180px;
+      background: #0052a3;
+      opacity: 1;
+      padding: 7px 14px 7px 12px;
+    }
+
+    /* ── DRAG-TO-REORDER HANDLES IN SECTION MGMT ── */
+    .drag-handle {
+      cursor: grab;
+      color: #aaa;
+      font-size: 1rem;
+      padding: 0 4px 0 0;
+      user-select: none;
+      flex-shrink: 0;
+    }
+    .drag-handle:active { cursor: grabbing; }
+    .section-tag.dragging { opacity: 0.4; background: #d0e8ff; }
+    .section-tag.drag-over { border-color: #0066cc; background: #cce0ff; }
+
+    /* ── NO-PRINT (shared utility) ── */
+    @media print {
+      .no-print { display: none !important; }
+      #section-nav { display: none !important; }
+      body.hide-labour-material .col-labour,
+      body.hide-labour-material .col-material,
+      body.hide-labour-material #labour-material-grid { display: none !important; }
+    }
+
+    .autosave-indicator {
+      display: inline-block;
+      margin-top: 4px;
+      font-size: 0.75rem;
+      color: #4cde88;
+      font-weight: 600;
+      opacity: 0;
+      transition: opacity 0.4s ease;
+      letter-spacing: 0.3px;
+    }
+
+    /* ── DRAFT SAVE/LOAD ── */
+    .draft-bar {
+      background: #fff;
+      border-radius: 10px;
+      padding: 18px 28px;
+      margin-bottom: 28px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+    .draft-bar h2 {
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #1a2e4a;
+      border-bottom: 2px solid #0066cc;
+      padding-bottom: 4px;
+      white-space: nowrap;
+      margin-right: 6px;
+    }
+    .draft-bar select {
+      flex: 1;
+      min-width: 180px;
+      padding: 9px 12px;
+      border: 1.5px solid #dde1e7;
+      border-radius: 6px;
+      font-size: 0.88rem;
+      background: #fafbfc;
+    }
+    .draft-bar select:focus { border-color: #0066cc; outline: none; background: #fff; }
+    .btn-draft {
+      padding: 9px 18px;
+      border: none;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: opacity 0.2s;
+      white-space: nowrap;
+    }
+    .btn-draft-save   { background: #27ae60; color: #fff; }
+    .btn-draft-save:hover   { background: #219a52; }
+    .btn-draft-load   { background: #0066cc; color: #fff; }
+    .btn-draft-load:hover   { background: #0052a3; }
+    .btn-draft-delete { background: #c0392b; color: #fff; }
+    .btn-draft-delete:hover { background: #a02e24; }
+
+    .btn-backup  { background: #1a2e4a; color: #fff; }
+    .btn-backup:hover  { background: #22395e; }
+    .btn-restore { background: #7b2d8b; color: #fff; cursor: pointer; }
+    .btn-restore:hover { background: #63246f; }
+
+    /* ── PRINT ── */
+    @media print {
+      body { background: #fff; }
+
+      /* Hide all UI controls */
+      .action-bar, .btn-add-row, .btn-delete, .toggle-arrow, .section-mgmt-card,
+      .btn-remove-section, .btn-save-template-small, .templates-section,
+      .draft-bar, .desc-select, .totals-controls { display: none !important; }
+
+      /* Hide redundant table header row — dropdown already labels the column */
+      .row-table thead { display: none !important; }
+
+      .section-header { cursor: default; }
+      .section-body { display: block !important; }
+
+      /* Tighter page margins */
+      main { margin: 0; padding: 0 10px 10px; }
+      header { padding: 12px 20px; }
+
+      /* Section cards — no shadow, tighter */
+      .section-card { box-shadow: none; margin-bottom: 8px; border: 1px solid #dde1e7; }
+      .section-header { padding: 7px 14px; }
+      .section-body { padding: 6px 10px; }
+
+      /* Table rows — tight, no extra space */
+      .row-table { width: 100%; margin-bottom: 0; }
+      .row-table tbody tr {
+        border-bottom: 1px solid #eef0f3;
+        vertical-align: middle;
+        page-break-inside: avoid;
+      }
+      /* Skip rows that have no data at all */
+      .row-table td { vertical-align: middle; padding: 4px 4px; }
+
+      /* Textarea: shrink to content, no chrome */
+      .desc-textarea {
+        border: none;
+        background: transparent;
+        padding: 0;
+        resize: none;
+        min-height: 0 !important;
+        height: auto !important;
+        overflow: hidden;
+        font-size: 0.82rem;
+        line-height: 1.35;
+      }
+
+      /* Number inputs: plain text appearance */
+      .row-table td input[type="number"] {
+        border: none;
+        background: transparent;
+        padding: 0;
+        font-size: 0.82rem;
+      }
+
+      /* Meta card — preserve grid layout, render as clean label+value */
+      .meta-card {
+        padding: 12px 16px;
+        margin-bottom: 12px;
+        box-shadow: none;
+        border: 1px solid #ccc;
+        page-break-inside: avoid;
+      }
+      .meta-card h2 { margin-bottom: 10px; font-size: 0.85rem; }
+      .meta-grid {
+        display: grid !important;
+        grid-template-columns: repeat(4, 1fr) !important;
+        gap: 8px 14px !important;
+      }
+      /* Project address spans full width */
+      .meta-grid > div[style*="span 2"] {
+        grid-column: span 4 !important;
+      }
+      .meta-grid label {
+        font-size: 0.68rem;
+        color: #888;
+        display: block;
+        margin-bottom: 2px;
+        text-transform: uppercase;
+        letter-spacing: 0.4px;
+      }
+      .meta-grid input, .meta-grid select {
+        border: none;
+        border-bottom: 1px solid #ccc;
+        background: transparent;
+        padding: 2px 0;
+        font-size: 0.85rem;
+        font-weight: 600;
+        color: #222;
+        width: 100%;
+        display: block;
+      }
+
+      /* Notes card */
+      .notes-card { padding: 10px 16px; margin-top: 10px; box-shadow: none; border: 1px solid #dde1e7; }
+      .notes-card textarea { border: none; background: transparent; padding: 0; font-size: 0.82rem; min-height: 0; }
+
+      /* Totals card */
+      .totals-card { padding: 14px 18px; margin-top: 10px; }
+      .totals-grid { gap: 8px; margin-bottom: 10px; }
+      .totals-item { padding: 8px 12px; }
+      .totals-item .amount { font-size: 1rem; }
+
+      /* Hide costs if toggled off */
+      body.hide-costs #labour-material-grid,
+      body.hide-costs .col-labour,
+      body.hide-costs .col-material,
+      body.hide-costs .col-total { display: none !important; }
+      body.hide-costs #subtotal-row { display: none !important; }
+      body.hide-costs #subtotal-with-markup-row { display: grid !important; }
+      body.hide-costs .section-total-badge { display: none !important; }
+    }
+
+    @media (max-width: 900px) {
+      .totals-grid { grid-template-columns: 1fr; }
+      .meta-grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    /* ── CLIENT MANAGER BAR ── */
+    .client-bar {
+      background: #fff;
+      border-radius: 10px;
+      padding: 14px 28px;
+      margin-bottom: 16px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .client-bar h2 {
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #1a2e4a;
+      border-bottom: 2px solid #0066cc;
+      padding-bottom: 4px;
+      white-space: nowrap;
+      margin-right: 6px;
+    }
+    .client-bar select {
+      flex: 1;
+      min-width: 200px;
+      padding: 9px 12px;
+      border: 1.5px solid #dde1e7;
+      border-radius: 7px;
+      font-size: 0.9rem;
+      background: #fafbfc;
+    }
+    .btn-client {
+      padding: 9px 18px;
+      border: none;
+      border-radius: 7px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+    .btn-client:hover { opacity: 0.85; }
+    .btn-client-add  { background: #27ae60; color: #fff; }
+    .btn-client-edit { background: #0066cc; color: #fff; }
+    .btn-client-clear{ background: #e74c3c; color: #fff; }
+
+    /* ── CLIENT MODAL ── */
+    .client-modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.45);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+    }
+    .client-modal-overlay.open { display: flex; }
+    .client-modal {
+      background: #fff;
+      border-radius: 12px;
+      padding: 32px;
+      width: 480px;
+      max-width: 95vw;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+    }
+    .client-modal h3 {
+      font-size: 1.1rem;
+      color: #1a2e4a;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #0066cc;
+      padding-bottom: 8px;
+    }
+    .client-modal label {
+      display: block;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #666;
+      margin-bottom: 4px;
+      margin-top: 12px;
+    }
+    .client-modal input,
+    .client-modal textarea {
+      width: 100%;
+      padding: 9px 12px;
+      border: 1.5px solid #dde1e7;
+      border-radius: 7px;
+      font-size: 0.9rem;
+      background: #fafbfc;
+      box-sizing: border-box;
+    }
+    .client-modal textarea { resize: vertical; min-height: 60px; }
+    .client-modal-actions {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+      justify-content: flex-end;
+    }
+
+    /* ── TAB NAVIGATION ── */
+    .app-tabs {
+      display: flex;
+      gap: 0;
+      margin: 0;
+      background: #1a2e4a;
+      padding: 0 20px;
+    }
+    .app-tab {
+      padding: 13px 28px;
+      color: rgba(255,255,255,0.65);
+      font-size: 0.9rem;
+      font-weight: 700;
+      cursor: pointer;
+      border: none;
+      background: none;
+      border-bottom: 3px solid transparent;
+      transition: color 0.2s, border-color 0.2s;
+      letter-spacing: 0.3px;
+    }
+    .app-tab:hover { color: #fff; }
+    .app-tab.active {
+      color: #fff;
+      border-bottom-color: #0066cc;
+    }
+
+    /* ── CONTACTS PAGE ── */
+    #page-contacts { display: none; }
+    .contacts-toolbar {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+    .contacts-toolbar h2 {
+      font-size: 1.1rem;
+      color: #1a2e4a;
+      flex: 1;
+    }
+    .contacts-filter {
+      padding: 8px 14px;
+      border: 1.5px solid #dde1e7;
+      border-radius: 7px;
+      font-size: 0.85rem;
+      background: #fafbfc;
+    }
+    .contacts-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+    }
+    .contacts-table th {
+      background: #1a2e4a;
+      color: #fff;
+      padding: 10px 14px;
+      text-align: left;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .contacts-table td {
+      padding: 10px 14px;
+      border-bottom: 1px solid #eef0f3;
+      vertical-align: middle;
+    }
+    .contacts-table tr:hover td { background: #f5f8ff; }
+    .contact-type-badge {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 700;
+    }
+    .badge-contractor { background: #d4edda; color: #155724; }
+    .badge-supplier   { background: #cce5ff; color: #004085; }
+    .badge-vendor     { background: #fff3cd; color: #856404; }
+    .btn-icon {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 1rem;
+      padding: 4px 6px;
+      border-radius: 5px;
+      transition: background 0.15s;
+    }
+    .btn-icon:hover { background: #eef0f3; }
+
+  </style>
+</head>
+<body>
+
+<!-- ══════════════════ HEADER ══════════════════ -->
+<header>
+  <div class="header-logo">
+    <div>
+      <h1>Saltire <span>Construction</span></h1>
+      <div style="font-size:0.75rem;opacity:0.7;margin-top:3px;">Quote Builder</div>
+    </div>
+  </div>
+  <div class="header-info">
+    <div>190 Colonnade Rd Unit 11, Ottawa ON, K2E 7K3</div>
+    <div>📞 613-686-1714 &nbsp;|&nbsp; <a href="https://saltiregroup.ca" target="_blank">saltiregroup.ca</a></div>
+    <div>Licence: 728425216TZ0001</div>
+    <div id="autosave-indicator" class="autosave-indicator no-print">Saved</div>
+  </div>
+</header>
+
+<!-- ══════════════════ FLOATING NAV SIDEBAR ══════════════════ -->
+<div id="section-nav"></div>
+
+<!-- ══════════════════ TAB NAV ══════════════════ -->
+<div class="app-tabs no-print">
+  <button class="app-tab active" onclick="window.switchTab('quote')">🏗️ Quote Builder</button>
+  <button class="app-tab" onclick="window.switchTab('contacts')">📋 Contacts</button>
+</div>
+
+<!-- ══════════════════ MAIN ══════════════════ -->
+<main>
+
+  <!-- ══ PAGE: QUOTE BUILDER ══ -->
+  <div id="page-quote">
+
+  <!-- Draft Save/Load -->
+  <div class="draft-bar no-print">
+    <h2>💾 Drafts</h2>
+    <select id="draftSelect">
+      <option value="">— Select a saved draft —</option>
+    </select>
+    <button class="btn-draft btn-draft-save" onclick="window.saveDraft()">💾 Save Draft</button>
+    <button class="btn-draft btn-draft-load" onclick="window.loadDraft()">📂 Load Draft</button>
+    <button class="btn-draft btn-draft-delete" onclick="window.deleteDraft()">🗑️ Delete Draft</button>
+  </div>
+
+  <!-- Client Manager Bar -->
+  <div class="client-bar no-print">
+    <h2>👤 Client</h2>
+    <select id="clientSelect" onchange="window.selectClient()">
+      <option value="">— Select a client —</option>
+    </select>
+    <button class="btn-client btn-client-add"  onclick="window.openClientModal()">＋ New Client</button>
+    <button class="btn-client btn-client-edit" onclick="window.editClient()" id="btnEditClient" style="display:none;">✏️ Edit</button>
+    <button class="btn-client btn-client-clear" onclick="window.clearClient()">✕ Clear</button>
+  </div>
+
+  <!-- Client Modal -->
+  <div class="client-modal-overlay" id="clientModalOverlay">
+    <div class="client-modal">
+      <h3 id="clientModalTitle">New Client</h3>
+      <input type="hidden" id="clientModalId"/>
+      <label>Name *</label>
+      <input type="text" id="cmName" placeholder="Full name"/>
+      <label>Phone</label>
+      <input type="tel" id="cmPhone" placeholder="613-XXX-XXXX"/>
+      <label>Email</label>
+      <input type="email" id="cmEmail" placeholder="email@domain.com"/>
+      <label>Address</label>
+      <input type="text" id="cmAddress" placeholder="Street address, City, Province"/>
+      <label>Notes</label>
+      <textarea id="cmNotes" placeholder="Any notes about this client..."></textarea>
+      <div class="client-modal-actions">
+        <button class="btn-client btn-client-clear" onclick="window.closeClientModal()">Cancel</button>
+        <button class="btn-client btn-client-add"  onclick="window.saveClientModal()">💾 Save Client</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Quote Meta -->
+  <div class="meta-card">
+    <h2>Quote Details</h2>
+    <div class="meta-grid">
+      <div>
+        <label>Quote #</label>
+        <input type="text" id="quoteNum" placeholder="e.g. QT-2026-001" oninput="updateDocTitle()"/>
+      </div>
+      <div>
+        <label>Date</label>
+        <input type="date" id="quoteDate" oninput="updateDocTitle()"/>
+      </div>
+      <div>
+        <label>Valid Until</label>
+        <input type="date" id="quoteExpiry"/>
+      </div>
+      <div>
+        <label>Client Name</label>
+        <input type="text" id="clientName" placeholder="Full name" oninput="updateDocTitle()"/>
+      </div>
+      <div>
+        <label>Client Phone</label>
+        <input type="tel" id="clientPhone" placeholder="613-XXX-XXXX"/>
+      </div>
+      <div>
+        <label>Client Email</label>
+        <input type="email" id="clientEmail" placeholder="email@domain.com"/>
+      </div>
+      <div style="grid-column: span 2;">
+        <label>Project Address</label>
+        <input type="text" id="projectAddr" placeholder="Street address, City, Province"/>
+      </div>
+      <div>
+        <label>Project Type</label>
+        <input type="text" id="projectType" placeholder="e.g. Renovation, New Build"/>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section Management -->
+  <div class="section-mgmt-card">
+    <h2>📋 Project Sections</h2>
+
+    <!-- Active Sections -->
+    <div class="sections-display">
+      <h3>Active Sections for This Quote:</h3>
+      <div class="section-list" id="activeSectionList"></div>
+    </div>
+
+    <!-- Hidden Sections -->
+    <div class="hidden-sections-display" id="hiddenSectionsDisplay" style="display:none;">
+      <h3>Hidden Sections (Click 👁️‍🗨️ to Show):</h3>
+      <div class="section-list" id="hiddenSectionList"></div>
+    </div>
+
+    <!-- Add New Section -->
+    <div class="section-input-group">
+      <input type="text" id="newSectionInput" placeholder="Enter new section name (e.g., Permits, Design, Roofing)..." />
+      <button class="btn-add-section" id="btnAddSection">＋ Add Section</button>
+    </div>
+  </div>
+
+  <!-- ── SECTIONS CONTAINER ── -->
+  <div id="sections-container"></div>
+
+  <!-- ── NOTES ── -->
+  <div class="notes-card">
+    <h2>📝 Notes & Terms</h2>
+    <textarea id="quoteNotes" placeholder="Enter any additional notes, terms, or conditions for this quote..."></textarea>
+  </div>
+
+  <!-- ── TOTALS ── -->
+  <div class="totals-card">
+    <!-- Labour / Material / Markup boxes — hidden from print when toggled off -->
+    <div id="labour-material-grid" class="totals-grid">
+      <div class="totals-item">
+        <div class="label">Total Labour</div>
+        <div class="amount" id="grand-labour">$0.00</div>
+      </div>
+      <div class="totals-item">
+        <div class="label">Total Materials</div>
+        <div class="amount" id="grand-material">$0.00</div>
+      </div>
+      <div class="totals-item no-print">
+        <div class="label">Markup</div>
+        <div style="display:flex;align-items:center;justify-content:center;gap:6px;margin-top:4px;">
+          <input type="number" id="markupRate" value="0" min="0" max="999" step="0.1" oninput="window.recalcGrand()" placeholder="0"
+            style="width:60px;padding:4px 8px;border-radius:6px;border:1.5px solid rgba(255,255,255,0.25);background:rgba(255,255,255,0.1);color:#fff;font-size:0.9rem;text-align:center;"/>
+          <span style="opacity:0.7;color:#fff;">%</span>
+        </div>
+        <div class="amount" id="markup-amount" style="margin-top:6px;">+$0.00</div>
+      </div>
+    </div>
+    <div id="subtotal-row" class="totals-grid" style="grid-template-columns:1fr;margin-bottom:0;">
+      <div class="totals-item">
+        <div class="label">Subtotal</div>
+        <div class="amount" id="grand-sub">$0.00</div>
+      </div>
+    </div>
+    <div id="subtotal-with-markup-row" class="totals-grid" style="grid-template-columns:1fr;margin-bottom:0;display:none;">
+      <div class="totals-item">
+        <div class="label">Subtotal</div>
+        <div class="amount" id="grand-sub-markup">$0.00</div>
+      </div>
+    </div>
+    <!-- Totals controls — never printed -->
+    <div class="totals-controls no-print">
+      <label class="toggle-label">
+        <input type="checkbox" id="showLabourMaterial" checked onchange="window.toggleLabourMaterial()"/>
+        Show Labour &amp; Material breakdown to client
+      </label>
+    </div>
+    <div class="tax-row">
+      <label>HST / Tax Rate (%)</label>
+      <div class="tax-input-wrap">
+        <input type="number" id="taxRate" value="13" min="0" max="100" step="0.1" oninput="window.recalcGrand()"/>
+        <span style="opacity:0.7;">%</span>
+      </div>
+    </div>
+    <div class="tax-row">
+      <label>Tax Amount</label>
+      <span id="grand-tax" style="font-weight:700;color:#0066cc;">$0.00</span>
+    </div>
+    <div class="grand-total-row">
+      <span class="gt-label">GRAND TOTAL</span>
+      <span class="gt-amount" id="grand-total">$0.00</span>
+    </div>
+  </div>
+
+  <!-- ── ACTIONS ── -->
+  <div class="action-bar no-print">
+    <button class="btn btn-primary" onclick="window.print()">🖨️ Print / Save PDF</button>
+    <button class="btn btn-success" onclick="window.exportCSV()">📊 Export CSV</button>
+    <button class="btn btn-warning" onclick="window.clearAll()">🗑️ Clear All</button>
+    <button class="btn btn-info" onclick="window.copyQuoteSummary()">📋 Copy Summary</button>
+    <button class="btn btn-backup" onclick="window.exportAppData()">⬇️ Backup All Data</button>
+    <label class="btn btn-restore" title="Import a previously exported backup">⬆️ Restore Backup<input type="file" id="importFile" accept=".json" style="display:none;" onchange="window.importAppData(this)"/></label>
+  </div>
+  </div><!-- end page-quote -->
+
+  <!-- ══ PAGE: CONTACTS ══ -->
+  <div id="page-contacts">
+    <div class="contacts-toolbar">
+      <h2>📋 Contacts — Contractors / Suppliers / Vendors</h2>
+      <select class="contacts-filter" id="contactTypeFilter" onchange="window.renderContactsTable()">
+        <option value="">All Types</option>
+        <option value="Contractor">Contractors</option>
+        <option value="Supplier">Suppliers</option>
+        <option value="Vendor">Vendors</option>
+      </select>
+      <button class="btn-client btn-client-add" onclick="window.openContactModal()">＋ Add Contact</button>
+    </div>
+    <div style="overflow-x:auto;">
+      <table class="contacts-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Phone</th>
+            <th>Email</th>
+            <th>Address</th>
+            <th>Notes</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="contactsTableBody">
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</main>
+
+<!-- ── CONTACT MODAL ── -->
+<div class="client-modal-overlay" id="contactModalOverlay">
+  <div class="client-modal">
+    <h3 id="contactModalTitle">New Contact</h3>
+    <input type="hidden" id="contactModalId"/>
+    <label>Name *</label>
+    <input type="text" id="ctName" placeholder="Full name or company"/>
+    <label>Type *</label>
+    <select id="ctType" style="width:100%;padding:9px 12px;border:1.5px solid #dde1e7;border-radius:7px;font-size:0.9rem;background:#fafbfc;box-sizing:border-box;">
+      <option value="Contractor">Contractor</option>
+      <option value="Supplier">Supplier</option>
+      <option value="Vendor">Vendor</option>
+    </select>
+    <label>Phone</label>
+    <input type="tel" id="ctPhone" placeholder="613-XXX-XXXX"/>
+    <label>Email</label>
+    <input type="email" id="ctEmail" placeholder="email@domain.com"/>
+    <label>Address</label>
+    <input type="text" id="ctAddress" placeholder="Street address, City, Province"/>
+    <label>Notes</label>
+    <textarea id="ctNotes" placeholder="Any notes about this contact..."></textarea>
+    <div class="client-modal-actions">
+      <button class="btn-client btn-client-clear" onclick="window.closeContactModal()">Cancel</button>
+      <button class="btn-client btn-client-add"  onclick="window.saveContactModal()">💾 Save Contact</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── TEMPLATE EDIT MODAL ── -->
+<div class="modal" id="templateModal">
+  <div class="modal-content">
+    <h3 id="modalTitle">Edit Template</h3>
+    <div class="form-group">
+      <label>Description</label>
+      <input type="text" id="modalDesc" placeholder="e.g., Framing - 2x4 Studs"/>
+    </div>
+    <div class="form-group">
+      <label>Labour Cost ($)</label>
+      <input type="number" id="modalLabour" min="0" step="0.01" placeholder="0.00"/>
+    </div>
+    <div class="form-group">
+      <label>Material Cost ($)</label>
+      <input type="number" id="modalMaterial" min="0" step="0.01" placeholder="0.00"/>
+    </div>
+    <div class="modal-buttons">
+      <button class="btn-cancel" id="modalCancel">Cancel</button>
+      <button class="btn-save" id="modalSave">💾 Save</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  /* ══════════════════════════════════════════════
+     GLOBAL STATE
+  ══════════════════════════════════════════════ */
+
+  window.allSections = [];
+  window.activeSectionIds = [];
+  window.rows = {};
+  window.sectionTemplates = {};
+  window.currentEditingTemplate = null;
+
+  console.log('✅ App script loaded');
+
+  /* ══════════════════════════════════════════════
+     STORAGE FUNCTIONS
+  ══════════════════════════════════════════════ */
+
+  function loadFromStorage() {
+    try {
+      const stored = localStorage.getItem('saltireQuoteData');
+      if (stored) {
+        const data = JSON.parse(stored);
+        window.allSections = data.allSections || [];
+        window.activeSectionIds = data.activeSectionIds || [];
+        window.rows = data.rows || {};
+        window.sectionTemplates = data.sectionTemplates || {};
+        console.log('✅ Loaded from storage');
+      } else {
+        console.log('ℹ️ No stored data, creating defaults...');
+        initializeDefaults();
+      }
+    } catch (e) {
+      console.error('❌ Error loading storage:', e);
+      initializeDefaults();
+    }
+  }
+
+  function initializeDefaults() {
+    const defaultSections = ['Permits', 'Design', 'Project Management', 'Site Prep', 'Demo', 'Framing'];
+    defaultSections.forEach(s => addSectionToDatabase(s, true));
+    saveToStorage();
+  }
+
+  function saveToStorage() {
+    try {
+      const data = {
+        allSections: window.allSections,
+        activeSectionIds: window.activeSectionIds,
+        rows: window.rows,
+        sectionTemplates: window.sectionTemplates
+      };
+      localStorage.setItem('saltireQuoteData', JSON.stringify(data));
+    } catch (e) {
+      console.error('❌ Error saving storage:', e);
+    }
+  }
+
+  /* ══════════════════════════════════════════════
+     SECTION OPERATIONS
+  ══════════════════════════════════════════════ */
+
+  function addSectionToDatabase(label, makeActive = true) {
+    let section = window.allSections.find(s => s.label === label);
+
+    if (!section) {
+      const id = 'sec-' + Date.now() + '-' + Math.random().toString(36).substr(2, 9);
+      section = { id, label };
+      window.allSections.push(section);
+      window.rows[id] = [newRow()];
+      window.sectionTemplates[id] = [];
+    }
+
+    // activeSectionIds tracks which are visible — order is always driven by allSections
+    if (makeActive && !window.activeSectionIds.includes(section.id)) {
+      window.activeSectionIds.push(section.id);
+    }
+
+    saveToStorage();
+    return section.id;
+  }
+
+  window.addNewSection = function() {
+    const input = document.getElementById('newSectionInput');
+    const label = input.value.trim();
+    if (!label) {
+      alert('❌ Please enter a section name');
+      return;
+    }
+    addSectionToDatabase(label, true);
+    input.value = '';
+    renderUI();
+  }
+
+  // Hide just removes from active set — position in allSections unchanged
+  window.hideSectionFromQuote = function(id) {
+    window.activeSectionIds = window.activeSectionIds.filter(sid => sid !== id);
+    saveToStorage();
+    renderUI();
+    window.recalcGrand();
+  }
+
+  // Show re-adds to active set — rendered order still follows allSections
+  window.showSectionInQuote = function(id) {
+    if (!window.activeSectionIds.includes(id)) {
+      window.activeSectionIds.push(id);
+    }
+    saveToStorage();
+    renderUI();
+    window.recalcGrand();
+  }
+
+  window.deleteSectionFromApp = function(id) {
+    if (confirm('⚠️ Permanently remove this section and all its data from the app?')) {
+      window.allSections = window.allSections.filter(s => s.id !== id);
+      window.activeSectionIds = window.activeSectionIds.filter(sid => sid !== id);
+      delete window.rows[id];
+      delete window.sectionTemplates[id];
+      saveToStorage();
+      renderUI();
+      window.recalcGrand();
+    }
+  }
+
+  // Drag-to-reorder: move section at fromIdx to toIdx in allSections master list
+  window.reorderSection = function(fromId, toId) {
+    if (fromId === toId) return;
+    const fromIdx = window.allSections.findIndex(s => s.id === fromId);
+    const toIdx   = window.allSections.findIndex(s => s.id === toId);
+    if (fromIdx === -1 || toIdx === -1) return;
+    const moved = window.allSections.splice(fromIdx, 1)[0];
+    window.allSections.splice(toIdx, 0, moved);
+    saveToStorage();
+    renderUI();
+  }
+
+  /* ══════════════════════════════════════════════
+     ROW OPERATIONS
+  ══════════════════════════════════════════════ */
+
+  function newRow() {
+    return { id: Date.now() + '-' + Math.random(), desc: '', labour: '', material: '' };
+  }
+
+  window.addRow = function(sid) {
+    if (!window.rows[sid]) window.rows[sid] = [];
+    window.rows[sid].push(newRow());
+    saveToStorage();
+    renderRows(sid);
+  }
+
+  window.deleteRow = function(sid, idx) {
+    window.rows[sid].splice(idx, 1);
+    saveToStorage();
+    renderRows(sid);
+  }
+
+  window.updateField = function(sid, idx, field, value) {
+    window.rows[sid][idx][field] = value;
+    const ltEl = document.getElementById(`lt-${sid}-${idx}`);
+    if (ltEl) ltEl.textContent = window.lineTotal(window.rows[sid][idx]);
+    
+    if (field === 'desc') {
+      const textarea = document.getElementById(`desc-${sid}-${idx}`);
+      if (textarea) autoExpandTextarea(textarea);
+    }
+    
+    window.recalcSection(sid);
+    window.recalcGrand();
+    saveToStorage();
+  }
+
+  function autoExpandTextarea(textarea) {
+    textarea.style.height = 'auto';
+    textarea.style.height = (textarea.scrollHeight) + 'px';
+  }
+
+  /* ══════════════════════════════════════════════
+     TEMPLATE OPERATIONS
+  ══════════════════════════════════════════════ */
+
+  window.saveTemplate = function(sid, idx) {
+    const desc = window.rows[sid][idx].desc.trim();
+    const labour = window.val(window.rows[sid][idx].labour);
+    const material = window.val(window.rows[sid][idx].material);
+
+    if (!desc) {
+      alert('❌ Please enter a description first');
+      return;
+    }
+
+    if (!window.sectionTemplates[sid]) window.sectionTemplates[sid] = [];
+
+    const exists = window.sectionTemplates[sid].find(t => t.desc === desc);
+    if (exists) {
+      alert('✅ This template already exists in this section!');
+      return;
+    }
+
+    const template = {
+      id: 'tmpl-' + Date.now(),
+      desc: desc,
+      labour: labour,
+      material: material,
+      createdAt: new Date().toLocaleString()
+    };
+
+    window.sectionTemplates[sid].push(template);
+    saveToStorage();
+    renderRows(sid);
+    alert(`✅ Template saved: "${desc}"`);
+  }
+
+  window.applyTemplate = function(sid, idx, templateId) {
+    if (templateId === '') return;
+
+    if (!window.sectionTemplates[sid]) return;
+    const template = window.sectionTemplates[sid].find(t => t.id === templateId);
+    if (template) {
+      window.rows[sid][idx].desc = template.desc;
+      window.rows[sid][idx].labour = template.labour.toString();
+      window.rows[sid][idx].material = template.material.toString();
+
+      saveToStorage();
+      renderRows(sid);
+      window.recalcGrand();
+    }
+  }
+
+  window.openTemplateModal = function(sid, templateId) {
+    if (!window.sectionTemplates[sid]) return;
+    const template = window.sectionTemplates[sid].find(t => t.id === templateId);
+    if (!template) return;
+
+    document.getElementById('modalTitle').textContent = '✏️ Edit Template';
+    document.getElementById('modalDesc').value = template.desc;
+    document.getElementById('modalLabour').value = template.labour;
+    document.getElementById('modalMaterial').value = template.material;
+
+    window.currentEditingTemplate = { sid, templateId };
+
+    const modal = document.getElementById('templateModal');
+    modal.classList.add('active');
+
+    setTimeout(() => {
+      document.getElementById('modalDesc').focus();
+    }, 100);
+  }
+
+  window.closeTemplateModal = function() {
+    document.getElementById('templateModal').classList.remove('active');
+    window.currentEditingTemplate = null;
+  }
+
+  window.saveTemplateChanges = function() {
+    if (!window.currentEditingTemplate) return;
+
+    const { sid, templateId } = window.currentEditingTemplate;
+    const template = window.sectionTemplates[sid].find(t => t.id === templateId);
+    if (!template) return;
+
+    const newDesc = document.getElementById('modalDesc').value.trim();
+    const newLabour = window.val(document.getElementById('modalLabour').value);
+    const newMaterial = window.val(document.getElementById('modalMaterial').value);
+
+    if (!newDesc) {
+      alert('❌ Description cannot be empty');
+      return;
+    }
+
+    const conflict = window.sectionTemplates[sid].find(t => t.id !== templateId && t.desc === newDesc);
+    if (conflict) {
+      alert('❌ A template with this description already exists');
+      return;
+    }
+
+    template.desc = newDesc;
+    template.labour = newLabour;
+    template.material = newMaterial;
+
+    saveToStorage();
+    window.closeTemplateModal();
+    renderUI();
+    alert(`✅ Template updated!`);
+  }
+
+  window.deleteTemplate = function(sid, templateId) {
+    if (confirm('⚠️ Delete this template permanently?')) {
+      window.sectionTemplates[sid] = window.sectionTemplates[sid].filter(t => t.id !== templateId);
+      saveToStorage();
+      renderRows(sid);
+    }
+  }
+
+  /* ══════════════════════════════════════════════
+     RENDER UI
+  ══════════════════════════════════════════════ */
+
+  function renderUI() {
+    renderSectionLists();
+    renderActiveSections();
+    renderSectionNav();
+  }
+
+  // ── Section management panel ──
+  // All sections shown in allSections order (the master order).
+  // Active ones show hide button; hidden ones show show button.
+  // Drag handle on every tag lets you reorder the master list.
+  function renderSectionLists() {
+    const activeList  = document.getElementById('activeSectionList');
+    const hiddenList  = document.getElementById('hiddenSectionList');
+    const hiddenDisplay = document.getElementById('hiddenSectionsDisplay');
+    activeList.innerHTML  = '';
+    hiddenList.innerHTML  = '';
+
+    let hasHidden = false;
+
+    window.allSections.forEach(section => {
+      const isActive = window.activeSectionIds.includes(section.id);
+      const tag = document.createElement('div');
+      tag.className = 'section-tag' + (isActive ? '' : ' hidden-tag');
+      tag.setAttribute('draggable', 'true');
+      tag.dataset.id = section.id;
+
+      tag.innerHTML = isActive
+        ? `<span class="drag-handle" title="Drag to reorder">⠿</span>
+           ${section.label}
+           <button class="btn-toggle" onclick="window.hideSectionFromQuote('${section.id}')" title="Hide from this quote">👁️</button>
+           <button class="remove-btn" onclick="window.deleteSectionFromApp('${section.id}')" title="Permanently delete">✕</button>`
+        : `<span class="drag-handle" title="Drag to reorder">⠿</span>
+           ${section.label}
+           <button class="btn-toggle" onclick="window.showSectionInQuote('${section.id}')" title="Show in quote">👁️‍🗨️</button>
+           <button class="remove-btn" onclick="window.deleteSectionFromApp('${section.id}')" title="Permanently delete">✕</button>`;
+
+      // Drag events
+      tag.addEventListener('dragstart', e => {
+        e.dataTransfer.setData('text/plain', section.id);
+        tag.classList.add('dragging');
+      });
+      tag.addEventListener('dragend', () => tag.classList.remove('dragging'));
+      tag.addEventListener('dragover', e => { e.preventDefault(); tag.classList.add('drag-over'); });
+      tag.addEventListener('dragleave', () => tag.classList.remove('drag-over'));
+      tag.addEventListener('drop', e => {
+        e.preventDefault();
+        tag.classList.remove('drag-over');
+        const fromId = e.dataTransfer.getData('text/plain');
+        window.reorderSection(fromId, section.id);
+      });
+
+      if (isActive) {
+        activeList.appendChild(tag);
+      } else {
+        hiddenList.appendChild(tag);
+        hasHidden = true;
+      }
+    });
+
+    hiddenDisplay.style.display = hasHidden ? 'block' : 'none';
+  }
+
+  // ── Section cards — always rendered in allSections order ──
+  function renderActiveSections() {
+    const container = document.getElementById('sections-container');
+    container.innerHTML = '';
+
+    // Use allSections order, filter to only active ones
+    const orderedActive = window.allSections.filter(s => window.activeSectionIds.includes(s.id));
+
+    orderedActive.forEach(section => {
+      const card = document.createElement('div');
+      card.className = 'section-card';
+      card.id = 'card-' + section.id;
+
+      card.innerHTML = `
+        <div class="section-header" onclick="window.toggleSection('${section.id}')">
+          <span class="section-title">${section.label}</span>
+          <div style="display:flex;align-items:center;gap:8px;flex:1;justify-content:flex-end;">
+            <div class="section-total-badge">
+              <span>Labour: </span><span id="sec-lab-${section.id}">$0.00</span>
+              &nbsp;|&nbsp;
+              <span>Materials: </span><span id="sec-mat-${section.id}">$0.00</span>
+              &nbsp;|&nbsp;
+              <span>Total: </span><span id="sec-tot-${section.id}">$0.00</span>
+            </div>
+            <div class="section-header-buttons">
+              <button class="btn-remove-section" onclick="window.hideSectionFromQuote('${section.id}'); return false;">👁️ Hide</button>
+            </div>
+            <span class="toggle-arrow open" id="arrow-${section.id}">▼</span>
+          </div>
+        </div>
+        <div class="section-body" id="body-${section.id}">
+          <table class="row-table">
+            <thead>
+              <tr>
+                <th class="col-desc">Description</th>
+                <th class="col-labour">Labour ($)</th>
+                <th class="col-material">Material ($)</th>
+                <th class="col-total">Line Total</th>
+                <th class="col-del"></th>
+              </tr>
+            </thead>
+            <tbody id="tbody-${section.id}"></tbody>
+          </table>
+          <button class="btn-add-row" onclick="window.addRow('${section.id}'); return false;">＋ Add Line Item</button>
+          <div class="templates-section" id="templates-${section.id}"></div>
+        </div>
+      `;
+      container.appendChild(card);
+      renderRows(section.id);
+      renderTemplateListing(section.id);
+    });
+  }
+
+  // ── Floating sidebar nav ──
+  function renderSectionNav() {
+    const nav = document.getElementById('section-nav');
+    if (!nav) return;
+    nav.innerHTML = '';
+
+    // TOP button
+    const topBtn = document.createElement('button');
+    topBtn.className = 'nav-tab-anchor';
+    topBtn.textContent = '▲ Top';
+    topBtn.title = 'Jump to top';
+    topBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    nav.appendChild(topBtn);
+
+    const orderedActive = window.allSections.filter(s => window.activeSectionIds.includes(s.id));
+    orderedActive.forEach(section => {
+      const btn = document.createElement('button');
+      btn.className = 'nav-tab';
+      btn.textContent = section.label;
+      btn.title = section.label;
+      btn.addEventListener('click', () => {
+        const card = document.getElementById('card-' + section.id);
+        if (card) {
+          card.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          // Expand section if collapsed
+          const body = document.getElementById('body-' + section.id);
+          const arrow = document.getElementById('arrow-' + section.id);
+          if (body && body.style.display === 'none') {
+            body.style.display = 'block';
+            if (arrow) arrow.classList.add('open');
+          }
+        }
+      });
+      nav.appendChild(btn);
+    });
+
+    // BOTTOM button
+    const botBtn = document.createElement('button');
+    botBtn.className = 'nav-tab-anchor';
+    botBtn.textContent = '▼ Bottom';
+    botBtn.title = 'Jump to bottom';
+    botBtn.addEventListener('click', () => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' }));
+    nav.appendChild(botBtn);
+
+    // Highlight active section on scroll
+    updateNavHighlight();
+  }
+
+  function updateNavHighlight() {
+    const tabs = document.querySelectorAll('.nav-tab');
+    if (!tabs.length) return;
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        const id = entry.target.id.replace('card-', '');
+        const tab = document.querySelector(`.nav-tab[data-sid="${id}"]`);
+        if (tab) tab.classList.toggle('active', entry.isIntersecting);
+      });
+    }, { threshold: 0.3 });
+
+    // Tag each tab with its section id and observe its card
+    tabs.forEach(tab => {
+      const label = tab.textContent.trim();
+      const section = window.allSections.find(s => s.label === label);
+      if (section) {
+        tab.dataset.sid = section.id;
+        const card = document.getElementById('card-' + section.id);
+        if (card) observer.observe(card);
+      }
+    });
+  }
+
+  function renderRows(sid) {
+    const tbody = document.getElementById('tbody-' + sid);
+    if (!tbody) return;
+    tbody.innerHTML = '';
+
+    if (!window.rows[sid]) window.rows[sid] = [newRow()];
+    if (!window.sectionTemplates[sid]) window.sectionTemplates[sid] = [];
+
+    window.rows[sid].forEach((row, idx) => {
+      const tr = document.createElement('tr');
+
+      let templateOptions = '<option value="">Description:</option>';
+      window.sectionTemplates[sid].forEach(tmpl => {
+        templateOptions += `<option value="${tmpl.id}">📌 ${tmpl.desc} ($${(tmpl.labour + tmpl.material).toFixed(2)})</option>`;
+      });
+
+      tr.innerHTML = `
+        <td class="col-desc">
+          <select class="desc-select" onchange="window.applyTemplate('${sid}',${idx},this.value)" style="width:100%;padding:8px 10px;border:1.5px solid #dde1e7;border-radius:6px 0 0 6px;font-size:0.85rem;background:#fafbfc;margin-bottom:4px;display:block;">
+            ${templateOptions}
+          </select>
+          <textarea class="desc-textarea" id="desc-${sid}-${idx}" placeholder="Enter description…" 
+            oninput="window.updateField('${sid}',${idx},'desc',this.value)">${row.desc}</textarea>
+          <button class="btn-save-template-small" onclick="window.saveTemplate('${sid}',${idx}); return false;" title="Save this as a reusable template">⭐ Save</button>
+        </td>
+        <td class="col-labour">
+          <input type="number" min="0" step="0.01" placeholder="0.00" value="${row.labour}"
+            oninput="window.updateField('${sid}',${idx},'labour',this.value)"/>
+        </td>
+        <td class="col-material">
+          <input type="number" min="0" step="0.01" placeholder="0.00" value="${row.material}"
+            oninput="window.updateField('${sid}',${idx},'material',this.value)"/>
+        </td>
+        <td class="col-total">
+          <span class="row-line-total" id="lt-${sid}-${idx}">${window.lineTotal(row)}</span>
+        </td>
+        <td class="col-del">
+          <button class="btn-delete" onclick="window.deleteRow('${sid}',${idx}); return false;" title="Remove row">✕</button>
+        </td>
+      `;
+      tbody.appendChild(tr);
+
+      setTimeout(() => {
+        const textarea = document.getElementById(`desc-${sid}-${idx}`);
+        if (textarea) {
+          autoExpandTextarea(textarea);
+        }
+      }, 0);
+    });
+    window.recalcSection(sid);
+  }
+
+  function renderTemplateListing(sid) {
+    const container = document.getElementById('templates-' + sid);
+    if (!container) return;
+
+    if (!window.sectionTemplates[sid] || window.sectionTemplates[sid].length === 0) {
+      container.innerHTML = '';
+      return;
+    }
+
+    let html = '<h4>📌 Saved Templates for This Section:</h4><div class="templates-list">';
+    window.sectionTemplates[sid].forEach(tmpl => {
+      html += `
+        <div class="template-chip">
+          <span title="${tmpl.desc} - Labour: $${tmpl.labour.toFixed(2)}, Material: $${tmpl.material.toFixed(2)}">${tmpl.desc}</span>
+          <button type="button" onclick="window.openTemplateModal('${sid}','${tmpl.id}'); return false;" title="Edit">✎</button>
+          <button type="button" onclick="window.deleteTemplate('${sid}','${tmpl.id}'); return false;" title="Delete">✕</button>
+        </div>
+      `;
+    });
+    html += '</div>';
+    container.innerHTML = html;
+  }
+
+  window.toggleSection = function(sid) {
+    const body  = document.getElementById('body-' + sid);
+    const arrow = document.getElementById('arrow-' + sid);
+    if (!body || !arrow) return;
+    const open  = body.style.display !== 'none';
+    body.style.display  = open ? 'none' : 'block';
+    arrow.classList.toggle('open', !open);
+  }
+
+  /* ══════════════════════════════════════════════
+     CALCULATIONS
+  ══════════════════════════════════════════════ */
+
+  window.val = function(v) { return parseFloat(v) || 0; }
+  window.fmt = function(n) { return '$' + n.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ','); }
+
+  window.lineTotal = function(row) {
+    return window.fmt(window.val(row.labour) + window.val(row.material));
+  }
+
+  window.recalcSection = function(sid) {
+    let lab = 0, mat = 0;
+    if (window.rows[sid]) {
+      window.rows[sid].forEach(r => {
+        lab += window.val(r.labour);
+        mat += window.val(r.material);
+      });
+    }
+    const labEl = document.getElementById('sec-lab-' + sid);
+    const matEl = document.getElementById('sec-mat-' + sid);
+    const totEl = document.getElementById('sec-tot-' + sid);
+    if (labEl) labEl.textContent = window.fmt(lab);
+    if (matEl) matEl.textContent = window.fmt(mat);
+    if (totEl) totEl.textContent = window.fmt(lab + mat);
+  }
+
+  window.recalcGrand = function() {
+    let totalLab = 0, totalMat = 0;
+
+    window.activeSectionIds.forEach(sid => {
+      if (window.rows[sid]) {
+        window.rows[sid].forEach(r => {
+          totalLab += window.val(r.labour);
+          totalMat += window.val(r.material);
+        });
+      }
+    });
+
+    const sub = totalLab + totalMat;
+    const markupRate = window.val(document.getElementById('markupRate').value) / 100;
+    const markup = sub * markupRate;
+    const subWithMarkup = sub + markup;
+    const taxRate = window.val(document.getElementById('taxRate').value) / 100;
+    const tax = subWithMarkup * taxRate;
+    const grand = subWithMarkup + tax;
+
+    document.getElementById('grand-labour').textContent = window.fmt(totalLab);
+    document.getElementById('grand-material').textContent = window.fmt(totalMat);
+    document.getElementById('grand-sub').textContent = window.fmt(subWithMarkup);
+    document.getElementById('grand-sub-markup').textContent = window.fmt(subWithMarkup);
+    document.getElementById('markup-amount').textContent = markup > 0 ? '+' + window.fmt(markup) : '+$0.00';
+    document.getElementById('grand-tax').textContent = window.fmt(tax);
+    document.getElementById('grand-total').textContent = window.fmt(grand);
+  }
+
+  window.toggleLabourMaterial = function() {
+    const show = document.getElementById('showLabourMaterial').checked;
+    document.getElementById('labour-material-grid').style.display = show ? '' : 'none';
+    document.getElementById('subtotal-row').style.display = show ? '' : 'none';
+    document.getElementById('subtotal-with-markup-row').style.display = show ? 'none' : '';
+    document.body.classList.toggle('hide-costs', !show);
+  }
+
+  /* ══════════════════════════════════════════════
+     EXPORT CSV
+  ══════════════════════════════════════════════ */
+
+  window.exportCSV = function() {
+    let csv = 'Section,Description,Labour ($),Material ($),Line Total ($)\n';
+
+    window.activeSectionIds.forEach(sid => {
+      const section = window.allSections.find(s => s.id === sid);
+      if (section && window.rows[sid]) {
+        window.rows[sid].forEach(r => {
+          const lt = (window.val(r.labour) + window.val(r.material)).toFixed(2);
+          csv += `"${section.label}","${(r.desc||'').replace(/"/g,'""')}","${window.val(r.labour).toFixed(2)}","${window.val(r.material).toFixed(2)}","${lt}"\n`;
+        });
+      }
+    });
+
+    const taxRate = window.val(document.getElementById('taxRate').value) / 100;
+    let sub = 0;
+    window.activeSectionIds.forEach(sid => {
+      if (window.rows[sid]) {
+        window.rows[sid].forEach(r => {
+          sub += window.val(r.labour) + window.val(r.material);
+        });
+      }
+    });
+    csv += `\n"","Subtotal","","","${sub.toFixed(2)}"\n`;
+    csv += `"","HST/Tax (${(taxRate*100).toFixed(1)}%)","","","${(sub*taxRate).toFixed(2)}"\n`;
+    csv += `"","GRAND TOTAL","","","${(sub*(1+taxRate)).toFixed(2)}"\n`;
+
+    const blob = new Blob([csv], {type:'text/csv'});
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = `Saltire_Quote_${document.getElementById('quoteNum').value || 'draft'}.csv`;
+    a.click();
+  }
+
+  window.copyQuoteSummary = function() {
+    let text = `SALTIRE CONSTRUCTION – QUOTE SUMMARY\n`;
+    text += `Quote #: ${document.getElementById('quoteNum').value || 'N/A'}\n`;
+    text += `Date: ${document.getElementById('quoteDate').value || 'N/A'}\n`;
+    text += `Client: ${document.getElementById('clientName').value || 'N/A'}\n`;
+    text += `Project: ${document.getElementById('projectAddr').value || 'N/A'}\n\n`;
+
+    window.activeSectionIds.forEach(sid => {
+      const section = window.allSections.find(s => s.id === sid);
+      if (section && window.rows[sid]) {
+        let lab = 0, mat = 0;
+        window.rows[sid].forEach(r => {
+          lab += window.val(r.labour);
+          mat += window.val(r.material);
+        });
+        if (lab+mat > 0) text += `${section.label}: Labour ${window.fmt(lab)} | Materials ${window.fmt(mat)} | Total ${window.fmt(lab+mat)}\n`;
+      }
+    });
+    text += `\nGrand Total: ${document.getElementById('grand-total').textContent}`;
+    navigator.clipboard.writeText(text).then(() => alert('✅ Quote summary copied to clipboard!'));
+  }
+
+  window.clearAll = function() {
+    if (!confirm('⚠️ Clear all quote data and start a fresh quote?\n\nNote: Sections and templates will be preserved.')) return;
+
+    // Clear only the row data (not sections or templates)
+    window.activeSectionIds.forEach(sid => {
+      window.rows[sid] = [newRow()];
+    });
+
+    saveToStorage();
+    renderUI();
+    window.recalcGrand();
+    document.getElementById('quoteNum').value = '';
+    document.getElementById('quoteDate').value = '';
+    document.getElementById('quoteExpiry').value = '';
+    document.getElementById('clientName').value = '';
+    document.getElementById('clientPhone').value = '';
+    document.getElementById('clientEmail').value = '';
+    document.getElementById('projectAddr').value = '';
+    document.getElementById('projectType').value = '';
+    document.getElementById('quoteNotes').value = '';
+    document.getElementById('taxRate').value = '13';
+  }
+
+  /* ══════════════════════════════════════════════
+     DRAFT SAVE / LOAD
+  ══════════════════════════════════════════════ */
+
+  /* ── Google Sheets API endpoint ── */
+  const SHEETS_URL = 'https://script.google.com/macros/s/AKfycbzItRLHDdUI-eowESGwisGRSgYzyB7jF4O631RizO6aExf3JtZJXDC2k0VLx5vYncqF/exec';
+
+  /* ── Helper: call the Google Sheets backend ── */
+  async function sheetsAPI(payload) {
+    // Google Apps Script requires no-cors or form-encoded POST
+    // We use a GET request with the payload encoded as a URL parameter
+    // for reads, and a form POST for writes
+    const url = SHEETS_URL + '?payload=' + encodeURIComponent(JSON.stringify(payload));
+    const resp = await fetch(url, {
+      method: 'GET',
+      redirect: 'follow'
+    });
+    const text = await resp.text();
+    try {
+      return JSON.parse(text);
+    } catch(e) {
+      throw new Error('Bad response from server: ' + text.substring(0, 100));
+    }
+  }
+
+  /* ── Local fallback helpers (kept for backup/restore) ── */
+  function getDraftStore() {
+    try { return JSON.parse(localStorage.getItem('saltireDrafts') || '{}'); }
+    catch(e) { return {}; }
+  }
+  function saveDraftStore(drafts) {
+    localStorage.setItem('saltireDrafts', JSON.stringify(drafts));
+  }
+
+  function updateDocTitle() {
+    const quoteNum   = document.getElementById('quoteNum').value.trim();
+    const clientName = document.getElementById('clientName').value.trim();
+    const quoteDate  = document.getElementById('quoteDate').value;
+    const parts = ['Saltire Construction'];
+    if (quoteNum)   parts.push(quoteNum);
+    if (clientName) parts.push(clientName);
+    if (quoteDate)  parts.push(quoteDate);
+    document.title = parts.join(' – ');
+  }
+
+  function collectQuoteMeta() {
+    return {
+      quoteNum:    document.getElementById('quoteNum').value,
+      quoteDate:   document.getElementById('quoteDate').value,
+      quoteExpiry: document.getElementById('quoteExpiry').value,
+      clientName:  document.getElementById('clientName').value,
+      clientPhone: document.getElementById('clientPhone').value,
+      clientEmail: document.getElementById('clientEmail').value,
+      projectAddr: document.getElementById('projectAddr').value,
+      projectType: document.getElementById('projectType').value,
+      quoteNotes:  document.getElementById('quoteNotes').value,
+      taxRate:     document.getElementById('taxRate').value
+    };
+  }
+
+  function applyQuoteMeta(meta) {
+    document.getElementById('quoteNum').value    = meta.quoteNum    || '';
+    document.getElementById('quoteDate').value   = meta.quoteDate   || '';
+    document.getElementById('quoteExpiry').value = meta.quoteExpiry || '';
+    document.getElementById('clientName').value  = meta.clientName  || '';
+    document.getElementById('clientPhone').value = meta.clientPhone || '';
+    document.getElementById('clientEmail').value = meta.clientEmail || '';
+    document.getElementById('projectAddr').value = meta.projectAddr || '';
+    document.getElementById('projectType').value = meta.projectType || '';
+    document.getElementById('quoteNotes').value  = meta.quoteNotes  || '';
+    document.getElementById('taxRate').value     = meta.taxRate     || '13';
+    updateDocTitle();
+  }
+
+  /* ── Populate draft dropdown from Google Sheets ── */
+  async function populateDraftSelect() {
+    const sel = document.getElementById('draftSelect');
+    const current = sel.value;
+
+    // Always show local drafts immediately
+    const localDrafts = getDraftStore();
+    const localKeys = Object.keys(localDrafts).sort();
+
+    sel.innerHTML = '<option value="">— Select a saved draft —</option>';
+    localKeys.forEach(key => {
+      const d = localDrafts[key];
+      const opt = document.createElement('option');
+      opt.value = key;
+      opt.textContent = `${key} (${d.savedAt})`;
+      sel.appendChild(opt);
+    });
+    if (current) sel.value = current;
+
+    // Then try to merge in any cloud-only drafts (won't clear local ones if it fails)
+    try {
+      const result = await sheetsAPI({ action: 'list' });
+      if (result.drafts && result.drafts.length > 0) {
+        result.drafts.forEach(d => {
+          // Only add if not already in local list
+          if (!localDrafts[d.key]) {
+            const opt = document.createElement('option');
+            opt.value = d.key;
+            opt.textContent = `${d.key} (${d.savedAt}) ☁️`;
+            sel.appendChild(opt);
+          }
+        });
+      }
+      if (current) sel.value = current;
+    } catch(e) {
+      // Cloud unavailable - local drafts already shown above, that's fine
+    }
+  }
+
+  /* ── Save draft to Google Sheets ── */
+  window.saveDraft = async function() {
+    const meta = collectQuoteMeta();
+    const draftName = (meta.quoteNum || meta.clientName || '').trim();
+
+    let key = draftName
+      ? prompt('Save draft as:', draftName)
+      : prompt('Enter a name for this draft:');
+
+    if (!key || !key.trim()) return;
+    key = key.trim();
+
+    const payload = {
+      meta: meta,
+      rows: JSON.parse(JSON.stringify(window.rows)),
+      activeSectionIds: [...window.activeSectionIds],
+      allSections: window.allSections,
+      sectionTemplates: window.sectionTemplates
+    };
+
+    showAutoSave('Saving…');
+
+    try {
+      const result = await sheetsAPI({ action: 'save', key, payload });
+      if (result.success) {
+        // Also save locally as backup
+        const drafts = getDraftStore();
+        drafts[key] = { savedAt: result.savedAt, meta, ...payload };
+        saveDraftStore(drafts);
+        await populateDraftSelect();
+        document.getElementById('draftSelect').value = key;
+        showAutoSave('Saved to cloud ☁️');
+        alert(`✅ Draft saved as "${key}"`);
+      } else {
+        throw new Error(result.error || 'Unknown error');
+      }
+    } catch(e) {
+      // Fallback: save locally only
+      const drafts = getDraftStore();
+      drafts[key] = {
+        savedAt: new Date().toLocaleString('en-CA', { dateStyle: 'short', timeStyle: 'short' }),
+        meta, ...payload
+      };
+      saveDraftStore(drafts);
+      await populateDraftSelect();
+      showAutoSave('Saved locally ⚠️');
+      alert(`⚠️ Saved locally only (offline). Will sync when back online.\n\nDraft: "${key}"`);
+    }
+  }
+
+  /* ── Load draft from Google Sheets ── */
+  window.loadDraft = async function() {
+    const key = document.getElementById('draftSelect').value;
+    if (!key) { alert('❌ Please select a draft to load.'); return; }
+    if (!confirm(`Load draft "${key}"?\n\nThis will replace your current quote data.`)) return;
+
+    showAutoSave('Loading…');
+
+    try {
+      const result = await sheetsAPI({ action: 'load', key });
+      if (!result.success) throw new Error(result.error || 'Not found');
+
+      const draft = result.payload;
+      applyDraftData(draft);
+      showAutoSave('Loaded from cloud ☁️');
+      alert(`✅ Draft "${key}" loaded.`);
+    } catch(e) {
+      // Fallback: try localStorage
+      const drafts = getDraftStore();
+      const draft = drafts[key];
+      if (draft) {
+        applyDraftData(draft);
+        showAutoSave('Loaded locally ⚠️');
+        alert(`⚠️ Loaded from local backup (offline).`);
+      } else {
+        alert('❌ Draft not found — offline and not in local backup.');
+      }
+    }
+  }
+
+  /* ── Apply loaded draft data to the app ── */
+  function applyDraftData(draft) {
+    // Restore sections if saved with the draft
+    if (draft.allSections && draft.allSections.length > 0) {
+      window.allSections = draft.allSections;
+    }
+    if (draft.sectionTemplates) {
+      window.sectionTemplates = draft.sectionTemplates;
+    }
+    Object.keys(draft.rows).forEach(sid => {
+      window.rows[sid] = draft.rows[sid];
+    });
+    const validIds = window.allSections.map(s => s.id);
+    window.activeSectionIds = (draft.activeSectionIds || []).filter(id => validIds.includes(id));
+    applyQuoteMeta(draft.meta);
+    saveToStorage();
+    renderUI();
+    window.recalcGrand();
+  }
+
+  /* ── Delete draft from Google Sheets ── */
+  window.deleteDraft = async function() {
+    const key = document.getElementById('draftSelect').value;
+    if (!key) { alert('Please select a draft to delete.'); return; }
+    if (!confirm(`Permanently delete draft "${key}"?`)) return;
+
+    try {
+      await sheetsAPI({ action: 'delete', key });
+    } catch(e) { /* offline — just remove locally */ }
+
+    // Always remove from local backup too
+    const drafts = getDraftStore();
+    delete drafts[key];
+    saveDraftStore(drafts);
+    await populateDraftSelect();
+    alert(`Draft "${key}" deleted.`);
+  }
+
+  /* ══════════════════════════════════════════════
+     EXPORT / IMPORT ALL APP DATA
+  ══════════════════════════════════════════════ */
+
+  window.exportAppData = function() {
+    const payload = {
+      _saltireBackup: true,
+      _version: 1,
+      _exportedAt: new Date().toISOString(),
+      quoteData: JSON.parse(localStorage.getItem('saltireQuoteData') || '{}'),
+      drafts:    JSON.parse(localStorage.getItem('saltireDrafts')    || '{}'),
+      liveMeta:  collectQuoteMeta()
+    };
+    const json = JSON.stringify(payload, null, 2);
+    const blob = new Blob([json], { type: 'application/json' });
+    const a    = document.createElement('a');
+    const date = new Date().toISOString().slice(0,10);
+    a.href     = URL.createObjectURL(blob);
+    a.download = 'Saltire_Backup_' + date + '.json';
+    a.click();
+    URL.revokeObjectURL(a.href);
+  }
+
+  window.importAppData = function(input) {
+    const file = input.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = async function(e) {
+      try {
+        const payload = JSON.parse(e.target.result);
+        if (!payload._saltireBackup) {
+          alert('This does not appear to be a Saltire backup file.');
+          input.value = '';
+          return;
+        }
+        if (!confirm('This will replace ALL current app data (sections, templates, drafts, current quote) with the backup.\n\nContinue?')) {
+          input.value = '';
+          return;
+        }
+        if (payload.quoteData) localStorage.setItem('saltireQuoteData', JSON.stringify(payload.quoteData));
+        if (payload.drafts)    localStorage.setItem('saltireDrafts',    JSON.stringify(payload.drafts));
+        loadFromStorage();
+        renderUI();
+        window.recalcGrand();
+        await populateDraftSelect();
+        if (payload.liveMeta) applyQuoteMeta(payload.liveMeta);
+        showAutoSave('Backup restored!');
+      } catch(err) {
+        alert('Failed to read backup file. It may be corrupted.\n\n' + err.message);
+      }
+      input.value = '';
+    };
+    reader.readAsText(file);
+  }
+
+  /* ══════════════════════════════════════════════
+     AUTO-SAVE INDICATOR
+  ══════════════════════════════════════════════ */
+
+  let _autoSaveTimer = null;
+
+  function showAutoSave(msg) {
+    const el = document.getElementById('autosave-indicator');
+    if (!el) return;
+    el.textContent = msg || 'Saved';
+    el.style.opacity = '1';
+    clearTimeout(_autoSaveTimer);
+    _autoSaveTimer = setTimeout(function() { el.style.opacity = '0'; }, 2500);
+  }
+
+  const _origSave = saveToStorage;
+  saveToStorage = function() {
+    _origSave();
+    showAutoSave();
+  };
+
+  /* ══════════════════════════════════════════════
+     EVENT LISTENERS
+  ══════════════════════════════════════════════ */
+
+  document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('btnAddSection').addEventListener('click', window.addNewSection);
+
+    document.getElementById('newSectionInput').addEventListener('keypress', function(e) {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        window.addNewSection();
+      }
+    });
+
+    document.getElementById('modalCancel').addEventListener('click', window.closeTemplateModal);
+    document.getElementById('modalSave').addEventListener('click', window.saveTemplateChanges);
+
+    document.getElementById('modalDesc').addEventListener('keypress', function(e) {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        window.saveTemplateChanges();
+      }
+    });
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        window.closeTemplateModal();
+      }
+    });
+
+    document.getElementById('templateModal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        window.closeTemplateModal();
+      }
+    });
+  });
+
+  /* ══════════════════════════════════════════════
+     INITIALIZATION
+  ══════════════════════════════════════════════ */
+
+  window.addEventListener('load', async function() {
+    loadFromStorage();
+    renderUI();
+    window.recalcGrand();
+    const today = new Date().toISOString().split('T')[0];
+    document.getElementById('quoteDate').value = today;
+    await populateDraftSelect();
+    await populateClientSelect();
+    updateDocTitle();
+  });
+
+  /* ── PRINT: collapse textareas to content height before printing ── */
+  window.addEventListener('beforeprint', function() {
+    document.querySelectorAll('.desc-textarea').forEach(function(ta) {
+      ta.style.height = 'auto';
+      ta.style.height = ta.scrollHeight + 'px';
+    });
+  });
+  window.addEventListener('afterprint', function() {
+    document.querySelectorAll('.desc-textarea').forEach(function(ta) {
+      ta.style.height = '';
+    });
+  });
+  /* ══════════════════════════════════════════════
+     CLIENT MANAGER
+  ══════════════════════════════════════════════ */
+
+  function getClientStore() {
+    try { return JSON.parse(localStorage.getItem('saltireClients') || '[]'); }
+    catch(e) { return []; }
+  }
+  function saveClientStore(clients) {
+    localStorage.setItem('saltireClients', JSON.stringify(clients));
+  }
+
+  async function populateClientSelect(selectId) {
+    const sel = document.getElementById(selectId || 'clientSelect');
+    if (!sel) return;
+    const current = sel.value;
+    sel.innerHTML = '<option value="">— Select a client —</option>';
+
+    // Load local first
+    const local = getClientStore();
+    local.forEach(c => {
+      const opt = document.createElement('option');
+      opt.value = c.id;
+      opt.textContent = c.name + (c.phone ? ' — ' + c.phone : '');
+      sel.appendChild(opt);
+    });
+    if (current) sel.value = current;
+
+    // Try cloud
+    try {
+      const result = await sheetsAPI({ action: 'listClients' });
+      if (result.clients && result.clients.length > 0) {
+        const localIds = local.map(c => c.id);
+        result.clients.forEach(c => {
+          if (!localIds.includes(c.id)) {
+            const opt = document.createElement('option');
+            opt.value = c.id;
+            opt.textContent = c.name + (c.phone ? ' — ' + c.phone : '') + ' ☁️';
+            sel.appendChild(opt);
+          }
+        });
+      }
+      if (current) sel.value = current;
+    } catch(e) { /* cloud unavailable, local shown */ }
+  }
+
+  window.selectClient = function() {
+    const sel = document.getElementById('clientSelect');
+    const id = sel.value;
+    const editBtn = document.getElementById('btnEditClient');
+    if (!id) { editBtn.style.display = 'none'; return; }
+    const clients = getClientStore();
+    const c = clients.find(x => x.id === id);
+    if (c) {
+      document.getElementById('clientName').value  = c.name  || '';
+      document.getElementById('clientPhone').value = c.phone || '';
+      document.getElementById('clientEmail').value = c.email || '';
+      if (c.address) document.getElementById('projectAddr').value = c.address;
+      updateDocTitle();
+    }
+    editBtn.style.display = 'inline-flex';
+  };
+
+  window.clearClient = function() {
+    document.getElementById('clientSelect').value = '';
+    document.getElementById('clientName').value   = '';
+    document.getElementById('clientPhone').value  = '';
+    document.getElementById('clientEmail').value  = '';
+    document.getElementById('btnEditClient').style.display = 'none';
+    updateDocTitle();
+  };
+
+  window.openClientModal = function(id) {
+    document.getElementById('clientModalTitle').textContent = id ? 'Edit Client' : 'New Client';
+    document.getElementById('clientModalId').value = id || '';
+    if (id) {
+      const c = getClientStore().find(x => x.id === id);
+      if (c) {
+        document.getElementById('cmName').value    = c.name    || '';
+        document.getElementById('cmPhone').value   = c.phone   || '';
+        document.getElementById('cmEmail').value   = c.email   || '';
+        document.getElementById('cmAddress').value = c.address || '';
+        document.getElementById('cmNotes').value   = c.notes   || '';
+      }
+    } else {
+      document.getElementById('cmName').value    = '';
+      document.getElementById('cmPhone').value   = '';
+      document.getElementById('cmEmail').value   = '';
+      document.getElementById('cmAddress').value = '';
+      document.getElementById('cmNotes').value   = '';
+    }
+    document.getElementById('clientModalOverlay').classList.add('open');
+  };
+
+  window.closeClientModal = function() {
+    document.getElementById('clientModalOverlay').classList.remove('open');
+  };
+
+  window.editClient = function() {
+    const id = document.getElementById('clientSelect').value;
+    if (id) window.openClientModal(id);
+  };
+
+  window.saveClientModal = async function() {
+    const name = document.getElementById('cmName').value.trim();
+    if (!name) { alert('Client name is required.'); return; }
+    const id  = document.getElementById('clientModalId').value || 'client-' + Date.now();
+    const client = {
+      id,
+      name,
+      phone:   document.getElementById('cmPhone').value.trim(),
+      email:   document.getElementById('cmEmail').value.trim(),
+      address: document.getElementById('cmAddress').value.trim(),
+      notes:   document.getElementById('cmNotes').value.trim()
+    };
+
+    // Save locally
+    const clients = getClientStore().filter(x => x.id !== id);
+    clients.push(client);
+    clients.sort((a,b) => a.name.localeCompare(b.name));
+    saveClientStore(clients);
+
+    // Try cloud
+    try { await sheetsAPI({ action: 'saveClient', client }); } catch(e) {}
+
+    await populateClientSelect();
+    document.getElementById('clientSelect').value = id;
+    window.selectClient();
+    window.closeClientModal();
+  };
+
+  // Close modal on overlay click
+  document.getElementById('clientModalOverlay').addEventListener('click', function(e) {
+    if (e.target === this) window.closeClientModal();
+  });
+
+  /* ══════════════════════════════════════════════
+     TAB SWITCHING
+  ══════════════════════════════════════════════ */
+  window.switchTab = function(tab) {
+    document.getElementById('page-quote').style.display    = tab === 'quote'    ? '' : 'none';
+    document.getElementById('page-contacts').style.display = tab === 'contacts' ? '' : 'none';
+    document.getElementById('section-nav').style.display   = tab === 'quote'    ? '' : 'none';
+    document.querySelectorAll('.app-tab').forEach((btn, i) => {
+      btn.classList.toggle('active', (i === 0 && tab === 'quote') || (i === 1 && tab === 'contacts'));
+    });
+    if (tab === 'contacts') window.renderContactsTable();
+  };
+
+  /* ══════════════════════════════════════════════
+     CONTACTS MANAGER
+  ══════════════════════════════════════════════ */
+  function getContactStore() {
+    try { return JSON.parse(localStorage.getItem('saltireContacts') || '[]'); }
+    catch(e) { return []; }
+  }
+  function saveContactStore(contacts) {
+    localStorage.setItem('saltireContacts', JSON.stringify(contacts));
+  }
+
+  window.renderContactsTable = function() {
+    const filter = document.getElementById('contactTypeFilter').value;
+    let contacts = getContactStore();
+    if (filter) contacts = contacts.filter(c => c.type === filter);
+    contacts.sort((a,b) => a.name.localeCompare(b.name));
+    const tbody = document.getElementById('contactsTableBody');
+    if (!tbody) return;
+    tbody.innerHTML = '';
+    if (contacts.length === 0) {
+      tbody.innerHTML = '<tr><td colspan="7" style="text-align:center;color:#999;padding:24px;">No contacts yet. Click ＋ Add Contact to get started.</td></tr>';
+      return;
+    }
+    contacts.forEach(c => {
+      const badgeClass = c.type === 'Contractor' ? 'badge-contractor' : c.type === 'Supplier' ? 'badge-supplier' : 'badge-vendor';
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td><strong>${c.name}</strong></td>
+        <td><span class="contact-type-badge ${badgeClass}">${c.type}</span></td>
+        <td>${c.phone || '—'}</td>
+        <td>${c.email || '—'}</td>
+        <td>${c.address || '—'}</td>
+        <td>${c.notes || '—'}</td>
+        <td style="white-space:nowrap;">
+          <button class="btn-icon" onclick="window.openContactModal('${c.id}')" title="Edit">✏️</button>
+          <button class="btn-icon" onclick="window.deleteContact('${c.id}')" title="Delete">🗑️</button>
+        </td>`;
+      tbody.appendChild(tr);
+    });
+  };
+
+  window.openContactModal = function(id) {
+    document.getElementById('contactModalTitle').textContent = id ? 'Edit Contact' : 'New Contact';
+    document.getElementById('contactModalId').value = id || '';
+    if (id) {
+      const c = getContactStore().find(x => x.id === id);
+      if (c) {
+        document.getElementById('ctName').value    = c.name    || '';
+        document.getElementById('ctType').value    = c.type    || 'Contractor';
+        document.getElementById('ctPhone').value   = c.phone   || '';
+        document.getElementById('ctEmail').value   = c.email   || '';
+        document.getElementById('ctAddress').value = c.address || '';
+        document.getElementById('ctNotes').value   = c.notes   || '';
+      }
+    } else {
+      document.getElementById('ctName').value    = '';
+      document.getElementById('ctType').value    = 'Contractor';
+      document.getElementById('ctPhone').value   = '';
+      document.getElementById('ctEmail').value   = '';
+      document.getElementById('ctAddress').value = '';
+      document.getElementById('ctNotes').value   = '';
+    }
+    document.getElementById('contactModalOverlay').classList.add('open');
+  };
+
+  window.closeContactModal = function() {
+    document.getElementById('contactModalOverlay').classList.remove('open');
+  };
+
+  window.saveContactModal = async function() {
+    const name = document.getElementById('ctName').value.trim();
+    if (!name) { alert('Contact name is required.'); return; }
+    const id = document.getElementById('contactModalId').value || 'contact-' + Date.now();
+    const contact = {
+      id,
+      name,
+      type:    document.getElementById('ctType').value,
+      phone:   document.getElementById('ctPhone').value.trim(),
+      email:   document.getElementById('ctEmail').value.trim(),
+      address: document.getElementById('ctAddress').value.trim(),
+      notes:   document.getElementById('ctNotes').value.trim()
+    };
+    const contacts = getContactStore().filter(x => x.id !== id);
+    contacts.push(contact);
+    saveContactStore(contacts);
+    try { await sheetsAPI({ action: 'saveContact', contact }); } catch(e) {}
+    window.closeContactModal();
+    window.renderContactsTable();
+  };
+
+  window.deleteContact = async function(id) {
+    if (!confirm('Delete this contact?')) return;
+    const contacts = getContactStore().filter(x => x.id !== id);
+    saveContactStore(contacts);
+    try { await sheetsAPI({ action: 'deleteContact', id }); } catch(e) {}
+    window.renderContactsTable();
+  };
+
+  document.getElementById('contactModalOverlay').addEventListener('click', function(e) {
+    if (e.target === this) window.closeContactModal();
+  });
+
+</script>
+
+</body>
+</html>
