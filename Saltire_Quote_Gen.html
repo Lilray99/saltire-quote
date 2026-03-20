@@ -967,17 +967,22 @@
       /* Skip rows that have no data at all */
       .row-table td { vertical-align: middle; padding: 4px 4px; }
 
-      /* Textarea: shrink to content, no chrome */
+      /* Textarea: render as plain text block, full height, no clipping */
       .desc-textarea {
+        display: block;
         border: none;
         background: transparent;
         padding: 0;
         resize: none;
         min-height: 0 !important;
         height: auto !important;
-        overflow: hidden;
+        max-height: none !important;
+        overflow: visible !important;
+        white-space: pre-wrap;
+        word-break: break-word;
         font-size: 0.82rem;
         line-height: 1.35;
+        width: 100%;
       }
 
       /* Number inputs: plain text appearance */
@@ -2403,7 +2408,7 @@
         await populateDraftSelect();
         document.getElementById('draftSelect').value = key;
         showAutoSave('Saved to cloud ☁️');
-        alert(`✅ Draft saved as "${key}"`);
+        alert(`✅ Draft "${key}" saved to Google Sheets ☁️`);
       } else {
         throw new Error(result.error || 'Unknown error');
       }
@@ -2416,8 +2421,8 @@
       };
       saveDraftStore(drafts);
       await populateDraftSelect();
-      showAutoSave('Saved locally ⚠️');
-      alert(`⚠️ Saved locally only (offline). Will sync when back online.\n\nDraft: "${key}"`);
+      showAutoSave('Saved locally only ⚠️');
+      alert(`⚠️ Draft "${key}" saved to LOCAL STORAGE ONLY — Google Sheets was unavailable.\n\nError: ${e.message}`);
     }
   }
 
@@ -2617,16 +2622,21 @@
     updateDocTitle();
   });
 
-  /* ── PRINT: collapse textareas to content height before printing ── */
+  /* ── PRINT: ensure textareas expand to full content height ── */
   window.addEventListener('beforeprint', function() {
     document.querySelectorAll('.desc-textarea').forEach(function(ta) {
       ta.style.height = 'auto';
+      ta.style.overflow = 'visible';
+      ta.style.maxHeight = 'none';
+      // Force reflow then set to scrollHeight
       ta.style.height = ta.scrollHeight + 'px';
     });
   });
   window.addEventListener('afterprint', function() {
     document.querySelectorAll('.desc-textarea').forEach(function(ta) {
       ta.style.height = '';
+      ta.style.overflow = '';
+      ta.style.maxHeight = '';
     });
   });
   /* ══════════════════════════════════════════════
