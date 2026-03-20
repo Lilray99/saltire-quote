@@ -967,17 +967,15 @@
       /* Skip rows that have no data at all */
       .row-table td { vertical-align: middle; padding: 4px 4px; }
 
-      /* Textarea: render as plain text block, full height, no clipping */
+      /* Hide textarea, show print-div instead */
       .desc-textarea {
-        display: block;
+        display: none !important;
+      }
+      .desc-print {
+        display: block !important;
         border: none;
         background: transparent;
         padding: 0;
-        resize: none;
-        min-height: 0 !important;
-        height: auto !important;
-        max-height: none !important;
-        overflow: visible !important;
         white-space: pre-wrap;
         word-break: break-word;
         font-size: 0.82rem;
@@ -2055,7 +2053,8 @@
             ${templateOptions}
           </select>
           <textarea class="desc-textarea" id="desc-${sid}-${idx}" placeholder="Enter description…" 
-            oninput="window.updateField('${sid}',${idx},'desc',this.value)">${row.desc}</textarea>
+            oninput="window.updateField('${sid}',${idx},'desc',this.value);document.getElementById('print-desc-${sid}-${idx}').textContent=this.value;">${row.desc}</textarea>
+          <div class="desc-print" id="print-desc-${sid}-${idx}" style="display:none;">${row.desc}</div>
           <button class="btn-save-template-small" onclick="window.saveTemplate('${sid}',${idx}); return false;" title="Save this as a reusable template">⭐ Save</button>
         </td>
         <td class="col-labour">
@@ -2622,22 +2621,15 @@
     updateDocTitle();
   });
 
-  /* ── PRINT: ensure textareas expand to full content height ── */
+  /* ── PRINT: sync desc-print divs with textarea content ── */
   window.addEventListener('beforeprint', function() {
     document.querySelectorAll('.desc-textarea').forEach(function(ta) {
-      ta.style.height = 'auto';
-      ta.style.overflow = 'visible';
-      ta.style.maxHeight = 'none';
-      // Force reflow then set to scrollHeight
-      ta.style.height = ta.scrollHeight + 'px';
+      var printDiv = document.getElementById('print-' + ta.id);
+      if (printDiv) printDiv.textContent = ta.value;
     });
   });
   window.addEventListener('afterprint', function() {
-    document.querySelectorAll('.desc-textarea').forEach(function(ta) {
-      ta.style.height = '';
-      ta.style.overflow = '';
-      ta.style.maxHeight = '';
-    });
+    // nothing needed
   });
   /* ══════════════════════════════════════════════
      CLIENT MANAGER
