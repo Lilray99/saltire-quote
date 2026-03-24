@@ -1472,6 +1472,19 @@
       body.printing-contract header,
       body.printing-contract .app-tabs { display: none !important; }
       body.printing-contract .sig-canvas-wrap canvas { border: 1px solid #ccc !important; }
+      body.printing-contract .contract-term-field {
+        border: none !important;
+        background: transparent !important;
+        padding: 0 !important;
+        resize: none !important;
+        font-size: 0.85rem !important;
+        line-height: 1.5 !important;
+        width: 100% !important;
+        overflow: visible !important;
+        height: auto !important;
+      }
+      body.printing-contract p[style*="italic"] { display: none !important; }
+      body.printing-contract button[onclick*="saveContractTerms"] { display: none !important; }
     }
 
   </style>
@@ -3435,6 +3448,15 @@
     document.getElementById('contractModalOverlay').classList.remove('open');
   };
 
+  window.saveContractTerms = function() {
+    const terms = {};
+    document.querySelectorAll('.contract-term-field').forEach(function(ta) {
+      terms[ta.dataset.term] = ta.value;
+    });
+    localStorage.setItem('saltireContractTerms', JSON.stringify(terms));
+    alert('✅ Terms saved as your new default for all future contracts.');
+  };
+
   document.getElementById('contractModalOverlay').addEventListener('click', function(e) {
     if (e.target === this) window.closeContractModal();
   });
@@ -3475,12 +3497,39 @@
 
     const clientLabel = (clientName !== '—') ? clientName : '_________________________';
 
+    const defaultTerms = {
+      payment: 'Payment is due as follows unless otherwise agreed in writing: a deposit of 30% of the total contract price is due upon signing; a progress payment of 40% is due upon substantial completion of rough work; and the remaining 30% balance is due upon final completion and walkthrough.\n\nAll amounts are in Canadian Dollars (CAD). Cheques payable to Saltire Group Corp, or by e-Transfer to the address provided by the Contractor.',
+      timeline: 'The Contractor will commence work on a mutually agreed upon start date and will proceed diligently to complete the work. Any estimated completion dates are subject to change due to weather, material availability, changes in scope, or other circumstances beyond the Contractor\'s reasonable control.',
+      changes: 'Any changes, additions, or deletions to the scope of work must be agreed upon in writing via a signed Change Order prior to commencing the changed work. Additional costs for changes will be invoiced accordingly.',
+      permits: 'Unless otherwise specified in the scope above, the Contractor will be responsible for obtaining required building permits. The Owner agrees to provide access to the premises for inspections as required by authorities having jurisdiction.',
+      warranty: 'The Contractor warrants all work performed under this contract against defects in workmanship for a period of one (1) year from the date of substantial completion. This warranty does not cover damage resulting from Owner misuse, normal wear and tear, or acts of nature.',
+      liability: 'The Contractor carries general liability insurance throughout the duration of this project. The Contractor is not responsible for pre-existing conditions, hidden defects, or damage caused by events outside its control.',
+      dispute: 'In the event of a dispute, both parties agree to first attempt resolution through good-faith negotiation. If unresolved within 30 days, disputes shall be referred to mediation before any legal proceedings are initiated, in accordance with Ontario law.',
+      governing: 'This contract shall be governed by and construed in accordance with the laws of the Province of Ontario and applicable federal laws of Canada.'
+    };
+
+    // Load saved custom terms if any, otherwise use defaults
+    let terms = {};
+    try { terms = JSON.parse(localStorage.getItem('saltireContractTerms') || '{}'); } catch(e) {}
+    function t(key) { return terms[key] !== undefined ? terms[key] : defaultTerms[key]; }
+
+    function termField(key, label) {
+      const rows = t(key).split('\n').length + 2;
+      return '<h4>' + label + '</h4>' +
+        '<textarea class="contract-term-field" data-term="' + key + '" rows="' + rows + '" style="width:100%;padding:8px 10px;border:1.5px solid #dde1e7;border-radius:6px;font-size:0.85rem;font-family:inherit;resize:vertical;background:#fffef5;line-height:1.5;">' +
+        t(key) + '</textarea>';
+    }
+
     const doc = document.getElementById('contractDoc');
     doc.innerHTML = '';
 
     const parts = [
-      '<h2>Construction Services Contract</h2>',
+      '<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;">',
+        '<h2 style="margin:0;">Construction Services Contract</h2>',
+        '<button onclick="window.saveContractTerms()" style="background:#27ae60;color:#fff;border:none;padding:7px 14px;border-radius:6px;cursor:pointer;font-size:0.8rem;font-weight:700;">💾 Save Terms as Default</button>',
+      '</div>',
       '<div class="contract-subtitle">Quote Reference: ' + quoteNum + ' &nbsp;|&nbsp; Date: ' + quoteDate + ' &nbsp;|&nbsp; Valid Until: ' + quoteExpiry + '</div>',
+      '<p style="font-size:0.78rem;color:#888;margin-bottom:16px;font-style:italic;">📝 All clauses below are editable. Click any text to modify it for this contract. Use "Save Terms as Default" to remember your changes for future contracts.</p>',
       '<h4>1. Parties</h4>',
       '<div class="contract-parties-grid">',
         '<div class="party-box"><strong>Contractor</strong>Saltire Construction<br>190 Colonnade Rd Unit 11<br>Ottawa, ON K2E 7K3<br>613-686-1714<br>saltiregroup.ca<br>Licence: 728425216TZ0001</div>',
@@ -3493,23 +3542,14 @@
       scopeTable,
       '<h4>4. Contract Price</h4>',
       '<div class="contract-total-box"><span class="ct-label">Total Contract Price (incl. ' + taxRate + '% HST)</span><span class="ct-amount">' + grandTotal + '</span></div>',
-      '<h4>5. Payment Terms</h4>',
-      '<p>Payment is due as follows unless otherwise agreed in writing: a deposit of 30% of the total contract price is due upon signing; a progress payment of 40% is due upon substantial completion of rough work; and the remaining 30% balance is due upon final completion and walkthrough.</p>',
-      '<p>All amounts are in Canadian Dollars (CAD). Cheques payable to Saltire Construction, or by e-Transfer to the address provided by the Contractor.</p>',
-      '<h4>6. Timeline</h4>',
-      '<p>The Contractor will commence work on a mutually agreed upon start date and will proceed diligently to complete the work. Any estimated completion dates are subject to change due to weather, material availability, changes in scope, or other circumstances beyond the Contractor\'s reasonable control.</p>',
-      '<h4>7. Changes to Scope</h4>',
-      '<p>Any changes, additions, or deletions to the scope of work must be agreed upon in writing via a signed Change Order prior to commencing the changed work. Additional costs for changes will be invoiced accordingly.</p>',
-      '<h4>8. Permits &amp; Inspections</h4>',
-      '<p>Unless otherwise specified in the scope above, the Contractor will be responsible for obtaining required building permits. The Owner agrees to provide access to the premises for inspections as required by authorities having jurisdiction.</p>',
-      '<h4>9. Warranty</h4>',
-      '<p>The Contractor warrants all work performed under this contract against defects in workmanship for a period of one (1) year from the date of substantial completion. This warranty does not cover damage resulting from Owner misuse, normal wear and tear, or acts of nature.</p>',
-      '<h4>10. Liability &amp; Insurance</h4>',
-      '<p>The Contractor carries general liability insurance throughout the duration of this project. The Contractor is not responsible for pre-existing conditions, hidden defects, or damage caused by events outside its control.</p>',
-      '<h4>11. Dispute Resolution</h4>',
-      '<p>In the event of a dispute, both parties agree to first attempt resolution through good-faith negotiation. If unresolved within 30 days, disputes shall be referred to mediation before any legal proceedings are initiated, in accordance with Ontario law.</p>',
-      '<h4>12. Governing Law</h4>',
-      '<p>This contract shall be governed by and construed in accordance with the laws of the Province of Ontario and applicable federal laws of Canada.</p>',
+      termField('payment', '5. Payment Terms'),
+      termField('timeline', '6. Timeline'),
+      termField('changes', '7. Changes to Scope'),
+      termField('permits', '8. Permits &amp; Inspections'),
+      termField('warranty', '9. Warranty'),
+      termField('liability', '10. Liability &amp; Insurance'),
+      termField('dispute', '11. Dispute Resolution'),
+      termField('governing', '12. Governing Law'),
       notesSection,
       '<div class="signature-section">',
         '<h4>Signatures</h4>',
