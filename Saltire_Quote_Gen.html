@@ -3407,12 +3407,12 @@
     }
   };
 
-</script>
+  /* ══════════════════════════════════════════════
+     SCOPE OF WORK PRINT
   ══════════════════════════════════════════════ */
 
   window.printScopeOfWork = function() {
     document.body.classList.add('scope-of-work-print');
-    // Temporarily override the page title shown in print header
     const origTitle = document.title;
     document.title = 'Scope of Work – ' + (document.getElementById('clientName').value || 'Saltire Construction');
     window.print();
@@ -3451,118 +3451,87 @@
     const notes       = document.getElementById('quoteNotes').value  || '';
     const grandTotal  = document.getElementById('grand-total').textContent;
     const taxRate     = document.getElementById('taxRate').value;
+    const today       = new Date().toLocaleDateString('en-CA');
 
-    // Build scope rows
+    // Build scope rows safely
     let scopeRows = '';
-    window.activeSectionIds.forEach(sid => {
-      const section = window.allSections.find(s => s.id === sid);
+    window.activeSectionIds.forEach(function(sid) {
+      const section = window.allSections.find(function(s) { return s.id === sid; });
       if (!section || !window.rows[sid]) return;
-      window.rows[sid].forEach(r => {
-        if (!r.desc && !r.labour && !r.material) return;
-        if (r.desc.trim()) {
-          scopeRows += `<tr><td><strong>${section.label}</strong></td><td style="white-space:pre-wrap;">${r.desc}</td></tr>`;
+      window.rows[sid].forEach(function(r) {
+        if (r.desc && r.desc.trim()) {
+          scopeRows += '<tr><td><strong>' + section.label + '</strong></td><td style="white-space:pre-wrap;">' + r.desc + '</td></tr>';
         }
       });
     });
 
-    const today = new Date().toLocaleDateString('en-CA');
+    const scopeTable = scopeRows
+      ? '<table class="contract-scope-table"><thead><tr><th>Section</th><th>Description</th></tr></thead><tbody>' + scopeRows + '</tbody></table>'
+      : '<p><em>(No line items entered yet)</em></p>';
 
-    const html = `
-      <h2>Construction Services Contract</h2>
-      <div class="contract-subtitle">Quote Reference: ${quoteNum} &nbsp;|&nbsp; Date: ${quoteDate} &nbsp;|&nbsp; Valid Until: ${quoteExpiry}</div>
+    const notesSection = notes
+      ? '<h4>13. Additional Notes &amp; Special Conditions</h4><p style="white-space:pre-wrap;">' + notes + '</p>'
+      : '';
 
-      <h4>1. Parties</h4>
-      <div class="contract-parties-grid">
-        <div class="party-box">
-          <strong>Contractor</strong>
-          Saltire Construction<br>
-          190 Colonnade Rd Unit 11<br>
-          Ottawa, ON K2E 7K3<br>
-          📞 613-686-1714<br>
-          saltiregroup.ca<br>
-          Licence: 728425216TZ0001
-        </div>
-        <div class="party-box">
-          <strong>Client (Owner)</strong>
-          ${clientName}<br>
-          ${clientPhone ? '📞 ' + clientPhone + '<br>' : ''}
-          ${clientEmail ? '✉ ' + clientEmail + '<br>' : ''}
-          ${projectAddr}
-        </div>
-      </div>
+    const clientLabel = (clientName !== '—') ? clientName : '_________________________';
 
-      <h4>2. Project Description</h4>
-      <p><strong>Project Type:</strong> ${projectType}<br>
-      <strong>Project Address:</strong> ${projectAddr}</p>
+    const doc = document.getElementById('contractDoc');
+    doc.innerHTML = '';
 
-      <h4>3. Scope of Work</h4>
-      <p>The Contractor agrees to perform the following work:</p>
-      ${scopeRows ? `
-      <table class="contract-scope-table">
-        <thead><tr><th>Section</th><th>Description</th></tr></thead>
-        <tbody>${scopeRows}</tbody>
-      </table>` : '<p><em>(No line items entered yet)</em></p>'}
+    const parts = [
+      '<h2>Construction Services Contract</h2>',
+      '<div class="contract-subtitle">Quote Reference: ' + quoteNum + ' &nbsp;|&nbsp; Date: ' + quoteDate + ' &nbsp;|&nbsp; Valid Until: ' + quoteExpiry + '</div>',
+      '<h4>1. Parties</h4>',
+      '<div class="contract-parties-grid">',
+        '<div class="party-box"><strong>Contractor</strong>Saltire Construction<br>190 Colonnade Rd Unit 11<br>Ottawa, ON K2E 7K3<br>613-686-1714<br>saltiregroup.ca<br>Licence: 728425216TZ0001</div>',
+        '<div class="party-box"><strong>Client (Owner)</strong>' + clientName + '<br>' + (clientPhone ? clientPhone + '<br>' : '') + (clientEmail ? clientEmail + '<br>' : '') + projectAddr + '</div>',
+      '</div>',
+      '<h4>2. Project Description</h4>',
+      '<p><strong>Project Type:</strong> ' + projectType + '<br><strong>Project Address:</strong> ' + projectAddr + '</p>',
+      '<h4>3. Scope of Work</h4>',
+      '<p>The Contractor agrees to perform the following work:</p>',
+      scopeTable,
+      '<h4>4. Contract Price</h4>',
+      '<div class="contract-total-box"><span class="ct-label">Total Contract Price (incl. ' + taxRate + '% HST)</span><span class="ct-amount">' + grandTotal + '</span></div>',
+      '<h4>5. Payment Terms</h4>',
+      '<p>Payment is due as follows unless otherwise agreed in writing: a deposit of 30% of the total contract price is due upon signing; a progress payment of 40% is due upon substantial completion of rough work; and the remaining 30% balance is due upon final completion and walkthrough.</p>',
+      '<p>All amounts are in Canadian Dollars (CAD). Cheques payable to Saltire Construction, or by e-Transfer to the address provided by the Contractor.</p>',
+      '<h4>6. Timeline</h4>',
+      '<p>The Contractor will commence work on a mutually agreed upon start date and will proceed diligently to complete the work. Any estimated completion dates are subject to change due to weather, material availability, changes in scope, or other circumstances beyond the Contractor\'s reasonable control.</p>',
+      '<h4>7. Changes to Scope</h4>',
+      '<p>Any changes, additions, or deletions to the scope of work must be agreed upon in writing via a signed Change Order prior to commencing the changed work. Additional costs for changes will be invoiced accordingly.</p>',
+      '<h4>8. Permits &amp; Inspections</h4>',
+      '<p>Unless otherwise specified in the scope above, the Contractor will be responsible for obtaining required building permits. The Owner agrees to provide access to the premises for inspections as required by authorities having jurisdiction.</p>',
+      '<h4>9. Warranty</h4>',
+      '<p>The Contractor warrants all work performed under this contract against defects in workmanship for a period of one (1) year from the date of substantial completion. This warranty does not cover damage resulting from Owner misuse, normal wear and tear, or acts of nature.</p>',
+      '<h4>10. Liability &amp; Insurance</h4>',
+      '<p>The Contractor carries general liability insurance throughout the duration of this project. The Contractor is not responsible for pre-existing conditions, hidden defects, or damage caused by events outside its control.</p>',
+      '<h4>11. Dispute Resolution</h4>',
+      '<p>In the event of a dispute, both parties agree to first attempt resolution through good-faith negotiation. If unresolved within 30 days, disputes shall be referred to mediation before any legal proceedings are initiated, in accordance with Ontario law.</p>',
+      '<h4>12. Governing Law</h4>',
+      '<p>This contract shall be governed by and construed in accordance with the laws of the Province of Ontario and applicable federal laws of Canada.</p>',
+      notesSection,
+      '<div class="signature-section">',
+        '<h4>Signatures</h4>',
+        '<p style="font-size:0.82rem;color:#555;margin-bottom:12px;">By signing below, both parties agree to the terms and conditions set out in this contract.</p>',
+        '<div class="sig-grid">',
+          '<div class="sig-block">',
+            '<label>Contractor – Saltire Construction</label>',
+            '<div class="sig-canvas-wrap"><canvas id="sigCanvasContractor" width="340" height="110"></canvas><button class="sig-clear-btn" onclick="clearSig(\'contractor\')">Clear</button></div>',
+            '<div class="sig-date-line">Date: <input type="date" id="sigDateContractor" value="' + today + '"/></div>',
+            '<div style="margin-top:6px;font-size:0.8rem;color:#777;">Print Name: ___________________________</div>',
+          '</div>',
+          '<div class="sig-block">',
+            '<label>Client (Owner) – ' + clientLabel + '</label>',
+            '<div class="sig-canvas-wrap"><canvas id="sigCanvasClient" width="340" height="110"></canvas><button class="sig-clear-btn" onclick="clearSig(\'client\')">Clear</button></div>',
+            '<div class="sig-date-line">Date: <input type="date" id="sigDateClient" value="' + today + '"/></div>',
+            '<div style="margin-top:6px;font-size:0.8rem;color:#777;">Print Name: ___________________________</div>',
+          '</div>',
+        '</div>',
+      '</div>'
+    ];
 
-      <h4>4. Contract Price</h4>
-      <div class="contract-total-box">
-        <span class="ct-label">Total Contract Price (incl. ${taxRate}% HST)</span>
-        <span class="ct-amount">${grandTotal}</span>
-      </div>
-
-      <h4>5. Payment Terms</h4>
-      <p>Payment is due as follows unless otherwise agreed in writing: a deposit of 30% of the total contract price is due upon signing; a progress payment of 40% is due upon substantial completion of rough work; and the remaining 30% balance is due upon final completion and walkthrough.</p>
-      <p>All amounts are in Canadian Dollars (CAD). Cheques payable to Saltire Construction, or by e-Transfer to the address provided by the Contractor.</p>
-
-      <h4>6. Timeline</h4>
-      <p>The Contractor will commence work on a mutually agreed upon start date and will proceed diligently to complete the work. Any estimated completion dates are subject to change due to weather, material availability, changes in scope, or other circumstances beyond the Contractor's reasonable control.</p>
-
-      <h4>7. Changes to Scope</h4>
-      <p>Any changes, additions, or deletions to the scope of work must be agreed upon in writing via a signed Change Order prior to commencing the changed work. Additional costs for changes will be invoiced accordingly.</p>
-
-      <h4>8. Permits & Inspections</h4>
-      <p>Unless otherwise specified in the scope above, the Contractor will be responsible for obtaining required building permits. The Owner agrees to provide access to the premises for inspections as required by authorities having jurisdiction.</p>
-
-      <h4>9. Warranty</h4>
-      <p>The Contractor warrants all work performed under this contract against defects in workmanship for a period of one (1) year from the date of substantial completion. This warranty does not cover damage resulting from Owner misuse, normal wear and tear, or acts of nature.</p>
-
-      <h4>10. Liability & Insurance</h4>
-      <p>The Contractor carries general liability insurance throughout the duration of this project. The Contractor is not responsible for pre-existing conditions, hidden defects, or damage caused by events outside its control.</p>
-
-      <h4>11. Dispute Resolution</h4>
-      <p>In the event of a dispute, both parties agree to first attempt resolution through good-faith negotiation. If unresolved within 30 days, disputes shall be referred to mediation before any legal proceedings are initiated, in accordance with Ontario law.</p>
-
-      <h4>12. Governing Law</h4>
-      <p>This contract shall be governed by and construed in accordance with the laws of the Province of Ontario and applicable federal laws of Canada.</p>
-
-      ${notes ? `<h4>13. Additional Notes & Special Conditions</h4><p style="white-space:pre-wrap;">${notes}</p>` : ''}
-
-      <div class="signature-section">
-        <h4>Signatures</h4>
-        <p style="font-size:0.82rem;color:#555;margin-bottom:12px;">By signing below, both parties agree to the terms and conditions set out in this contract.</p>
-        <div class="sig-grid">
-          <div class="sig-block">
-            <label>Contractor – Saltire Construction</label>
-            <div class="sig-canvas-wrap">
-              <canvas id="sigCanvasContractor" width="340" height="110"></canvas>
-              <button class="sig-clear-btn" onclick="clearSig('contractor')">Clear</button>
-            </div>
-            <div class="sig-date-line">Date: <input type="date" id="sigDateContractor" value="${today}"/></div>
-            <div style="margin-top:6px;font-size:0.8rem;color:#777;">Print Name: ___________________________</div>
-          </div>
-          <div class="sig-block">
-            <label>Client (Owner) – ${clientName !== '—' ? clientName : '_________________________'}</label>
-            <div class="sig-canvas-wrap">
-              <canvas id="sigCanvasClient" width="340" height="110"></canvas>
-              <button class="sig-clear-btn" onclick="clearSig('client')">Clear</button>
-            </div>
-            <div class="sig-date-line">Date: <input type="date" id="sigDateClient" value="${today}"/></div>
-            <div style="margin-top:6px;font-size:0.8rem;color:#777;">Print Name: ___________________________</div>
-          </div>
-        </div>
-      </div>
-    `;
-
-    document.getElementById('contractDoc').innerHTML = html;
+    doc.innerHTML = parts.join('');
   }
 
   /* ── SIGNATURE PADS ── */
