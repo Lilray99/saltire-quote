@@ -7578,5 +7578,4605 @@
         }
       ]
     }
+  },
+  "2 Hartford Pl Nepean K2R 1A5||QT-0320-01": {
+    "savedAt": "2026-03-24, 1:46 p.m.",
+    "meta": {
+      "quoteNum": "QT-0320-01",
+      "quoteDate": "2026-03-20",
+      "quoteExpiry": "2026-04-17",
+      "clientName": "Aljis Jovaisas",
+      "clientPhone": "613-884-0697",
+      "clientEmail": "avj@bell.net",
+      "projectAddr": "2 Hartford Pl Nepean K2R 1A5",
+      "projectType": "Large bathroom Reno",
+      "quoteNotes": "",
+      "taxRate": "13",
+      "markupRate": "50"
+    },
+    "rows": {
+      "sec-1773153954781-djohemfzj": [
+        {
+          "id": "1773153954781-0.7756043437595842",
+          "desc": "Permit & Drawings:\nSupply drawings for basement renovation with in law suite.\nSupply engineer stamp for drawings Supply building permit to City.",
+          "labour": "1500",
+          "material": "1500"
+        }
+      ],
+      "sec-1773153954782-pv37ihso5": [
+        {
+          "id": "1773153954782-0.7750462419421884",
+          "desc": "",
+          "labour": "",
+          "material": ""
+        }
+      ],
+      "sec-1773153954782-2x1mjzymx": [
+        {
+          "id": "1773153954782-0.8505092468615991",
+          "desc": "Project managment",
+          "labour": "02000",
+          "material": "0"
+        }
+      ],
+      "sec-1773153954782-cvht4fqcv": [
+        {
+          "id": "1773153954782-0.6354635502885241",
+          "desc": "Site Prep:\nTarps for floor protection\nLight plastic to seal off work area and dust control\nProvide dumpster for demolition\n",
+          "labour": "100",
+          "material": "500"
+        }
+      ],
+      "sec-1773153954782-7gjqrjmge": [
+        {
+          "id": "1773153954782-0.5820660606920095",
+          "desc": "Bathroom Demolition:\nRemove the toilet and save for re-installation\nRemove 2 Vanities, counter, sink & taps, and save for re-installation\n\nRemove and Dispose:\n2 Vanity, counter, sink & taps\n6 Potlights\nCabinet shelving above the bidet\nCeramic tile flooring, including framing and Subfloor\nBath Fan\nHeat lamp\nShower wall, faucet & doors\nFraming around the shower\nJacuzzi plumbing & vent pipe\nLedge framing at the window",
+          "labour": "1750",
+          "material": "0"
+        }
+      ],
+      "sec-1773153954782-ohyyy8ciy": [
+        {
+          "id": "1773153954782-0.4963394280479507",
+          "desc": "Bathroom Framing:\nSupply & Install:\nSpruce 2x4 framing to repair shower walls\nNew subfloor",
+          "labour": "500",
+          "material": "500"
+        }
+      ],
+      "sec-1773154375242-nisfy15h6": [
+        {
+          "id": "1773154375242-0.06627063858566362",
+          "desc": "",
+          "labour": "",
+          "material": ""
+        }
+      ],
+      "sec-1773162451811-zc3o8fblx": [
+        {
+          "id": "1774030310689-0.3748245467524579",
+          "desc": "Bathroom Drywall:\nSupply & Install:\nMould-resistant 1/2 drywall & plaster for complete bathroom repairs",
+          "labour": "1500",
+          "material": ""
+        }
+      ],
+      "sec-1773162499872-zof09rv6x": [
+        {
+          "id": "1774030656897-0.5128209908797566",
+          "desc": "Bathroom Paint:\nSupply & install paint for the bathroom",
+          "labour": "400",
+          "material": "200"
+        }
+      ],
+      "sec-1773162504672-plxt8pvs8": [
+        {
+          "id": "1774029843993-0.1400117441784361",
+          "desc": "Bathroom Electrical:\nSupply & Install:\n4 LED pot lights\n1 Panasonic quiet bath fan\n\nInstall Owner Supplied:\n2 light fixtures above vanity\n",
+          "labour": "600",
+          "material": "600"
+        }
+      ],
+      "sec-1773163627022-unmr3r7ob": [
+        {
+          "id": "1774032045854-0.4572120855756263",
+          "desc": "Bathroom Plumbing:\nInstall the owner-supplied bathtub and faucet\nReinstall the toilet removed during the demo\nReinstall 2 Vanities, counter, sink & taps\nRemove & cap bidet piping\n",
+          "labour": "700",
+          "material": "300"
+        },
+        {
+          "id": "1774032268723-0.6970983634560691",
+          "desc": "Bathroom Plumbing - Supply & Install:\nShower faucet [Budget of $1000]",
+          "labour": "400",
+          "material": "1100"
+        },
+        {
+          "id": "1774037858345-0.7870035699662309",
+          "desc": "Bathroom Plumbing  - Supply & Install:\nCustom Schluter base & drain kit\n22 sq ft Tiles to cover the top",
+          "labour": "750",
+          "material": "750"
+        }
+      ],
+      "sec-1773163638472-wiqplrhdz": [
+        {
+          "id": "1774030715501-0.2887538473448349",
+          "desc": "Bathroom Cabinetry:\nSupply & Install:\nCustom storage cabinet beside toilet [budget of $2200]\nInstall Owner supplied:\nMedicine cabinet",
+          "labour": "2700",
+          "material": ""
+        }
+      ],
+      "sec-1773163643226-ic55favab": [
+        {
+          "id": "1774029976372-0.7796541506095112",
+          "desc": "Bathroom HVAC:\nSupply & Install:\nDuctwork to connect the new bath fan to the existing ductwork of the old bath fan\n\nNOTE: The possibility that completely new ductwork will be necessary at extra cost. To be determined at demo.\n\nRelocate 2 heat run terminations",
+          "labour": "400",
+          "material": "100"
+        }
+      ],
+      "sec-1773164405902-ojkho5xnw": [
+        {
+          "id": "1774031733817-0.5290856416537235",
+          "desc": "",
+          "labour": "",
+          "material": ""
+        }
+      ],
+      "sec-1773165277897-6ukz9v0cs": [
+        {
+          "id": "1773165277897-0.2206165925961152",
+          "desc": "Install Owner Supplied:\n2 Mirrors\nToilet Roll Holder\nTowel Rack\nMedicine cabinet",
+          "labour": "350",
+          "material": ""
+        }
+      ],
+      "sec-1773327039429-xek701hl0": [
+        {
+          "id": "1774030175823-0.095462499828186",
+          "desc": "Bathroom Insulation:\nRepair insulation & vapour barrier in the outside wall of the shower\nNOTE: Spray foam insulation may be required below flooring at extra cost. To be determined at demo.",
+          "labour": "100",
+          "material": "100"
+        }
+      ],
+      "sec-1773328951316-akotk3wid": [
+        {
+          "id": "1774030958698-0.5433435124922482",
+          "desc": "Bathroom Trim:\nSupply & Install:\nBaseboards to match existing\nShoe molding ",
+          "labour": "250",
+          "material": "250"
+        }
+      ],
+      "sec-1773331762210-ogswzmzw5": [],
+      "sec-1773332837102-0qjoxwc5g": [
+        {
+          "id": "1774031197052-0.25765800442018927",
+          "desc": "Bathroom Flooring:\nSupply & Install:\n160 sq ft of deluxe vinyl flooring [budget of $4.00 sq ft]\nIncluding nosing",
+          "labour": "350",
+          "material": "750"
+        }
+      ],
+      "sec-1773761605100-t36r4z3u7": [
+        {
+          "id": "1773761605101-0.5812163306031347",
+          "desc": "Vinyl Siding:\nSuppy & Install new vinyl siding\nInstall vinyl corners\nInstall J trim at top of walls and around windows",
+          "labour": "14970",
+          "material": ""
+        }
+      ],
+      "sec-1773761763021-g8ftmd07w": [
+        {
+          "id": "1773761763021-0.8943848730141488",
+          "desc": "Supply Bin for waste removal including dump fees",
+          "labour": "1100",
+          "material": ""
+        }
+      ],
+      "sec-1773762217905-aqd7jpc06": [
+        {
+          "id": "1773762217905-0.3875520208912634",
+          "desc": "Fascia \nSupply & Install custom formed fascia around building and on the gable ends to allow proper transition to the shingled roof",
+          "labour": "1980",
+          "material": ""
+        }
+      ],
+      "sec-1774031406493-ypsgwkjgn": [],
+      "sec-1774031869687-n4twmu7se": [
+        {
+          "id": "1774031869687-0.6586169355924456",
+          "desc": "Bathroom Shower Walls:\nSupply & install:\nSeamless Muraluxe shower wall [Client to choose colour]",
+          "labour": "",
+          "material": "3600"
+        }
+      ],
+      "sec-1774031958428-amesl4b7e": [
+        {
+          "id": "1774031958428-0.789136782663366",
+          "desc": "Shower Doors:\nSupply & Install:\ncustom shower doors & panel",
+          "labour": "",
+          "material": "2800"
+        }
+      ],
+      "sec-1774362744326-qmemmezv0": [
+        {
+          "id": "1774365006328-0.7988758933295943",
+          "desc": "Boys Bathroom\n\nCustom Shower Door:\nSupply & Install:\nAdd 2 glass panels to the side walls of the shower, approximately 34x34 on ½ wall with 2x notch panels on each side of the door, and a glass door in the middle.\nAll supported with a header on top and a door with pivot hinges.",
+          "labour": "",
+          "material": "3030"
+        },
+        {
+          "id": "1774365174486-0.692960412772674",
+          "desc": "Donna's Bathroom\n\nSupply & Install:\n48x80 Glass panel with ceiling brace",
+          "labour": "",
+          "material": "1565"
+        }
+      ],
+      "sec-1774363348145-vi8uq9d20": [
+        {
+          "id": "1774363348145-0.14945455663866458",
+          "desc": "Bathroom Shower Walls:\nSupply & Install:\nSeamless Muraluxe shower wall [Client to choose colour]",
+          "labour": "",
+          "material": "3600"
+        }
+      ],
+      "sec-1774363908514-frys2zdow": [
+        {
+          "id": "1774363908514-0.20874997265805062",
+          "desc": "Bathroom Countertops:\nSupply & Install:\n2 Custom quartz countertops for vanities [budget of$1800]",
+          "labour": "",
+          "material": "2000"
+        }
+      ]
+    },
+    "activeSectionIds": [
+      "sec-1773153954782-2x1mjzymx",
+      "sec-1773153954782-cvht4fqcv",
+      "sec-1773153954782-7gjqrjmge",
+      "sec-1773153954782-ohyyy8ciy",
+      "sec-1773163643226-ic55favab",
+      "sec-1773163627022-unmr3r7ob",
+      "sec-1773162504672-plxt8pvs8",
+      "sec-1773327039429-xek701hl0",
+      "sec-1773162451811-zc3o8fblx",
+      "sec-1773162499872-zof09rv6x",
+      "sec-1773328951316-akotk3wid",
+      "sec-1773163638472-wiqplrhdz",
+      "sec-1773332837102-0qjoxwc5g",
+      "sec-1773165277897-6ukz9v0cs",
+      "sec-1774031869687-n4twmu7se",
+      "sec-1774031958428-amesl4b7e"
+    ],
+    "allSections": [
+      {
+        "id": "sec-1773153954781-djohemfzj",
+        "label": "Permits",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773153954782-pv37ihso5",
+        "label": "Design",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773153954782-2x1mjzymx",
+        "label": "Project Management",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773153954782-cvht4fqcv",
+        "label": "Site Prep",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773153954782-7gjqrjmge",
+        "label": "Demo",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773153954782-ohyyy8ciy",
+        "label": "Framing",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773154375242-nisfy15h6",
+        "label": "Terms & Conditions",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773162504672-plxt8pvs8",
+        "label": "Electrical",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773163643226-ic55favab",
+        "label": "HVAC",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773163627022-unmr3r7ob",
+        "label": "Plumbing",
+        "hidden": false
+      },
+      {
+        "id": "sec-1774031958428-amesl4b7e",
+        "label": "Shower Doors"
+      },
+      {
+        "id": "sec-1773327039429-xek701hl0",
+        "label": "Insulation",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773162451811-zc3o8fblx",
+        "label": "Drywall",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773162499872-zof09rv6x",
+        "label": "Paint",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773163638472-wiqplrhdz",
+        "label": "Cabinetry",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773328951316-akotk3wid",
+        "label": "Trim",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773332837102-0qjoxwc5g",
+        "label": "Flooring",
+        "hidden": false
+      },
+      {
+        "id": "sec-1774031869687-n4twmu7se",
+        "label": "Shower Walls"
+      },
+      {
+        "id": "sec-1773165277897-6ukz9v0cs",
+        "label": "Accessories",
+        "hidden": false
+      },
+      {
+        "id": "sec-1774031406493-ypsgwkjgn",
+        "label": "Countertops"
+      },
+      {
+        "id": "sec-1773164405902-ojkho5xnw",
+        "label": "Ceramic Tiles",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773331762210-ogswzmzw5",
+        "label": "Windows & Doors",
+        "hidden": false
+      }
+    ],
+    "sectionTemplates": {
+      "sec-1773153954781-djohemfzj": [
+        {
+          "id": "tmpl-1773325082044",
+          "desc": "Permit & Drawings:\nSupply drawings for basement renovation with in law suite.\nSupply engineer stamp for drawings Supply building permit to City.",
+          "labour": 1500,
+          "material": 1500,
+          "createdAt": "3/12/2026, 10:18:02 AM"
+        }
+      ],
+      "sec-1773153954782-pv37ihso5": [],
+      "sec-1773153954782-2x1mjzymx": [
+        {
+          "id": "tmpl-1773162250807",
+          "desc": "Project managment",
+          "labour": 200,
+          "material": 0,
+          "createdAt": "3/10/2026, 1:04:10 PM"
+        }
+      ],
+      "sec-1773153954782-cvht4fqcv": [
+        {
+          "id": "tmpl-1773162329199",
+          "desc": "Site Prep:\nTarps for floor protection\nLight plastic to seal off work area and dust control",
+          "labour": 200,
+          "material": 200,
+          "createdAt": "3/10/2026, 1:05:29 PM"
+        }
+      ],
+      "sec-1773153954782-7gjqrjmge": [
+        {
+          "id": "tmpl-1773162416639",
+          "desc": "Bathroom Demolition - Remove and Dispose:\nToilet\nVanity, sink & taps\nBathtub & faucet\nBath Fan\nCeramic tiles on floors and walls",
+          "labour": 0,
+          "material": 0,
+          "createdAt": "3/10/2026, 1:06:56 PM"
+        },
+        {
+          "id": "tmpl-1773325726243",
+          "desc": "Basement renovation - Remove & Dispose:\nWall paneling \nCarpet\nBathroom",
+          "labour": 1000,
+          "material": 300,
+          "createdAt": "3/12/2026, 10:28:46 AM"
+        }
+      ],
+      "sec-1773153954782-ohyyy8ciy": [
+        {
+          "id": "tmpl-1773325717385",
+          "desc": "Basement Framing:\nSuppy & Install:\nSpruce 2x4 framing as needed around perimieter\nFrame bedroom and bathroom as per drawings\nFrame around electrical panel\nResilient channel on basement ceiling",
+          "labour": 2000,
+          "material": 1500,
+          "createdAt": "3/12/2026, 10:28:37 AM"
+        },
+        {
+          "id": "tmpl-1774029780181",
+          "desc": "Bathroom Framing:\nSupply & Install:\nSpruce 2x4 framing to repair shower walls\nNew subfloor",
+          "labour": 500,
+          "material": 500,
+          "createdAt": "3/20/2026, 2:03:00 PM"
+        }
+      ],
+      "sec-1773154375242-nisfy15h6": [],
+      "sec-1773162451811-zc3o8fblx": [
+        {
+          "id": "tmpl-1773162677858",
+          "desc": "Drywall Supply & Install:\nRepair walls and ceiling after demo",
+          "labour": 500,
+          "material": 1500,
+          "createdAt": "3/10/2026, 1:11:17 PM"
+        },
+        {
+          "id": "tmpl-1773328730166",
+          "desc": "Basment Drywall - Supply & Install:\n1/2 inch drywall and plaster, tape, mud, sand and prime check:\nExterior walls & ceiling\nNew bedroom walls & ceiling\nNew bathroom walls and ceiling",
+          "labour": 4500,
+          "material": 4500,
+          "createdAt": "3/12/2026, 11:18:50 AM"
+        },
+        {
+          "id": "tmpl-1774030621394",
+          "desc": "Bathroom Drywall:\nSupply & Install:\nMould-resistant 1/2 drywall & plaster for complete bathroom repairs",
+          "labour": 1400,
+          "material": 0,
+          "createdAt": "3/20/2026, 2:17:01 PM"
+        }
+      ],
+      "sec-1773162499872-zof09rv6x": [
+        {
+          "id": "tmpl-1773162760913",
+          "desc": "Supply & Install paint for bathroom",
+          "labour": 500,
+          "material": 100,
+          "createdAt": "3/10/2026, 1:12:40 PM"
+        },
+        {
+          "id": "tmpl-1773328928456",
+          "desc": "Basement Painting:\nSupply & Install:\nPaint for bathroom [1 colour]\nPaint for main living area [1 colour]\nPaint for bedroom [1 colour]\nPaint for trim and baseboards",
+          "labour": 1700,
+          "material": 600,
+          "createdAt": "3/12/2026, 11:22:08 AM"
+        },
+        {
+          "id": "tmpl-1774030704621",
+          "desc": "Bathroom Paint:\nSupply & install paint for the bathroom",
+          "labour": 400,
+          "material": 200,
+          "createdAt": "3/20/2026, 2:18:24 PM"
+        }
+      ],
+      "sec-1773162504672-plxt8pvs8": [
+        {
+          "id": "tmpl-1773163818352",
+          "desc": "Bathroom Electrical - Supply & Install:\nPanasonic bath fan\nOne decora GFI plug\nOne decora light switch for bath fan",
+          "labour": 0,
+          "material": 0,
+          "createdAt": "3/10/2026, 1:30:18 PM"
+        },
+        {
+          "id": "tmpl-1773163953138",
+          "desc": "Install Owner Supplied Light fixtures above vanity",
+          "labour": 100,
+          "material": 0,
+          "createdAt": "3/10/2026, 1:32:33 PM"
+        },
+        {
+          "id": "tmpl-1773169051682",
+          "desc": "Heated Flooring\nSupply & install heated floor with wall thermostat",
+          "labour": 1200,
+          "material": 800,
+          "createdAt": "3/10/2026, 2:57:31 PM"
+        },
+        {
+          "id": "tmpl-1773169113468",
+          "desc": "ESSA Permit and Inspection",
+          "labour": 400,
+          "material": 0,
+          "createdAt": "3/10/2026, 2:58:33 PM"
+        },
+        {
+          "id": "tmpl-1773326999717",
+          "desc": "ESSA Permit supplied with inspections\nBasement Electrical - Supply & Install:\nWiring as needed to new bedroom and new bathroom from main panel\nPanasonic bath fan\n1 GFI plug in new bathroom\n1 light switch for bath fan and pot lights\n1 light switch for vanity lights\n6 pot lights in main area\n4 pot lights in new bedroom\n2 potlights in new bathroom\nNOTE: If more electrical is needed to meet code that is not included in this quote.",
+          "labour": 1000,
+          "material": 3000,
+          "createdAt": "3/12/2026, 10:49:59 AM"
+        },
+        {
+          "id": "tmpl-1773336770326",
+          "desc": "ESSA Permit supplied with inspections\nBasement Electrical - Supply & Install:\nWiring as needed to new bedroom and new bathroom from main panel\nPanasonic bath fan\n1 GFI plug in new bathroom\n1 light switch for bath fan and pot lights\n1 light switch for vanity lights\n6 pot lights in main area\n5 plugs in main living area \n4 pot lights in new bedroom\n1 light switch in new bedroom\n5 plugs in new bedroom\n4 potlights in new bathroom\n1 Smoke detector\n1 CO dectector\nNOTE: If more electrical is needed to meet code that is not included in this quote.",
+          "labour": 1500,
+          "material": 3200,
+          "createdAt": "3/12/2026, 1:32:50 PM"
+        },
+        {
+          "id": "tmpl-1774029950181",
+          "desc": "Bathroom Electrical:\nSupply & Install:\n4 LED pot lights\n1 Panasonic quiet bath fan\n\nInstall Owner Supplied:\n2 light fixtures above vanity",
+          "labour": 600,
+          "material": 600,
+          "createdAt": "3/20/2026, 2:05:50 PM"
+        }
+      ],
+      "sec-1773163627022-unmr3r7ob": [
+        {
+          "id": "tmpl-1773164076347",
+          "desc": "Bathroom Plumbing  - Supply & Install:\nSchluter base & drain kit",
+          "labour": 400,
+          "material": 400,
+          "createdAt": "3/10/2026, 1:34:36 PM"
+        },
+        {
+          "id": "tmpl-1773164133553",
+          "desc": "Bathroom Plumbing - Supply & Install:\nShower faucet [Budget of $1000]",
+          "labour": 0,
+          "material": 1000,
+          "createdAt": "3/10/2026, 1:35:33 PM"
+        },
+        {
+          "id": "tmpl-1773164208065",
+          "desc": "Bathroom Plumbing - Supply & Install:\nShower doors [Budget of $1200]",
+          "labour": 600,
+          "material": 1200,
+          "createdAt": "3/10/2026, 1:36:48 PM"
+        },
+        {
+          "id": "tmpl-1773164287667",
+          "desc": "Bathroom Plumbing - Toilet\nSupply & Install Toilet [budget of $400]",
+          "labour": 100,
+          "material": 400,
+          "createdAt": "3/10/2026, 1:38:07 PM"
+        },
+        {
+          "id": "tmpl-1773168952964",
+          "desc": "Bathroom Rough in:\nRough in new tub location \nSupply & Install new ABS and Pex piping to new tub location",
+          "labour": 1000,
+          "material": 1000,
+          "createdAt": "3/10/2026, 2:55:52 PM"
+        },
+        {
+          "id": "tmpl-1773326290596",
+          "desc": "Bathroom Plumbing Tub\nSupply & Install 30x60 acrylic bathtub with overflow [budget of $1000]",
+          "labour": 1000,
+          "material": 1000,
+          "createdAt": "3/12/2026, 10:38:10 AM"
+        }
+      ],
+      "sec-1773163638472-wiqplrhdz": [
+        {
+          "id": "tmpl-1773165244621",
+          "desc": "Bathroom Vanity\nSupply & Install: \n42in bathroom vanity with sink [Budget of $1000]",
+          "labour": 200,
+          "material": 1200,
+          "createdAt": "3/10/2026, 1:54:04 PM"
+        },
+        {
+          "id": "tmpl-1773332774233",
+          "desc": "Bathroom Vanity 36\"\nSupply & Install: \n36in bathroom vanity with sink & taps [Budget of $2000]",
+          "labour": 400,
+          "material": 2100,
+          "createdAt": "3/12/2026, 12:26:14 PM"
+        }
+      ],
+      "sec-1773163643226-ic55favab": [
+        {
+          "id": "tmpl-1773164386154",
+          "desc": "HVAC - Bath Fan ductwork\nSupply and Install ducting to connect new bath fan to existing ductwork.",
+          "labour": 100,
+          "material": 100,
+          "createdAt": "3/10/2026, 1:39:46 PM"
+        },
+        {
+          "id": "tmpl-1773325837350",
+          "desc": "Basement HVAC \nBath Fan ductwork\nSupply and Install ducting to connect new bath fan to existing ductwork.\nNOTE: If no ductwork is present or ducts need to be rearranged, this will be at additional cost.",
+          "labour": 100,
+          "material": 100,
+          "createdAt": "3/12/2026, 10:30:37 AM"
+        },
+        {
+          "id": "tmpl-1774030159922",
+          "desc": "Bathroom HVAC:\nSupply & Install:\nDuctwork to connect the new bath fan to the existing ductwork of the old bath fan\n\nNOTE: The possibility that completely new ductwork will be necessary at extra cost. To be determined at demo.\n\nRelocate 2 heat run terminations",
+          "labour": 400,
+          "material": 100,
+          "createdAt": "3/20/2026, 2:09:19 PM"
+        }
+      ],
+      "sec-1773164405902-ojkho5xnw": [
+        {
+          "id": "tmpl-1773164496132",
+          "desc": "Shower walls\nSupply & Install\n100 sq ft of ceramic tiles for shower walls [budget of $5 sq ft]",
+          "labour": 800,
+          "material": 600,
+          "createdAt": "3/10/2026, 1:41:36 PM"
+        },
+        {
+          "id": "tmpl-1773164682746",
+          "desc": "Shower Base\nSupply & Install:\n30 sq ft of ceramic tiles for shower base [budget of $10 sq ft]",
+          "labour": 400,
+          "material": 400,
+          "createdAt": "3/10/2026, 1:44:42 PM"
+        },
+        {
+          "id": "tmpl-1773165620936",
+          "desc": "Bathroom floor\nSupply & Install 100 sq ft of Floor tiles [budget of $7 sq ft]",
+          "labour": 800,
+          "material": 800,
+          "createdAt": "3/10/2026, 2:00:20 PM"
+        }
+      ],
+      "sec-1773165277897-6ukz9v0cs": [
+        {
+          "id": "tmpl-1773165353775",
+          "desc": "Install Owner Supplied:\nMirror\nToilet Roll Holder\nTowel Rack",
+          "labour": 200,
+          "material": 0,
+          "createdAt": "3/10/2026, 1:55:53 PM"
+        }
+      ],
+      "sec-1773327039429-xek701hl0": [
+        {
+          "id": "tmpl-1773327193200",
+          "desc": "Basement Insulation:\nIt is understood that the exerior walls have insulation and vapour barrier. If this is needed or needs replacing, this is at additional cost.",
+          "labour": 0,
+          "material": 0,
+          "createdAt": "3/12/2026, 10:53:13 AM"
+        },
+        {
+          "id": "tmpl-1774030298901",
+          "desc": "Bathroom Insulation:\nRepair insulation & vapour barrier in the outside wall of the shower\nNOTE: Spray foam insulation may be required below flooring at extra cost. To be determined at demo.",
+          "labour": 100,
+          "material": 100,
+          "createdAt": "3/20/2026, 2:11:38 PM"
+        }
+      ],
+      "sec-1773328951316-akotk3wid": [
+        {
+          "id": "tmpl-1773332504313",
+          "desc": "Basement Baseboard & Trim:\nSupply & Install:\nBaseboard to match existing in home around basement and in new bedroom & Bathroom Approx 90 linier ft\nTrim doors of new bedroom and bathroom",
+          "labour": 0,
+          "material": 0,
+          "createdAt": "3/12/2026, 12:21:44 PM"
+        }
+      ],
+      "sec-1773331762210-ogswzmzw5": [
+        {
+          "id": "tmpl-1773332307008",
+          "desc": "Basement - Windows & Doors\nSupply and install:\n2 interior doors with frames [budget $250 ea]\n1 each in new bedroom and new bathroom\n1 38x24 in egress window [budget $600] \n2 passage lock set to match home [[budget $50 ea]",
+          "labour": 400,
+          "material": 1300,
+          "createdAt": "3/12/2026, 12:18:27 PM"
+        }
+      ],
+      "sec-1773332837102-0qjoxwc5g": [
+        {
+          "id": "tmpl-1773335267731",
+          "desc": "Basement flooring\nSupply & Install:\n750 sq ft of VCT floor tiles in main living and bedroom area. [budget of $4 sq ft]\nIf subfloor is needed, it will be an additional cost",
+          "labour": 2500,
+          "material": 3500,
+          "createdAt": "3/12/2026, 1:07:47 PM"
+        },
+        {
+          "id": "tmpl-1773336920388",
+          "desc": "Basement flooring\nSupply & Install:\n1000 sq ft of VCT floor tiles in main living and bedroom area. [budget of $4 sq ft]\nIf subfloor is needed, it will be an additional cost",
+          "labour": 2500,
+          "material": 5000,
+          "createdAt": "3/12/2026, 1:35:20 PM"
+        },
+        {
+          "id": "tmpl-1774031331339",
+          "desc": "Bathroom Flooring:\nSupply & Install:\n160 sq ft of deluxe vinyl flooring [budget of $4.00 sq ft]\nIncluding nosing",
+          "labour": 350,
+          "material": 750,
+          "createdAt": "3/20/2026, 2:28:51 PM"
+        }
+      ],
+      "sec-1774031406493-ypsgwkjgn": [],
+      "sec-1774031869687-n4twmu7se": [],
+      "sec-1774031958428-amesl4b7e": [
+        {
+          "id": "tmpl-1774032789529",
+          "desc": "Shower Doors:\nSupply & Install:\ncustom shower doors & panel",
+          "labour": 0,
+          "material": 2800,
+          "createdAt": "3/20/2026, 2:53:09 PM"
+        }
+      ]
+    }
+  },
+  "2 Hartford Pl Nepean K2R 1A5||QT-0326-01": {
+    "savedAt": "2026-03-24, 1:47 p.m.",
+    "meta": {
+      "quoteNum": "QT-0326-01",
+      "quoteDate": "2026-03-20",
+      "quoteExpiry": "2026-04-17",
+      "clientName": "Aljis Jovaisas",
+      "clientPhone": "613-884-0697",
+      "clientEmail": "avj@bell.net",
+      "projectAddr": "2 Hartford Pl Nepean K2R 1A5",
+      "projectType": "Large bathroom Reno",
+      "quoteNotes": "",
+      "taxRate": "13",
+      "markupRate": "50"
+    },
+    "rows": {
+      "sec-1773153954781-djohemfzj": [
+        {
+          "id": "1773153954781-0.7756043437595842",
+          "desc": "Permit & Drawings:\nSupply drawings for basement renovation with in law suite.\nSupply engineer stamp for drawings Supply building permit to City.",
+          "labour": "1500",
+          "material": "1500"
+        }
+      ],
+      "sec-1773153954782-pv37ihso5": [
+        {
+          "id": "1773153954782-0.7750462419421884",
+          "desc": "",
+          "labour": "",
+          "material": ""
+        }
+      ],
+      "sec-1773153954782-2x1mjzymx": [
+        {
+          "id": "1773153954782-0.8505092468615991",
+          "desc": "Project managment",
+          "labour": "02000",
+          "material": "0"
+        }
+      ],
+      "sec-1773153954782-cvht4fqcv": [
+        {
+          "id": "1773153954782-0.6354635502885241",
+          "desc": "Site Prep:\nTarps for floor protection\nLight plastic to seal off work area and dust control\nProvide dumpster for demolition\n",
+          "labour": "100",
+          "material": "500"
+        }
+      ],
+      "sec-1773153954782-7gjqrjmge": [
+        {
+          "id": "1773153954782-0.5820660606920095",
+          "desc": "Bathroom Demolition:\nRemove the toilet and save for re-installation\nRemove 2 Vanities, counter, sink & taps, and save for re-installation\n\nRemove and Dispose:\n2 Vanity, counter, sink & taps\n6 Potlights\nCabinet shelving above the bidet\nCeramic tile flooring, including framing and Subfloor\nBath Fan\nHeat lamp\nShower wall, faucet & doors\nFraming around the shower\nJacuzzi plumbing & vent pipe\nLedge framing at the window",
+          "labour": "1750",
+          "material": "0"
+        }
+      ],
+      "sec-1773153954782-ohyyy8ciy": [
+        {
+          "id": "1773153954782-0.4963394280479507",
+          "desc": "Bathroom Framing:\nSupply & Install:\nSpruce 2x4 framing to repair shower walls\nNew subfloor",
+          "labour": "500",
+          "material": "500"
+        }
+      ],
+      "sec-1773154375242-nisfy15h6": [
+        {
+          "id": "1773154375242-0.06627063858566362",
+          "desc": "",
+          "labour": "",
+          "material": ""
+        }
+      ],
+      "sec-1773162451811-zc3o8fblx": [
+        {
+          "id": "1774030310689-0.3748245467524579",
+          "desc": "Bathroom Drywall:\nSupply & Install:\nMould-resistant 1/2 drywall & plaster for complete bathroom repairs",
+          "labour": "1500",
+          "material": ""
+        }
+      ],
+      "sec-1773162499872-zof09rv6x": [
+        {
+          "id": "1774030656897-0.5128209908797566",
+          "desc": "Bathroom Paint:\nSupply & install paint for the bathroom",
+          "labour": "400",
+          "material": "200"
+        }
+      ],
+      "sec-1773162504672-plxt8pvs8": [
+        {
+          "id": "1774029843993-0.1400117441784361",
+          "desc": "Bathroom Electrical:\nSupply & Install:\n4 LED pot lights\n1 Panasonic quiet bath fan\n\nInstall Owner Supplied:\n2 light fixtures above vanity\n",
+          "labour": "600",
+          "material": "600"
+        }
+      ],
+      "sec-1773163627022-unmr3r7ob": [
+        {
+          "id": "1774032045854-0.4572120855756263",
+          "desc": "Bathroom Plumbing:\nInstall the owner-supplied bathtub and faucet\nReinstall the toilet removed during the demo\nReinstall 2 Vanities, counter, sink & taps\nRemove & cap bidet piping\n",
+          "labour": "700",
+          "material": "300"
+        },
+        {
+          "id": "1774032268723-0.6970983634560691",
+          "desc": "Bathroom Plumbing - Supply & Install:\nShower faucet [Budget of $1000]",
+          "labour": "400",
+          "material": "1100"
+        },
+        {
+          "id": "1774037858345-0.7870035699662309",
+          "desc": "Bathroom Plumbing  - Supply & Install:\nCustom Schluter base & drain kit\n22 sq ft Tiles to cover the top",
+          "labour": "750",
+          "material": "750"
+        }
+      ],
+      "sec-1773163638472-wiqplrhdz": [
+        {
+          "id": "1774030715501-0.2887538473448349",
+          "desc": "Bathroom Cabinetry:\nSupply & Install:\nCustom storage cabinet beside toilet [budget of $2200]\nInstall Owner supplied:\nMedicine cabinet",
+          "labour": "2700",
+          "material": ""
+        }
+      ],
+      "sec-1773163643226-ic55favab": [
+        {
+          "id": "1774029976372-0.7796541506095112",
+          "desc": "Bathroom HVAC:\nSupply & Install:\nDuctwork to connect the new bath fan to the existing ductwork of the old bath fan\n\nNOTE: The possibility that completely new ductwork will be necessary at extra cost. To be determined at demo.\n\nRelocate 2 heat run terminations",
+          "labour": "400",
+          "material": "100"
+        }
+      ],
+      "sec-1773164405902-ojkho5xnw": [
+        {
+          "id": "1774031733817-0.5290856416537235",
+          "desc": "",
+          "labour": "",
+          "material": ""
+        }
+      ],
+      "sec-1773165277897-6ukz9v0cs": [
+        {
+          "id": "1773165277897-0.2206165925961152",
+          "desc": "Install Owner Supplied:\n2 Mirrors\nToilet Roll Holder\nTowel Rack\nMedicine cabinet",
+          "labour": "350",
+          "material": ""
+        }
+      ],
+      "sec-1773327039429-xek701hl0": [
+        {
+          "id": "1774030175823-0.095462499828186",
+          "desc": "Bathroom Insulation:\nRepair insulation & vapour barrier in the outside wall of the shower\nNOTE: Spray foam insulation may be required below flooring at extra cost. To be determined at demo.",
+          "labour": "100",
+          "material": "100"
+        }
+      ],
+      "sec-1773328951316-akotk3wid": [
+        {
+          "id": "1774030958698-0.5433435124922482",
+          "desc": "Bathroom Trim:\nSupply & Install:\nBaseboards to match existing\nShoe molding ",
+          "labour": "250",
+          "material": "250"
+        }
+      ],
+      "sec-1773331762210-ogswzmzw5": [],
+      "sec-1773332837102-0qjoxwc5g": [
+        {
+          "id": "1774031197052-0.25765800442018927",
+          "desc": "Bathroom Flooring:\nSupply & Install:\n160 sq ft of deluxe vinyl flooring [budget of $4.00 sq ft]\nIncluding nosing",
+          "labour": "350",
+          "material": "750"
+        }
+      ],
+      "sec-1773761605100-t36r4z3u7": [
+        {
+          "id": "1773761605101-0.5812163306031347",
+          "desc": "Vinyl Siding:\nSuppy & Install new vinyl siding\nInstall vinyl corners\nInstall J trim at top of walls and around windows",
+          "labour": "14970",
+          "material": ""
+        }
+      ],
+      "sec-1773761763021-g8ftmd07w": [
+        {
+          "id": "1773761763021-0.8943848730141488",
+          "desc": "Supply Bin for waste removal including dump fees",
+          "labour": "1100",
+          "material": ""
+        }
+      ],
+      "sec-1773762217905-aqd7jpc06": [
+        {
+          "id": "1773762217905-0.3875520208912634",
+          "desc": "Fascia \nSupply & Install custom formed fascia around building and on the gable ends to allow proper transition to the shingled roof",
+          "labour": "1980",
+          "material": ""
+        }
+      ],
+      "sec-1774031406493-ypsgwkjgn": [],
+      "sec-1774031869687-n4twmu7se": [
+        {
+          "id": "1774031869687-0.6586169355924456",
+          "desc": "Bathroom Shower Walls:\nSupply & install:\nSeamless Muraluxe shower wall [Client to choose colour]",
+          "labour": "",
+          "material": "3600"
+        }
+      ],
+      "sec-1774031958428-amesl4b7e": [
+        {
+          "id": "1774031958428-0.789136782663366",
+          "desc": "Shower Doors:\nSupply & Install:\ncustom shower doors & panel",
+          "labour": "",
+          "material": "2800"
+        }
+      ],
+      "sec-1774362744326-qmemmezv0": [
+        {
+          "id": "1774365006328-0.7988758933295943",
+          "desc": "Boys Bathroom\n\nCustom Shower Door:\nSupply & Install:\nAdd 2 glass panels to the side walls of the shower, approximately 34x34 on ½ wall with 2x notch panels on each side of the door, and a glass door in the middle.\nAll supported with a header on top and a door with pivot hinges.",
+          "labour": "",
+          "material": "3030"
+        },
+        {
+          "id": "1774365174486-0.692960412772674",
+          "desc": "Donna's Bathroom\n\nSupply & Install:\n48x80 Glass panel with ceiling brace",
+          "labour": "",
+          "material": "1565"
+        }
+      ],
+      "sec-1774363348145-vi8uq9d20": [
+        {
+          "id": "1774363348145-0.14945455663866458",
+          "desc": "Bathroom Shower Walls:\nSupply & Install:\nSeamless Muraluxe shower wall [Client to choose colour]",
+          "labour": "",
+          "material": "3600"
+        }
+      ],
+      "sec-1774363908514-frys2zdow": [
+        {
+          "id": "1774363908514-0.20874997265805062",
+          "desc": "Bathroom Countertops:\nSupply & Install:\n2 Custom quartz countertops for vanities [budget of$1800]",
+          "labour": "",
+          "material": "2000"
+        }
+      ]
+    },
+    "activeSectionIds": [
+      "sec-1773153954782-2x1mjzymx",
+      "sec-1773153954782-cvht4fqcv",
+      "sec-1773153954782-7gjqrjmge",
+      "sec-1773153954782-ohyyy8ciy",
+      "sec-1773163643226-ic55favab",
+      "sec-1773163627022-unmr3r7ob",
+      "sec-1773162504672-plxt8pvs8",
+      "sec-1773327039429-xek701hl0",
+      "sec-1773162451811-zc3o8fblx",
+      "sec-1773162499872-zof09rv6x",
+      "sec-1773328951316-akotk3wid",
+      "sec-1773163638472-wiqplrhdz",
+      "sec-1773332837102-0qjoxwc5g",
+      "sec-1773165277897-6ukz9v0cs",
+      "sec-1774031869687-n4twmu7se",
+      "sec-1774031958428-amesl4b7e"
+    ],
+    "allSections": [
+      {
+        "id": "sec-1773153954781-djohemfzj",
+        "label": "Permits",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773153954782-pv37ihso5",
+        "label": "Design",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773153954782-2x1mjzymx",
+        "label": "Project Management",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773153954782-cvht4fqcv",
+        "label": "Site Prep",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773153954782-7gjqrjmge",
+        "label": "Demo",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773153954782-ohyyy8ciy",
+        "label": "Framing",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773154375242-nisfy15h6",
+        "label": "Terms & Conditions",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773162504672-plxt8pvs8",
+        "label": "Electrical",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773163643226-ic55favab",
+        "label": "HVAC",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773163627022-unmr3r7ob",
+        "label": "Plumbing",
+        "hidden": false
+      },
+      {
+        "id": "sec-1774031958428-amesl4b7e",
+        "label": "Shower Doors"
+      },
+      {
+        "id": "sec-1773327039429-xek701hl0",
+        "label": "Insulation",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773162451811-zc3o8fblx",
+        "label": "Drywall",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773162499872-zof09rv6x",
+        "label": "Paint",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773163638472-wiqplrhdz",
+        "label": "Cabinetry",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773328951316-akotk3wid",
+        "label": "Trim",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773332837102-0qjoxwc5g",
+        "label": "Flooring",
+        "hidden": false
+      },
+      {
+        "id": "sec-1774031869687-n4twmu7se",
+        "label": "Shower Walls"
+      },
+      {
+        "id": "sec-1773165277897-6ukz9v0cs",
+        "label": "Accessories",
+        "hidden": false
+      },
+      {
+        "id": "sec-1774031406493-ypsgwkjgn",
+        "label": "Countertops"
+      },
+      {
+        "id": "sec-1773164405902-ojkho5xnw",
+        "label": "Ceramic Tiles",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773331762210-ogswzmzw5",
+        "label": "Windows & Doors",
+        "hidden": false
+      }
+    ],
+    "sectionTemplates": {
+      "sec-1773153954781-djohemfzj": [
+        {
+          "id": "tmpl-1773325082044",
+          "desc": "Permit & Drawings:\nSupply drawings for basement renovation with in law suite.\nSupply engineer stamp for drawings Supply building permit to City.",
+          "labour": 1500,
+          "material": 1500,
+          "createdAt": "3/12/2026, 10:18:02 AM"
+        }
+      ],
+      "sec-1773153954782-pv37ihso5": [],
+      "sec-1773153954782-2x1mjzymx": [
+        {
+          "id": "tmpl-1773162250807",
+          "desc": "Project managment",
+          "labour": 200,
+          "material": 0,
+          "createdAt": "3/10/2026, 1:04:10 PM"
+        }
+      ],
+      "sec-1773153954782-cvht4fqcv": [
+        {
+          "id": "tmpl-1773162329199",
+          "desc": "Site Prep:\nTarps for floor protection\nLight plastic to seal off work area and dust control",
+          "labour": 200,
+          "material": 200,
+          "createdAt": "3/10/2026, 1:05:29 PM"
+        }
+      ],
+      "sec-1773153954782-7gjqrjmge": [
+        {
+          "id": "tmpl-1773162416639",
+          "desc": "Bathroom Demolition - Remove and Dispose:\nToilet\nVanity, sink & taps\nBathtub & faucet\nBath Fan\nCeramic tiles on floors and walls",
+          "labour": 0,
+          "material": 0,
+          "createdAt": "3/10/2026, 1:06:56 PM"
+        },
+        {
+          "id": "tmpl-1773325726243",
+          "desc": "Basement renovation - Remove & Dispose:\nWall paneling \nCarpet\nBathroom",
+          "labour": 1000,
+          "material": 300,
+          "createdAt": "3/12/2026, 10:28:46 AM"
+        }
+      ],
+      "sec-1773153954782-ohyyy8ciy": [
+        {
+          "id": "tmpl-1773325717385",
+          "desc": "Basement Framing:\nSuppy & Install:\nSpruce 2x4 framing as needed around perimieter\nFrame bedroom and bathroom as per drawings\nFrame around electrical panel\nResilient channel on basement ceiling",
+          "labour": 2000,
+          "material": 1500,
+          "createdAt": "3/12/2026, 10:28:37 AM"
+        },
+        {
+          "id": "tmpl-1774029780181",
+          "desc": "Bathroom Framing:\nSupply & Install:\nSpruce 2x4 framing to repair shower walls\nNew subfloor",
+          "labour": 500,
+          "material": 500,
+          "createdAt": "3/20/2026, 2:03:00 PM"
+        }
+      ],
+      "sec-1773154375242-nisfy15h6": [],
+      "sec-1773162451811-zc3o8fblx": [
+        {
+          "id": "tmpl-1773162677858",
+          "desc": "Drywall Supply & Install:\nRepair walls and ceiling after demo",
+          "labour": 500,
+          "material": 1500,
+          "createdAt": "3/10/2026, 1:11:17 PM"
+        },
+        {
+          "id": "tmpl-1773328730166",
+          "desc": "Basment Drywall - Supply & Install:\n1/2 inch drywall and plaster, tape, mud, sand and prime check:\nExterior walls & ceiling\nNew bedroom walls & ceiling\nNew bathroom walls and ceiling",
+          "labour": 4500,
+          "material": 4500,
+          "createdAt": "3/12/2026, 11:18:50 AM"
+        },
+        {
+          "id": "tmpl-1774030621394",
+          "desc": "Bathroom Drywall:\nSupply & Install:\nMould-resistant 1/2 drywall & plaster for complete bathroom repairs",
+          "labour": 1400,
+          "material": 0,
+          "createdAt": "3/20/2026, 2:17:01 PM"
+        }
+      ],
+      "sec-1773162499872-zof09rv6x": [
+        {
+          "id": "tmpl-1773162760913",
+          "desc": "Supply & Install paint for bathroom",
+          "labour": 500,
+          "material": 100,
+          "createdAt": "3/10/2026, 1:12:40 PM"
+        },
+        {
+          "id": "tmpl-1773328928456",
+          "desc": "Basement Painting:\nSupply & Install:\nPaint for bathroom [1 colour]\nPaint for main living area [1 colour]\nPaint for bedroom [1 colour]\nPaint for trim and baseboards",
+          "labour": 1700,
+          "material": 600,
+          "createdAt": "3/12/2026, 11:22:08 AM"
+        },
+        {
+          "id": "tmpl-1774030704621",
+          "desc": "Bathroom Paint:\nSupply & install paint for the bathroom",
+          "labour": 400,
+          "material": 200,
+          "createdAt": "3/20/2026, 2:18:24 PM"
+        }
+      ],
+      "sec-1773162504672-plxt8pvs8": [
+        {
+          "id": "tmpl-1773163818352",
+          "desc": "Bathroom Electrical - Supply & Install:\nPanasonic bath fan\nOne decora GFI plug\nOne decora light switch for bath fan",
+          "labour": 0,
+          "material": 0,
+          "createdAt": "3/10/2026, 1:30:18 PM"
+        },
+        {
+          "id": "tmpl-1773163953138",
+          "desc": "Install Owner Supplied Light fixtures above vanity",
+          "labour": 100,
+          "material": 0,
+          "createdAt": "3/10/2026, 1:32:33 PM"
+        },
+        {
+          "id": "tmpl-1773169051682",
+          "desc": "Heated Flooring\nSupply & install heated floor with wall thermostat",
+          "labour": 1200,
+          "material": 800,
+          "createdAt": "3/10/2026, 2:57:31 PM"
+        },
+        {
+          "id": "tmpl-1773169113468",
+          "desc": "ESSA Permit and Inspection",
+          "labour": 400,
+          "material": 0,
+          "createdAt": "3/10/2026, 2:58:33 PM"
+        },
+        {
+          "id": "tmpl-1773326999717",
+          "desc": "ESSA Permit supplied with inspections\nBasement Electrical - Supply & Install:\nWiring as needed to new bedroom and new bathroom from main panel\nPanasonic bath fan\n1 GFI plug in new bathroom\n1 light switch for bath fan and pot lights\n1 light switch for vanity lights\n6 pot lights in main area\n4 pot lights in new bedroom\n2 potlights in new bathroom\nNOTE: If more electrical is needed to meet code that is not included in this quote.",
+          "labour": 1000,
+          "material": 3000,
+          "createdAt": "3/12/2026, 10:49:59 AM"
+        },
+        {
+          "id": "tmpl-1773336770326",
+          "desc": "ESSA Permit supplied with inspections\nBasement Electrical - Supply & Install:\nWiring as needed to new bedroom and new bathroom from main panel\nPanasonic bath fan\n1 GFI plug in new bathroom\n1 light switch for bath fan and pot lights\n1 light switch for vanity lights\n6 pot lights in main area\n5 plugs in main living area \n4 pot lights in new bedroom\n1 light switch in new bedroom\n5 plugs in new bedroom\n4 potlights in new bathroom\n1 Smoke detector\n1 CO dectector\nNOTE: If more electrical is needed to meet code that is not included in this quote.",
+          "labour": 1500,
+          "material": 3200,
+          "createdAt": "3/12/2026, 1:32:50 PM"
+        },
+        {
+          "id": "tmpl-1774029950181",
+          "desc": "Bathroom Electrical:\nSupply & Install:\n4 LED pot lights\n1 Panasonic quiet bath fan\n\nInstall Owner Supplied:\n2 light fixtures above vanity",
+          "labour": 600,
+          "material": 600,
+          "createdAt": "3/20/2026, 2:05:50 PM"
+        }
+      ],
+      "sec-1773163627022-unmr3r7ob": [
+        {
+          "id": "tmpl-1773164076347",
+          "desc": "Bathroom Plumbing  - Supply & Install:\nSchluter base & drain kit",
+          "labour": 400,
+          "material": 400,
+          "createdAt": "3/10/2026, 1:34:36 PM"
+        },
+        {
+          "id": "tmpl-1773164133553",
+          "desc": "Bathroom Plumbing - Supply & Install:\nShower faucet [Budget of $1000]",
+          "labour": 0,
+          "material": 1000,
+          "createdAt": "3/10/2026, 1:35:33 PM"
+        },
+        {
+          "id": "tmpl-1773164208065",
+          "desc": "Bathroom Plumbing - Supply & Install:\nShower doors [Budget of $1200]",
+          "labour": 600,
+          "material": 1200,
+          "createdAt": "3/10/2026, 1:36:48 PM"
+        },
+        {
+          "id": "tmpl-1773164287667",
+          "desc": "Bathroom Plumbing - Toilet\nSupply & Install Toilet [budget of $400]",
+          "labour": 100,
+          "material": 400,
+          "createdAt": "3/10/2026, 1:38:07 PM"
+        },
+        {
+          "id": "tmpl-1773168952964",
+          "desc": "Bathroom Rough in:\nRough in new tub location \nSupply & Install new ABS and Pex piping to new tub location",
+          "labour": 1000,
+          "material": 1000,
+          "createdAt": "3/10/2026, 2:55:52 PM"
+        },
+        {
+          "id": "tmpl-1773326290596",
+          "desc": "Bathroom Plumbing Tub\nSupply & Install 30x60 acrylic bathtub with overflow [budget of $1000]",
+          "labour": 1000,
+          "material": 1000,
+          "createdAt": "3/12/2026, 10:38:10 AM"
+        }
+      ],
+      "sec-1773163638472-wiqplrhdz": [
+        {
+          "id": "tmpl-1773165244621",
+          "desc": "Bathroom Vanity\nSupply & Install: \n42in bathroom vanity with sink [Budget of $1000]",
+          "labour": 200,
+          "material": 1200,
+          "createdAt": "3/10/2026, 1:54:04 PM"
+        },
+        {
+          "id": "tmpl-1773332774233",
+          "desc": "Bathroom Vanity 36\"\nSupply & Install: \n36in bathroom vanity with sink & taps [Budget of $2000]",
+          "labour": 400,
+          "material": 2100,
+          "createdAt": "3/12/2026, 12:26:14 PM"
+        }
+      ],
+      "sec-1773163643226-ic55favab": [
+        {
+          "id": "tmpl-1773164386154",
+          "desc": "HVAC - Bath Fan ductwork\nSupply and Install ducting to connect new bath fan to existing ductwork.",
+          "labour": 100,
+          "material": 100,
+          "createdAt": "3/10/2026, 1:39:46 PM"
+        },
+        {
+          "id": "tmpl-1773325837350",
+          "desc": "Basement HVAC \nBath Fan ductwork\nSupply and Install ducting to connect new bath fan to existing ductwork.\nNOTE: If no ductwork is present or ducts need to be rearranged, this will be at additional cost.",
+          "labour": 100,
+          "material": 100,
+          "createdAt": "3/12/2026, 10:30:37 AM"
+        },
+        {
+          "id": "tmpl-1774030159922",
+          "desc": "Bathroom HVAC:\nSupply & Install:\nDuctwork to connect the new bath fan to the existing ductwork of the old bath fan\n\nNOTE: The possibility that completely new ductwork will be necessary at extra cost. To be determined at demo.\n\nRelocate 2 heat run terminations",
+          "labour": 400,
+          "material": 100,
+          "createdAt": "3/20/2026, 2:09:19 PM"
+        }
+      ],
+      "sec-1773164405902-ojkho5xnw": [
+        {
+          "id": "tmpl-1773164496132",
+          "desc": "Shower walls\nSupply & Install\n100 sq ft of ceramic tiles for shower walls [budget of $5 sq ft]",
+          "labour": 800,
+          "material": 600,
+          "createdAt": "3/10/2026, 1:41:36 PM"
+        },
+        {
+          "id": "tmpl-1773164682746",
+          "desc": "Shower Base\nSupply & Install:\n30 sq ft of ceramic tiles for shower base [budget of $10 sq ft]",
+          "labour": 400,
+          "material": 400,
+          "createdAt": "3/10/2026, 1:44:42 PM"
+        },
+        {
+          "id": "tmpl-1773165620936",
+          "desc": "Bathroom floor\nSupply & Install 100 sq ft of Floor tiles [budget of $7 sq ft]",
+          "labour": 800,
+          "material": 800,
+          "createdAt": "3/10/2026, 2:00:20 PM"
+        }
+      ],
+      "sec-1773165277897-6ukz9v0cs": [
+        {
+          "id": "tmpl-1773165353775",
+          "desc": "Install Owner Supplied:\nMirror\nToilet Roll Holder\nTowel Rack",
+          "labour": 200,
+          "material": 0,
+          "createdAt": "3/10/2026, 1:55:53 PM"
+        }
+      ],
+      "sec-1773327039429-xek701hl0": [
+        {
+          "id": "tmpl-1773327193200",
+          "desc": "Basement Insulation:\nIt is understood that the exerior walls have insulation and vapour barrier. If this is needed or needs replacing, this is at additional cost.",
+          "labour": 0,
+          "material": 0,
+          "createdAt": "3/12/2026, 10:53:13 AM"
+        },
+        {
+          "id": "tmpl-1774030298901",
+          "desc": "Bathroom Insulation:\nRepair insulation & vapour barrier in the outside wall of the shower\nNOTE: Spray foam insulation may be required below flooring at extra cost. To be determined at demo.",
+          "labour": 100,
+          "material": 100,
+          "createdAt": "3/20/2026, 2:11:38 PM"
+        }
+      ],
+      "sec-1773328951316-akotk3wid": [
+        {
+          "id": "tmpl-1773332504313",
+          "desc": "Basement Baseboard & Trim:\nSupply & Install:\nBaseboard to match existing in home around basement and in new bedroom & Bathroom Approx 90 linier ft\nTrim doors of new bedroom and bathroom",
+          "labour": 0,
+          "material": 0,
+          "createdAt": "3/12/2026, 12:21:44 PM"
+        }
+      ],
+      "sec-1773331762210-ogswzmzw5": [
+        {
+          "id": "tmpl-1773332307008",
+          "desc": "Basement - Windows & Doors\nSupply and install:\n2 interior doors with frames [budget $250 ea]\n1 each in new bedroom and new bathroom\n1 38x24 in egress window [budget $600] \n2 passage lock set to match home [[budget $50 ea]",
+          "labour": 400,
+          "material": 1300,
+          "createdAt": "3/12/2026, 12:18:27 PM"
+        }
+      ],
+      "sec-1773332837102-0qjoxwc5g": [
+        {
+          "id": "tmpl-1773335267731",
+          "desc": "Basement flooring\nSupply & Install:\n750 sq ft of VCT floor tiles in main living and bedroom area. [budget of $4 sq ft]\nIf subfloor is needed, it will be an additional cost",
+          "labour": 2500,
+          "material": 3500,
+          "createdAt": "3/12/2026, 1:07:47 PM"
+        },
+        {
+          "id": "tmpl-1773336920388",
+          "desc": "Basement flooring\nSupply & Install:\n1000 sq ft of VCT floor tiles in main living and bedroom area. [budget of $4 sq ft]\nIf subfloor is needed, it will be an additional cost",
+          "labour": 2500,
+          "material": 5000,
+          "createdAt": "3/12/2026, 1:35:20 PM"
+        },
+        {
+          "id": "tmpl-1774031331339",
+          "desc": "Bathroom Flooring:\nSupply & Install:\n160 sq ft of deluxe vinyl flooring [budget of $4.00 sq ft]\nIncluding nosing",
+          "labour": 350,
+          "material": 750,
+          "createdAt": "3/20/2026, 2:28:51 PM"
+        }
+      ],
+      "sec-1774031406493-ypsgwkjgn": [],
+      "sec-1774031869687-n4twmu7se": [],
+      "sec-1774031958428-amesl4b7e": [
+        {
+          "id": "tmpl-1774032789529",
+          "desc": "Shower Doors:\nSupply & Install:\ncustom shower doors & panel",
+          "labour": 0,
+          "material": 2800,
+          "createdAt": "3/20/2026, 2:53:09 PM"
+        }
+      ]
+    }
+  },
+  "2 Hartford Pl Nepean K2R 1A5||QT-0326-02 Boys Bath": {
+    "savedAt": "2026-03-24, 1:53 p.m.",
+    "meta": {
+      "quoteNum": "QT-0326-02",
+      "quoteDate": "2026-03-24",
+      "quoteExpiry": "2026-04-20",
+      "clientName": "Aljis Jovaisas",
+      "clientPhone": "613-884-0697",
+      "clientEmail": "avj@bell.net",
+      "projectAddr": "2 Hartford Pl Nepean K2R 1A5",
+      "projectType": "Boys Bathroom Shower Glass",
+      "quoteNotes": "",
+      "taxRate": "13",
+      "markupRate": "0"
+    },
+    "rows": {
+      "sec-1773153954781-djohemfzj": [],
+      "sec-1773153954782-pv37ihso5": [
+        {
+          "id": "1773153954782-0.7750462419421884",
+          "desc": "",
+          "labour": "",
+          "material": ""
+        }
+      ],
+      "sec-1773153954782-2x1mjzymx": [
+        {
+          "id": "1773153954782-0.8505092468615991",
+          "desc": "Project managment",
+          "labour": "2000",
+          "material": "0"
+        }
+      ],
+      "sec-1773153954782-cvht4fqcv": [
+        {
+          "id": "1773153954782-0.6354635502885241",
+          "desc": "Site Prep:\nTarps for floor protection\nLight plastic to seal off work area and dust control\nProvide dumpster for demolition\n",
+          "labour": "100",
+          "material": "500"
+        }
+      ],
+      "sec-1773153954782-7gjqrjmge": [
+        {
+          "id": "1774361970181-0.9210637388628218",
+          "desc": "Bathroom Demolition:\nRemove the toilet and save for re-installation\nRemove Vanities and save for re-installation\nRemove and Dispose:\nVanity counter, sink & taps\n6 potlights\nCabinet shelving above the bidet\nCeramic tile flooring, including framing & subfloor\nBath Fan\nHeat lamp\nShower wall, facuet & doors\nFraming around the shower\nJacuzzi plumbing and vent pipe\nLedge framing at the window",
+          "labour": "1620",
+          "material": "0"
+        }
+      ],
+      "sec-1773153954782-ohyyy8ciy": [
+        {
+          "id": "1774362240361-0.8086330753046895",
+          "desc": "Bathroom Framing:\nSupply & install:\nSpruce 2x4 framing to repair shower walls\nNew subfloor",
+          "labour": "500",
+          "material": "500"
+        }
+      ],
+      "sec-1773154375242-nisfy15h6": [
+        {
+          "id": "1773154375242-0.06627063858566362",
+          "desc": "",
+          "labour": "",
+          "material": ""
+        }
+      ],
+      "sec-1773162451811-zc3o8fblx": [
+        {
+          "id": "1774362926183-0.7544325698695836",
+          "desc": "Bathroom Drywall:\nSupply & Install:\nMould-resistant 1/2 in drywall & plaster for complete bathroom repairs",
+          "labour": "1400",
+          "material": ""
+        }
+      ],
+      "sec-1773162499872-zof09rv6x": [
+        {
+          "id": "1774362991461-0.786453977390709",
+          "desc": "Bathroom Paint:\nSupply & Install:\nPaint for the bathroom",
+          "labour": "400",
+          "material": "200"
+        }
+      ],
+      "sec-1773162504672-plxt8pvs8": [
+        {
+          "id": "1774362376208-0.9313858853556218",
+          "desc": "Bathroom Electrical:\nSupply & Install:\n4 LED pot lights\n1 Panasonic quiet bath fan\n\nInstall Owner Supplied:\n2 light fixtures above the vanity",
+          "labour": "600",
+          "material": "600"
+        }
+      ],
+      "sec-1773163627022-unmr3r7ob": [
+        {
+          "id": "1774362654241-0.3271291429081562",
+          "desc": "Bathroom Plumbing:\nInstall the owner-supplied bathtub & Faucet\nReinstall the toilet removed during the demo\nRemove & cap bidet piping",
+          "labour": "700",
+          "material": "200"
+        },
+        {
+          "id": "1774363503847-0.5943135405205165",
+          "desc": "Bathroom Plumbing:\nSupply & install:\nShower faucet [budget of $1000]",
+          "labour": "400",
+          "material": "1100"
+        },
+        {
+          "id": "1774363571511-0.7618130887058129",
+          "desc": "Bathroom Plumbing:\nSupply & install:\n2 sinks & Faucets for vanities [Budget of $1000]",
+          "labour": "500",
+          "material": "1700"
+        },
+        {
+          "id": "1774363639558-0.4132832602548169",
+          "desc": "Bathroom Plumbing:\nSupply & install:\nCustom Schluter base & drain kit\n22 sq ft tiles to cover the top [budget $7.00 sq ft]",
+          "labour": "500",
+          "material": "500"
+        }
+      ],
+      "sec-1773163638472-wiqplrhdz": [
+        {
+          "id": "1774363056935-0.6504700023556201",
+          "desc": "Bathroom Cabinetry:\nSupply & Install:\nCustom storage cabinet beside toilet [budget of $2200]\n\nInstall Owner Supplied:\nMedicine cabinet",
+          "labour": "2700",
+          "material": ""
+        }
+      ],
+      "sec-1773163643226-ic55favab": [
+        {
+          "id": "1774362480279-0.16021884670716402",
+          "desc": "Bathroom HVAC:\nSupply & Install:\nDuctwork to connect the new bath fan to the existing ductwork of the old bath fan\n\nNOTE: The possibility that completely new ductwork will be nessary at extra cost. To be determined at Demo.",
+          "labour": "400",
+          "material": "100"
+        }
+      ],
+      "sec-1773164405902-ojkho5xnw": [
+        {
+          "id": "1773164405902-0.24402249814068655",
+          "desc": "Shower walls\nSupply & Install\n100 sq ft of ceramic tiles for shower walls [budget of $5 sq ft]",
+          "labour": "800",
+          "material": "600"
+        },
+        {
+          "id": "1773164501411-0.35691269379945434",
+          "desc": "Shower Base\nSupply & Install:\n30 sq ft of ceramic tiles for shower base [budget of $10 sq ft]",
+          "labour": "400",
+          "material": "400"
+        },
+        {
+          "id": "1773165502376-0.47283154669036487",
+          "desc": "Bathroom floor\nSupply & Install 100 sq ft of Floor tiles [budget of $7 sq ft] ",
+          "labour": "800",
+          "material": "800"
+        }
+      ],
+      "sec-1773165277897-6ukz9v0cs": [
+        {
+          "id": "1773165277897-0.2206165925961152",
+          "desc": "Install Owner Supplied:\n2 Mirrors\nToilet Roll Holder\nTowel Rack",
+          "labour": "300",
+          "material": ""
+        }
+      ],
+      "sec-1773327039429-xek701hl0": [
+        {
+          "id": "1774362825492-0.8445914514641008",
+          "desc": "Bathroom Insulation:\nRepair insulation & vapour barrier in the outside wall of the shower\n\nNOTE: Spray foam insulation may be required below the flooring at extra cost. To be determined at demo.",
+          "labour": "100",
+          "material": "100"
+        }
+      ],
+      "sec-1773328951316-akotk3wid": [
+        {
+          "id": "1774363282338-0.29018819659373696",
+          "desc": "Bathroom Trim:\nSupply & Install:\nBaseboards to match existing\nShoe molding",
+          "labour": "250",
+          "material": "250"
+        }
+      ],
+      "sec-1773331762210-ogswzmzw5": [
+        {
+          "id": "1773331762210-0.5434797481722796",
+          "desc": "Basement - Windows & Doors\nSupply and install:\n2 interior doors with frames [budget $250 ea]\n1 each in new bedroom and new bathroom\n1 38x24 in egress window [budget $700] \n2 passage lock set to match home [[budget $50 ea]",
+          "labour": "700",
+          "material": "1600"
+        }
+      ],
+      "sec-1773332837102-0qjoxwc5g": [
+        {
+          "id": "1774363144386-0.9815875181082988",
+          "desc": "Bathroom Flooring:\nSupply & Install:\n160 sq ft of deluxe vinyl flooring [budget of $4.00 sq ft]",
+          "labour": "350",
+          "material": "750"
+        }
+      ],
+      "sec-1773761605100-t36r4z3u7": [
+        {
+          "id": "1773761605101-0.5812163306031347",
+          "desc": "Vinyl Siding:\nSuppy & Install new vinyl siding\nInstall vinyl corners\nInstall J trim at top of walls and around windows",
+          "labour": "14970",
+          "material": ""
+        }
+      ],
+      "sec-1773761763021-g8ftmd07w": [
+        {
+          "id": "1773761763021-0.8943848730141488",
+          "desc": "Supply Bin for waste removal including dump fees",
+          "labour": "1100",
+          "material": ""
+        }
+      ],
+      "sec-1773762217905-aqd7jpc06": [
+        {
+          "id": "1773762217905-0.3875520208912634",
+          "desc": "Fascia \nSupply & Install custom formed fascia around building and on the gable ends to allow proper transition to the shingled roof",
+          "labour": "1980",
+          "material": ""
+        }
+      ],
+      "sec-1774031406493-ypsgwkjgn": [
+        {
+          "id": "1774031406493-0.19668047982960313",
+          "desc": "Bathroom Countertops:\nSupply & Install:\n2 Custom Quartz countertop for vanities [Budget of $1800]",
+          "labour": "",
+          "material": "2000"
+        }
+      ],
+      "sec-1774031869687-n4twmu7se": [
+        {
+          "id": "1774031869687-0.6586169355924456",
+          "desc": "Bathroom Shower Walls:\nSupply & install:\nSeamless Muraluxe shower wall [Client to choose colour]",
+          "labour": "",
+          "material": "3600"
+        }
+      ],
+      "sec-1774031958428-amesl4b7e": [
+        {
+          "id": "1774031958428-0.789136782663366",
+          "desc": "Shower Doors:\nSupply & Install:\ncustom shower doors & panel",
+          "labour": "",
+          "material": "2800"
+        }
+      ],
+      "sec-1774362744326-qmemmezv0": [
+        {
+          "id": "1774365006328-0.7988758933295943",
+          "desc": "Boys Bathroom\n\nCustom Shower Door:\nSupply & Install:\nAdd 2 glass panels to the side walls of the shower, approximately 34x34 on ½ wall with 2x notch panels on each side of the door, and a glass door in the middle.\nAll supported with a header on top and a door with pivot hinges.",
+          "labour": "",
+          "material": "3030.00"
+        }
+      ],
+      "sec-1774363348145-vi8uq9d20": [
+        {
+          "id": "1774363348145-0.14945455663866458",
+          "desc": "Bathroom Shower Walls:\nSupply & Install:\nSeamless Muraluxe shower wall [Client to choose colour]",
+          "labour": "",
+          "material": "3600"
+        }
+      ],
+      "sec-1774363908514-frys2zdow": [
+        {
+          "id": "1774363908514-0.20874997265805062",
+          "desc": "Bathroom Countertops:\nSupply & Install:\n2 Custom quartz countertops for vanities [budget of$1800]",
+          "labour": "",
+          "material": "2000"
+        }
+      ]
+    },
+    "activeSectionIds": [
+      "sec-1774362744326-qmemmezv0"
+    ],
+    "allSections": [
+      {
+        "id": "sec-1773153954781-djohemfzj",
+        "label": "Permits",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773153954782-pv37ihso5",
+        "label": "Design",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773153954782-2x1mjzymx",
+        "label": "Project Management",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773153954782-cvht4fqcv",
+        "label": "Site Prep",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773153954782-7gjqrjmge",
+        "label": "Demo",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773153954782-ohyyy8ciy",
+        "label": "Framing",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773154375242-nisfy15h6",
+        "label": "Terms & Conditions",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773162504672-plxt8pvs8",
+        "label": "Electrical",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773163643226-ic55favab",
+        "label": "HVAC",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773163627022-unmr3r7ob",
+        "label": "Plumbing",
+        "hidden": false
+      },
+      {
+        "id": "sec-1774362744326-qmemmezv0",
+        "label": "Shower Doors"
+      },
+      {
+        "id": "sec-1773327039429-xek701hl0",
+        "label": "Insulation",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773162451811-zc3o8fblx",
+        "label": "Drywall",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773162499872-zof09rv6x",
+        "label": "Paint",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773163638472-wiqplrhdz",
+        "label": "Cabinetry",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773328951316-akotk3wid",
+        "label": "Trim",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773332837102-0qjoxwc5g",
+        "label": "Flooring",
+        "hidden": false
+      },
+      {
+        "id": "sec-1774363348145-vi8uq9d20",
+        "label": "Shower Walls"
+      },
+      {
+        "id": "sec-1773164405902-ojkho5xnw",
+        "label": "Ceramic Tiles",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773165277897-6ukz9v0cs",
+        "label": "Accessories",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773331762210-ogswzmzw5",
+        "label": "Windows & Doors",
+        "hidden": false
+      },
+      {
+        "id": "sec-1774363908514-frys2zdow",
+        "label": "Countertops"
+      }
+    ],
+    "sectionTemplates": {
+      "sec-1773153954781-djohemfzj": [
+        {
+          "id": "tmpl-1773325082044",
+          "desc": "Permit & Drawings:\nSupply drawings for basement renovation with in law suite.\nSupply engineer stamp for drawings Supply building permit to City.",
+          "labour": 1500,
+          "material": 1500,
+          "createdAt": "3/12/2026, 10:18:02 AM"
+        }
+      ],
+      "sec-1773153954782-pv37ihso5": [],
+      "sec-1773153954782-2x1mjzymx": [
+        {
+          "id": "tmpl-1773162250807",
+          "desc": "Project managment",
+          "labour": 200,
+          "material": 0,
+          "createdAt": "3/10/2026, 1:04:10 PM"
+        }
+      ],
+      "sec-1773153954782-cvht4fqcv": [
+        {
+          "id": "tmpl-1773162329199",
+          "desc": "Site Prep:\nTarps for floor protection\nLight plastic to seal off work area and dust control",
+          "labour": 200,
+          "material": 200,
+          "createdAt": "3/10/2026, 1:05:29 PM"
+        }
+      ],
+      "sec-1773153954782-7gjqrjmge": [
+        {
+          "id": "tmpl-1773162416639",
+          "desc": "Bathroom Demolition - Remove and Dispose:\nToilet\nVanity, sink & taps\nBathtub & faucet\nBath Fan\nCeramic tiles on floors and walls",
+          "labour": 0,
+          "material": 0,
+          "createdAt": "3/10/2026, 1:06:56 PM"
+        },
+        {
+          "id": "tmpl-1773325726243",
+          "desc": "Basement renovation - Remove & Dispose:\nWall paneling \nCarpet\nBathroom",
+          "labour": 1000,
+          "material": 300,
+          "createdAt": "3/12/2026, 10:28:46 AM"
+        },
+        {
+          "id": "tmpl-1774362215163",
+          "desc": "Bathroom Demolition:\nRemove the toilet and save for re-installation\nRemove Vanities and save for re-installation\nRemove and Dispose:\nVanity counter, sink & taps\n6 potlights\nCabinet shelving above the bidet\nCeramic tile flooring, including framing & subfloor\nBath Fan\nHeat lamp\nShower wall, facuet & doors\nFraming around the shower\nJacuzzi plumbing and vent pipe\nLedge framing at the window",
+          "labour": 0,
+          "material": 0,
+          "createdAt": "3/24/2026, 10:23:35 AM"
+        }
+      ],
+      "sec-1773153954782-ohyyy8ciy": [
+        {
+          "id": "tmpl-1773325717385",
+          "desc": "Basement Framing:\nSuppy & Install:\nSpruce 2x4 framing as needed around perimieter\nFrame bedroom and bathroom as per drawings\nFrame around electrical panel\nResilient channel on basement ceiling",
+          "labour": 2000,
+          "material": 1500,
+          "createdAt": "3/12/2026, 10:28:37 AM"
+        },
+        {
+          "id": "tmpl-1774362300820",
+          "desc": "Bathroom Framing:\nSupply & install:\nSpruce 2x4 framing to repair shower walls\nNew subfloor",
+          "labour": 500,
+          "material": 500,
+          "createdAt": "3/24/2026, 10:25:00 AM"
+        }
+      ],
+      "sec-1773154375242-nisfy15h6": [],
+      "sec-1773162451811-zc3o8fblx": [
+        {
+          "id": "tmpl-1773162677858",
+          "desc": "Drywall Supply & Install:\nRepair walls and ceiling after demo",
+          "labour": 500,
+          "material": 1500,
+          "createdAt": "3/10/2026, 1:11:17 PM"
+        },
+        {
+          "id": "tmpl-1773328730166",
+          "desc": "Basment Drywall - Supply & Install:\n1/2 inch drywall and plaster, tape, mud, sand and prime check:\nExterior walls & ceiling\nNew bedroom walls & ceiling\nNew bathroom walls and ceiling",
+          "labour": 4500,
+          "material": 4500,
+          "createdAt": "3/12/2026, 11:18:50 AM"
+        },
+        {
+          "id": "tmpl-1774362982293",
+          "desc": "Bathroom Drywall:\nSupply & Install:\nMould-resistant 1/2 in drywall & plaster for complete bathroom repairs",
+          "labour": 1400,
+          "material": 0,
+          "createdAt": "3/24/2026, 10:36:22 AM"
+        }
+      ],
+      "sec-1773162499872-zof09rv6x": [
+        {
+          "id": "tmpl-1773162760913",
+          "desc": "Supply & Install paint for bathroom",
+          "labour": 500,
+          "material": 100,
+          "createdAt": "3/10/2026, 1:12:40 PM"
+        },
+        {
+          "id": "tmpl-1773328928456",
+          "desc": "Basement Painting:\nSupply & Install:\nPaint for bathroom [1 colour]\nPaint for main living area [1 colour]\nPaint for bedroom [1 colour]\nPaint for trim and baseboards",
+          "labour": 1700,
+          "material": 600,
+          "createdAt": "3/12/2026, 11:22:08 AM"
+        },
+        {
+          "id": "tmpl-1774363024876",
+          "desc": "Bathroom Paint:\nSupply & Install:\nPaint for the bathroom",
+          "labour": 400,
+          "material": 200,
+          "createdAt": "3/24/2026, 10:37:04 AM"
+        }
+      ],
+      "sec-1773162504672-plxt8pvs8": [
+        {
+          "id": "tmpl-1773163818352",
+          "desc": "Bathroom Electrical - Supply & Install:\nPanasonic bath fan\nOne decora GFI plug\nOne decora light switch for bath fan",
+          "labour": 0,
+          "material": 0,
+          "createdAt": "3/10/2026, 1:30:18 PM"
+        },
+        {
+          "id": "tmpl-1773163953138",
+          "desc": "Install Owner Supplied Light fixtures above vanity",
+          "labour": 100,
+          "material": 0,
+          "createdAt": "3/10/2026, 1:32:33 PM"
+        },
+        {
+          "id": "tmpl-1773169051682",
+          "desc": "Heated Flooring\nSupply & install heated floor with wall thermostat",
+          "labour": 1200,
+          "material": 800,
+          "createdAt": "3/10/2026, 2:57:31 PM"
+        },
+        {
+          "id": "tmpl-1773169113468",
+          "desc": "ESSA Permit and Inspection",
+          "labour": 400,
+          "material": 0,
+          "createdAt": "3/10/2026, 2:58:33 PM"
+        },
+        {
+          "id": "tmpl-1773326999717",
+          "desc": "ESSA Permit supplied with inspections\nBasement Electrical - Supply & Install:\nWiring as needed to new bedroom and new bathroom from main panel\nPanasonic bath fan\n1 GFI plug in new bathroom\n1 light switch for bath fan and pot lights\n1 light switch for vanity lights\n6 pot lights in main area\n4 pot lights in new bedroom\n2 potlights in new bathroom\nNOTE: If more electrical is needed to meet code that is not included in this quote.",
+          "labour": 1000,
+          "material": 3000,
+          "createdAt": "3/12/2026, 10:49:59 AM"
+        },
+        {
+          "id": "tmpl-1773336770326",
+          "desc": "ESSA Permit supplied with inspections\nBasement Electrical - Supply & Install:\nWiring as needed to new bedroom and new bathroom from main panel\nPanasonic bath fan\n1 GFI plug in new bathroom\n1 light switch for bath fan and pot lights\n1 light switch for vanity lights\n6 pot lights in main area\n5 plugs in main living area \n4 pot lights in new bedroom\n1 light switch in new bedroom\n5 plugs in new bedroom\n4 potlights in new bathroom\n1 Smoke detector\n1 CO dectector\nNOTE: If more electrical is needed to meet code that is not included in this quote.",
+          "labour": 1500,
+          "material": 3200,
+          "createdAt": "3/12/2026, 1:32:50 PM"
+        },
+        {
+          "id": "tmpl-1774362467651",
+          "desc": "Bathroom Electrical:\nSupply & Install:\n4 LED pot lights\n1 Panasonic quiet bath fan\n\nInstall Owner Supplied:\n2 light fixtures above the vanity",
+          "labour": 600,
+          "material": 600,
+          "createdAt": "3/24/2026, 10:27:47 AM"
+        }
+      ],
+      "sec-1773163627022-unmr3r7ob": [
+        {
+          "id": "tmpl-1773164076347",
+          "desc": "Bathroom Plumbing  - Supply & Install:\nSchluter base & drain kit",
+          "labour": 400,
+          "material": 400,
+          "createdAt": "3/10/2026, 1:34:36 PM"
+        },
+        {
+          "id": "tmpl-1773164133553",
+          "desc": "Bathroom Plumbing - Supply & Install:\nShower faucet [Budget of $1000]",
+          "labour": 0,
+          "material": 1000,
+          "createdAt": "3/10/2026, 1:35:33 PM"
+        },
+        {
+          "id": "tmpl-1773164208065",
+          "desc": "Bathroom Plumbing - Supply & Install:\nShower doors [Budget of $1200]",
+          "labour": 600,
+          "material": 1200,
+          "createdAt": "3/10/2026, 1:36:48 PM"
+        },
+        {
+          "id": "tmpl-1773164287667",
+          "desc": "Bathroom Plumbing - Toilet\nSupply & Install Toilet [budget of $400]",
+          "labour": 100,
+          "material": 400,
+          "createdAt": "3/10/2026, 1:38:07 PM"
+        },
+        {
+          "id": "tmpl-1773168952964",
+          "desc": "Bathroom Rough in:\nRough in new tub location \nSupply & Install new ABS and Pex piping to new tub location",
+          "labour": 1000,
+          "material": 1000,
+          "createdAt": "3/10/2026, 2:55:52 PM"
+        },
+        {
+          "id": "tmpl-1773326290596",
+          "desc": "Bathroom Plumbing Tub\nSupply & Install 30x60 acrylic bathtub with overflow [budget of $1000]",
+          "labour": 1000,
+          "material": 1000,
+          "createdAt": "3/12/2026, 10:38:10 AM"
+        },
+        {
+          "id": "tmpl-1774362725239",
+          "desc": "Bathroom Plumbing:\nInstall the owner-supplied bathtub & Faucet\nReinstall the toilet removed during the demo\nRemove & cap bidet piping",
+          "labour": 700,
+          "material": 200,
+          "createdAt": "3/24/2026, 10:32:05 AM"
+        },
+        {
+          "id": "tmpl-1774363567052",
+          "desc": "Bathroom Plumbing:\nSupply & install:\nShower faucet [budget of $1000]",
+          "labour": 400,
+          "material": 1100,
+          "createdAt": "3/24/2026, 10:46:07 AM"
+        },
+        {
+          "id": "tmpl-1774363637268",
+          "desc": "Bathroom Plumbing:\nSupply & install:\n2 sinks & Faucets for vanities [Budget of $1000]",
+          "labour": 500,
+          "material": 1700,
+          "createdAt": "3/24/2026, 10:47:17 AM"
+        }
+      ],
+      "sec-1773163638472-wiqplrhdz": [
+        {
+          "id": "tmpl-1773165244621",
+          "desc": "Bathroom Vanity\nSupply & Install: \n42in bathroom vanity with sink [Budget of $1000]",
+          "labour": 200,
+          "material": 1200,
+          "createdAt": "3/10/2026, 1:54:04 PM"
+        },
+        {
+          "id": "tmpl-1773332774233",
+          "desc": "Bathroom Vanity 36\"\nSupply & Install: \n36in bathroom vanity with sink & taps [Budget of $2000]",
+          "labour": 400,
+          "material": 2100,
+          "createdAt": "3/12/2026, 12:26:14 PM"
+        },
+        {
+          "id": "tmpl-1774363137448",
+          "desc": "Bathroom Cabinetry:\nSupply & Install:\nCustom storage cabinet beside toilet [budget of $2200]\n\nInstall Owner Supplied:\nMedicine cabinet",
+          "labour": 2700,
+          "material": 0,
+          "createdAt": "3/24/2026, 10:38:57 AM"
+        }
+      ],
+      "sec-1773163643226-ic55favab": [
+        {
+          "id": "tmpl-1773164386154",
+          "desc": "HVAC - Bath Fan ductwork\nSupply and Install ducting to connect new bath fan to existing ductwork.",
+          "labour": 100,
+          "material": 100,
+          "createdAt": "3/10/2026, 1:39:46 PM"
+        },
+        {
+          "id": "tmpl-1773325837350",
+          "desc": "Basement HVAC \nBath Fan ductwork\nSupply and Install ducting to connect new bath fan to existing ductwork.\nNOTE: If no ductwork is present or ducts need to be rearranged, this will be at additional cost.",
+          "labour": 100,
+          "material": 100,
+          "createdAt": "3/12/2026, 10:30:37 AM"
+        },
+        {
+          "id": "tmpl-1774362609292",
+          "desc": "Bathroom HVAC:\nSupply & Install:\nDuctwoork to connect the new bath fan to the existing ductwork of the old bath fan\n\nNOTE: The possibility that completely new ductwork will be nessary at extra cost. To be determined at Demo.",
+          "labour": 400,
+          "material": 100,
+          "createdAt": "3/24/2026, 10:30:09 AM"
+        },
+        {
+          "id": "tmpl-1774362619633",
+          "desc": "Bathroom HVAC:\nSupply & Install:\nDuctwork to connect the new bath fan to the existing ductwork of the old bath fan\n\nNOTE: The possibility that completely new ductwork will be nessary at extra cost. To be determined at Demo.",
+          "labour": 400,
+          "material": 100,
+          "createdAt": "3/24/2026, 10:30:19 AM"
+        }
+      ],
+      "sec-1773164405902-ojkho5xnw": [
+        {
+          "id": "tmpl-1773164496132",
+          "desc": "Shower walls\nSupply & Install\n100 sq ft of ceramic tiles for shower walls [budget of $5 sq ft]",
+          "labour": 800,
+          "material": 600,
+          "createdAt": "3/10/2026, 1:41:36 PM"
+        },
+        {
+          "id": "tmpl-1773164682746",
+          "desc": "Shower Base\nSupply & Install:\n30 sq ft of ceramic tiles for shower base [budget of $10 sq ft]",
+          "labour": 400,
+          "material": 400,
+          "createdAt": "3/10/2026, 1:44:42 PM"
+        },
+        {
+          "id": "tmpl-1773165620936",
+          "desc": "Bathroom floor\nSupply & Install 100 sq ft of Floor tiles [budget of $7 sq ft]",
+          "labour": 800,
+          "material": 800,
+          "createdAt": "3/10/2026, 2:00:20 PM"
+        }
+      ],
+      "sec-1773165277897-6ukz9v0cs": [
+        {
+          "id": "tmpl-1773165353775",
+          "desc": "Install Owner Supplied:\nMirror\nToilet Roll Holder\nTowel Rack",
+          "labour": 200,
+          "material": 0,
+          "createdAt": "3/10/2026, 1:55:53 PM"
+        }
+      ],
+      "sec-1773327039429-xek701hl0": [
+        {
+          "id": "tmpl-1773327193200",
+          "desc": "Basement Insulation:\nIt is understood that the exerior walls have insulation and vapour barrier. If this is needed or needs replacing, this is at additional cost.",
+          "labour": 0,
+          "material": 0,
+          "createdAt": "3/12/2026, 10:53:13 AM"
+        },
+        {
+          "id": "tmpl-1774362905104",
+          "desc": "Bathroom Insulation:\nRepair insulation & vapour barrier in the outside wall of the shower\n\nNOTE: Spray foam insulation may be required below the flooring at extra cost. To be determined at demo.",
+          "labour": 100,
+          "material": 100,
+          "createdAt": "3/24/2026, 10:35:05 AM"
+        }
+      ],
+      "sec-1773328951316-akotk3wid": [
+        {
+          "id": "tmpl-1773332504313",
+          "desc": "Basement Baseboard & Trim:\nSupply & Install:\nBaseboard to match existing in home around basement and in new bedroom & Bathroom Approx 90 linier ft\nTrim doors of new bedroom and bathroom",
+          "labour": 0,
+          "material": 0,
+          "createdAt": "3/12/2026, 12:21:44 PM"
+        },
+        {
+          "id": "tmpl-1774363333652",
+          "desc": "Bathroom Trim:\nSupply & Install:\nBaseboards to match existing\nShoe molding",
+          "labour": 250,
+          "material": 250,
+          "createdAt": "3/24/2026, 10:42:13 AM"
+        }
+      ],
+      "sec-1773331762210-ogswzmzw5": [
+        {
+          "id": "tmpl-1773332307008",
+          "desc": "Basement - Windows & Doors\nSupply and install:\n2 interior doors with frames [budget $250 ea]\n1 each in new bedroom and new bathroom\n1 38x24 in egress window [budget $600] \n2 passage lock set to match home [[budget $50 ea]",
+          "labour": 400,
+          "material": 1300,
+          "createdAt": "3/12/2026, 12:18:27 PM"
+        }
+      ],
+      "sec-1773332837102-0qjoxwc5g": [
+        {
+          "id": "tmpl-1773335267731",
+          "desc": "Basement flooring\nSupply & Install:\n750 sq ft of VCT floor tiles in main living and bedroom area. [budget of $4 sq ft]\nIf subfloor is needed, it will be an additional cost",
+          "labour": 2500,
+          "material": 3500,
+          "createdAt": "3/12/2026, 1:07:47 PM"
+        },
+        {
+          "id": "tmpl-1773336920388",
+          "desc": "Basement flooring\nSupply & Install:\n1000 sq ft of VCT floor tiles in main living and bedroom area. [budget of $4 sq ft]\nIf subfloor is needed, it will be an additional cost",
+          "labour": 2500,
+          "material": 5000,
+          "createdAt": "3/12/2026, 1:35:20 PM"
+        },
+        {
+          "id": "tmpl-1774363189819",
+          "desc": "Bathroom Flooring:\nSupply & Install:\nBaseboards to match existing\nShoe molding",
+          "labour": 250,
+          "material": 250,
+          "createdAt": "3/24/2026, 10:39:49 AM"
+        },
+        {
+          "id": "tmpl-1774363253516",
+          "desc": "Bathroom Flooring:\nSupply & Install:\n160 sq ft of deluxe vinyl flooring [budget of $4.00 sq ft]",
+          "labour": 350,
+          "material": 750,
+          "createdAt": "3/24/2026, 10:40:53 AM"
+        }
+      ],
+      "sec-1774362744326-qmemmezv0": [
+        {
+          "id": "tmpl-1774362795953",
+          "desc": "Shower doors:\nSupply & Install:\nCustom shower doors & panel",
+          "labour": 400,
+          "material": 1100,
+          "createdAt": "3/24/2026, 10:33:15 AM"
+        }
+      ],
+      "sec-1774363348145-vi8uq9d20": [
+        {
+          "id": "tmpl-1774363416683",
+          "desc": "Bathroom Shower Walls:\nSupply & Install:\nSeamless Muraluxe shower wall [Client to choose colour]",
+          "labour": 0,
+          "material": 3600,
+          "createdAt": "3/24/2026, 10:43:36 AM"
+        }
+      ],
+      "sec-1774363908514-frys2zdow": [
+        {
+          "id": "tmpl-1774364016904",
+          "desc": "Bathroom Countertops:\nSupply & Install:\n2 Custom quartz countertops for vanities [budget of$1800]",
+          "labour": 0,
+          "material": 2000,
+          "createdAt": "3/24/2026, 10:53:36 AM"
+        }
+      ]
+    }
+  },
+  "2 Hartford Pl Nepean K2R 1A5||QT-0326-03 boys bath Michel sugg": {
+    "savedAt": "2026-03-24, 1:58 p.m.",
+    "meta": {
+      "quoteNum": "QT-0326-03",
+      "quoteDate": "2026-03-24",
+      "quoteExpiry": "2026-04-20",
+      "clientName": "Aljis Jovaisas",
+      "clientPhone": "613-884-0697",
+      "clientEmail": "avj@bell.net",
+      "projectAddr": "2 Hartford Pl Nepean K2R 1A5",
+      "projectType": "Boys Bathroom Michel Suggestion",
+      "quoteNotes": "",
+      "taxRate": "13",
+      "markupRate": "0"
+    },
+    "rows": {
+      "sec-1773153954781-djohemfzj": [],
+      "sec-1773153954782-pv37ihso5": [
+        {
+          "id": "1773153954782-0.7750462419421884",
+          "desc": "",
+          "labour": "",
+          "material": ""
+        }
+      ],
+      "sec-1773153954782-2x1mjzymx": [
+        {
+          "id": "1773153954782-0.8505092468615991",
+          "desc": "Project managment",
+          "labour": "2000",
+          "material": "0"
+        }
+      ],
+      "sec-1773153954782-cvht4fqcv": [
+        {
+          "id": "1773153954782-0.6354635502885241",
+          "desc": "Site Prep:\nTarps for floor protection\nLight plastic to seal off work area and dust control\nProvide dumpster for demolition\n",
+          "labour": "100",
+          "material": "500"
+        }
+      ],
+      "sec-1773153954782-7gjqrjmge": [
+        {
+          "id": "1774361970181-0.9210637388628218",
+          "desc": "Bathroom Demolition:\nRemove the toilet and save for re-installation\nRemove Vanities and save for re-installation\nRemove and Dispose:\nVanity counter, sink & taps\n6 potlights\nCabinet shelving above the bidet\nCeramic tile flooring, including framing & subfloor\nBath Fan\nHeat lamp\nShower wall, facuet & doors\nFraming around the shower\nJacuzzi plumbing and vent pipe\nLedge framing at the window",
+          "labour": "1620",
+          "material": "0"
+        }
+      ],
+      "sec-1773153954782-ohyyy8ciy": [
+        {
+          "id": "1774362240361-0.8086330753046895",
+          "desc": "Bathroom Framing:\nSupply & install:\nSpruce 2x4 framing to repair shower walls\nNew subfloor",
+          "labour": "500",
+          "material": "500"
+        }
+      ],
+      "sec-1773154375242-nisfy15h6": [
+        {
+          "id": "1773154375242-0.06627063858566362",
+          "desc": "",
+          "labour": "",
+          "material": ""
+        }
+      ],
+      "sec-1773162451811-zc3o8fblx": [
+        {
+          "id": "1774362926183-0.7544325698695836",
+          "desc": "Bathroom Drywall:\nSupply & Install:\nMould-resistant 1/2 in drywall & plaster for complete bathroom repairs",
+          "labour": "1400",
+          "material": ""
+        }
+      ],
+      "sec-1773162499872-zof09rv6x": [
+        {
+          "id": "1774362991461-0.786453977390709",
+          "desc": "Bathroom Paint:\nSupply & Install:\nPaint for the bathroom",
+          "labour": "400",
+          "material": "200"
+        }
+      ],
+      "sec-1773162504672-plxt8pvs8": [
+        {
+          "id": "1774362376208-0.9313858853556218",
+          "desc": "Bathroom Electrical:\nSupply & Install:\n4 LED pot lights\n1 Panasonic quiet bath fan\n\nInstall Owner Supplied:\n2 light fixtures above the vanity",
+          "labour": "600",
+          "material": "600"
+        }
+      ],
+      "sec-1773163627022-unmr3r7ob": [
+        {
+          "id": "1774362654241-0.3271291429081562",
+          "desc": "Bathroom Plumbing:\nInstall the owner-supplied bathtub & Faucet\nReinstall the toilet removed during the demo\nRemove & cap bidet piping",
+          "labour": "700",
+          "material": "200"
+        },
+        {
+          "id": "1774363503847-0.5943135405205165",
+          "desc": "Bathroom Plumbing:\nSupply & install:\nShower faucet [budget of $1000]",
+          "labour": "400",
+          "material": "1100"
+        },
+        {
+          "id": "1774363571511-0.7618130887058129",
+          "desc": "Bathroom Plumbing:\nSupply & install:\n2 sinks & Faucets for vanities [Budget of $1000]",
+          "labour": "500",
+          "material": "1700"
+        },
+        {
+          "id": "1774363639558-0.4132832602548169",
+          "desc": "Bathroom Plumbing:\nSupply & install:\nCustom Schluter base & drain kit\n22 sq ft tiles to cover the top [budget $7.00 sq ft]",
+          "labour": "500",
+          "material": "500"
+        }
+      ],
+      "sec-1773163638472-wiqplrhdz": [
+        {
+          "id": "1774363056935-0.6504700023556201",
+          "desc": "Bathroom Cabinetry:\nSupply & Install:\nCustom storage cabinet beside toilet [budget of $2200]\n\nInstall Owner Supplied:\nMedicine cabinet",
+          "labour": "2700",
+          "material": ""
+        }
+      ],
+      "sec-1773163643226-ic55favab": [
+        {
+          "id": "1774362480279-0.16021884670716402",
+          "desc": "Bathroom HVAC:\nSupply & Install:\nDuctwork to connect the new bath fan to the existing ductwork of the old bath fan\n\nNOTE: The possibility that completely new ductwork will be nessary at extra cost. To be determined at Demo.",
+          "labour": "400",
+          "material": "100"
+        }
+      ],
+      "sec-1773164405902-ojkho5xnw": [
+        {
+          "id": "1773164405902-0.24402249814068655",
+          "desc": "Shower walls\nSupply & Install\n100 sq ft of ceramic tiles for shower walls [budget of $5 sq ft]",
+          "labour": "800",
+          "material": "600"
+        },
+        {
+          "id": "1773164501411-0.35691269379945434",
+          "desc": "Shower Base\nSupply & Install:\n30 sq ft of ceramic tiles for shower base [budget of $10 sq ft]",
+          "labour": "400",
+          "material": "400"
+        },
+        {
+          "id": "1773165502376-0.47283154669036487",
+          "desc": "Bathroom floor\nSupply & Install 100 sq ft of Floor tiles [budget of $7 sq ft] ",
+          "labour": "800",
+          "material": "800"
+        }
+      ],
+      "sec-1773165277897-6ukz9v0cs": [
+        {
+          "id": "1773165277897-0.2206165925961152",
+          "desc": "Install Owner Supplied:\n2 Mirrors\nToilet Roll Holder\nTowel Rack",
+          "labour": "300",
+          "material": ""
+        }
+      ],
+      "sec-1773327039429-xek701hl0": [
+        {
+          "id": "1774362825492-0.8445914514641008",
+          "desc": "Bathroom Insulation:\nRepair insulation & vapour barrier in the outside wall of the shower\n\nNOTE: Spray foam insulation may be required below the flooring at extra cost. To be determined at demo.",
+          "labour": "100",
+          "material": "100"
+        }
+      ],
+      "sec-1773328951316-akotk3wid": [
+        {
+          "id": "1774363282338-0.29018819659373696",
+          "desc": "Bathroom Trim:\nSupply & Install:\nBaseboards to match existing\nShoe molding",
+          "labour": "250",
+          "material": "250"
+        }
+      ],
+      "sec-1773331762210-ogswzmzw5": [
+        {
+          "id": "1773331762210-0.5434797481722796",
+          "desc": "Basement - Windows & Doors\nSupply and install:\n2 interior doors with frames [budget $250 ea]\n1 each in new bedroom and new bathroom\n1 38x24 in egress window [budget $700] \n2 passage lock set to match home [[budget $50 ea]",
+          "labour": "700",
+          "material": "1600"
+        }
+      ],
+      "sec-1773332837102-0qjoxwc5g": [
+        {
+          "id": "1774363144386-0.9815875181082988",
+          "desc": "Bathroom Flooring:\nSupply & Install:\n160 sq ft of deluxe vinyl flooring [budget of $4.00 sq ft]",
+          "labour": "350",
+          "material": "750"
+        }
+      ],
+      "sec-1773761605100-t36r4z3u7": [
+        {
+          "id": "1773761605101-0.5812163306031347",
+          "desc": "Vinyl Siding:\nSuppy & Install new vinyl siding\nInstall vinyl corners\nInstall J trim at top of walls and around windows",
+          "labour": "14970",
+          "material": ""
+        }
+      ],
+      "sec-1773761763021-g8ftmd07w": [
+        {
+          "id": "1773761763021-0.8943848730141488",
+          "desc": "Supply Bin for waste removal including dump fees",
+          "labour": "1100",
+          "material": ""
+        }
+      ],
+      "sec-1773762217905-aqd7jpc06": [
+        {
+          "id": "1773762217905-0.3875520208912634",
+          "desc": "Fascia \nSupply & Install custom formed fascia around building and on the gable ends to allow proper transition to the shingled roof",
+          "labour": "1980",
+          "material": ""
+        }
+      ],
+      "sec-1774031406493-ypsgwkjgn": [
+        {
+          "id": "1774031406493-0.19668047982960313",
+          "desc": "Bathroom Countertops:\nSupply & Install:\n2 Custom Quartz countertop for vanities [Budget of $1800]",
+          "labour": "",
+          "material": "2000"
+        }
+      ],
+      "sec-1774031869687-n4twmu7se": [
+        {
+          "id": "1774031869687-0.6586169355924456",
+          "desc": "Bathroom Shower Walls:\nSupply & install:\nSeamless Muraluxe shower wall [Client to choose colour]",
+          "labour": "",
+          "material": "3600"
+        }
+      ],
+      "sec-1774031958428-amesl4b7e": [
+        {
+          "id": "1774031958428-0.789136782663366",
+          "desc": "Shower Doors:\nSupply & Install:\ncustom shower doors & panel",
+          "labour": "",
+          "material": "2800"
+        }
+      ],
+      "sec-1774362744326-qmemmezv0": [
+        {
+          "id": "1774365006328-0.7988758933295943",
+          "desc": "Boys Bathroom\n\nCustom Shower Door:\nSupply & Install:\nAdd 2 4x4 posts and back fill as described by Michel.\nInstall Shower bar for curtain install",
+          "labour": "",
+          "material": "1775"
+        }
+      ],
+      "sec-1774363348145-vi8uq9d20": [
+        {
+          "id": "1774363348145-0.14945455663866458",
+          "desc": "Bathroom Shower Walls:\nSupply & Install:\nSeamless Muraluxe shower wall [Client to choose colour]",
+          "labour": "",
+          "material": "3600"
+        }
+      ],
+      "sec-1774363908514-frys2zdow": [
+        {
+          "id": "1774363908514-0.20874997265805062",
+          "desc": "Bathroom Countertops:\nSupply & Install:\n2 Custom quartz countertops for vanities [budget of$1800]",
+          "labour": "",
+          "material": "2000"
+        }
+      ]
+    },
+    "activeSectionIds": [
+      "sec-1774362744326-qmemmezv0"
+    ],
+    "allSections": [
+      {
+        "id": "sec-1773153954781-djohemfzj",
+        "label": "Permits",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773153954782-pv37ihso5",
+        "label": "Design",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773153954782-2x1mjzymx",
+        "label": "Project Management",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773153954782-cvht4fqcv",
+        "label": "Site Prep",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773153954782-7gjqrjmge",
+        "label": "Demo",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773153954782-ohyyy8ciy",
+        "label": "Framing",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773154375242-nisfy15h6",
+        "label": "Terms & Conditions",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773162504672-plxt8pvs8",
+        "label": "Electrical",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773163643226-ic55favab",
+        "label": "HVAC",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773163627022-unmr3r7ob",
+        "label": "Plumbing",
+        "hidden": false
+      },
+      {
+        "id": "sec-1774362744326-qmemmezv0",
+        "label": "Shower Doors"
+      },
+      {
+        "id": "sec-1773327039429-xek701hl0",
+        "label": "Insulation",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773162451811-zc3o8fblx",
+        "label": "Drywall",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773162499872-zof09rv6x",
+        "label": "Paint",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773163638472-wiqplrhdz",
+        "label": "Cabinetry",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773328951316-akotk3wid",
+        "label": "Trim",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773332837102-0qjoxwc5g",
+        "label": "Flooring",
+        "hidden": false
+      },
+      {
+        "id": "sec-1774363348145-vi8uq9d20",
+        "label": "Shower Walls"
+      },
+      {
+        "id": "sec-1773164405902-ojkho5xnw",
+        "label": "Ceramic Tiles",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773165277897-6ukz9v0cs",
+        "label": "Accessories",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773331762210-ogswzmzw5",
+        "label": "Windows & Doors",
+        "hidden": false
+      },
+      {
+        "id": "sec-1774363908514-frys2zdow",
+        "label": "Countertops"
+      }
+    ],
+    "sectionTemplates": {
+      "sec-1773153954781-djohemfzj": [
+        {
+          "id": "tmpl-1773325082044",
+          "desc": "Permit & Drawings:\nSupply drawings for basement renovation with in law suite.\nSupply engineer stamp for drawings Supply building permit to City.",
+          "labour": 1500,
+          "material": 1500,
+          "createdAt": "3/12/2026, 10:18:02 AM"
+        }
+      ],
+      "sec-1773153954782-pv37ihso5": [],
+      "sec-1773153954782-2x1mjzymx": [
+        {
+          "id": "tmpl-1773162250807",
+          "desc": "Project managment",
+          "labour": 200,
+          "material": 0,
+          "createdAt": "3/10/2026, 1:04:10 PM"
+        }
+      ],
+      "sec-1773153954782-cvht4fqcv": [
+        {
+          "id": "tmpl-1773162329199",
+          "desc": "Site Prep:\nTarps for floor protection\nLight plastic to seal off work area and dust control",
+          "labour": 200,
+          "material": 200,
+          "createdAt": "3/10/2026, 1:05:29 PM"
+        }
+      ],
+      "sec-1773153954782-7gjqrjmge": [
+        {
+          "id": "tmpl-1773162416639",
+          "desc": "Bathroom Demolition - Remove and Dispose:\nToilet\nVanity, sink & taps\nBathtub & faucet\nBath Fan\nCeramic tiles on floors and walls",
+          "labour": 0,
+          "material": 0,
+          "createdAt": "3/10/2026, 1:06:56 PM"
+        },
+        {
+          "id": "tmpl-1773325726243",
+          "desc": "Basement renovation - Remove & Dispose:\nWall paneling \nCarpet\nBathroom",
+          "labour": 1000,
+          "material": 300,
+          "createdAt": "3/12/2026, 10:28:46 AM"
+        },
+        {
+          "id": "tmpl-1774362215163",
+          "desc": "Bathroom Demolition:\nRemove the toilet and save for re-installation\nRemove Vanities and save for re-installation\nRemove and Dispose:\nVanity counter, sink & taps\n6 potlights\nCabinet shelving above the bidet\nCeramic tile flooring, including framing & subfloor\nBath Fan\nHeat lamp\nShower wall, facuet & doors\nFraming around the shower\nJacuzzi plumbing and vent pipe\nLedge framing at the window",
+          "labour": 0,
+          "material": 0,
+          "createdAt": "3/24/2026, 10:23:35 AM"
+        }
+      ],
+      "sec-1773153954782-ohyyy8ciy": [
+        {
+          "id": "tmpl-1773325717385",
+          "desc": "Basement Framing:\nSuppy & Install:\nSpruce 2x4 framing as needed around perimieter\nFrame bedroom and bathroom as per drawings\nFrame around electrical panel\nResilient channel on basement ceiling",
+          "labour": 2000,
+          "material": 1500,
+          "createdAt": "3/12/2026, 10:28:37 AM"
+        },
+        {
+          "id": "tmpl-1774362300820",
+          "desc": "Bathroom Framing:\nSupply & install:\nSpruce 2x4 framing to repair shower walls\nNew subfloor",
+          "labour": 500,
+          "material": 500,
+          "createdAt": "3/24/2026, 10:25:00 AM"
+        }
+      ],
+      "sec-1773154375242-nisfy15h6": [],
+      "sec-1773162451811-zc3o8fblx": [
+        {
+          "id": "tmpl-1773162677858",
+          "desc": "Drywall Supply & Install:\nRepair walls and ceiling after demo",
+          "labour": 500,
+          "material": 1500,
+          "createdAt": "3/10/2026, 1:11:17 PM"
+        },
+        {
+          "id": "tmpl-1773328730166",
+          "desc": "Basment Drywall - Supply & Install:\n1/2 inch drywall and plaster, tape, mud, sand and prime check:\nExterior walls & ceiling\nNew bedroom walls & ceiling\nNew bathroom walls and ceiling",
+          "labour": 4500,
+          "material": 4500,
+          "createdAt": "3/12/2026, 11:18:50 AM"
+        },
+        {
+          "id": "tmpl-1774362982293",
+          "desc": "Bathroom Drywall:\nSupply & Install:\nMould-resistant 1/2 in drywall & plaster for complete bathroom repairs",
+          "labour": 1400,
+          "material": 0,
+          "createdAt": "3/24/2026, 10:36:22 AM"
+        }
+      ],
+      "sec-1773162499872-zof09rv6x": [
+        {
+          "id": "tmpl-1773162760913",
+          "desc": "Supply & Install paint for bathroom",
+          "labour": 500,
+          "material": 100,
+          "createdAt": "3/10/2026, 1:12:40 PM"
+        },
+        {
+          "id": "tmpl-1773328928456",
+          "desc": "Basement Painting:\nSupply & Install:\nPaint for bathroom [1 colour]\nPaint for main living area [1 colour]\nPaint for bedroom [1 colour]\nPaint for trim and baseboards",
+          "labour": 1700,
+          "material": 600,
+          "createdAt": "3/12/2026, 11:22:08 AM"
+        },
+        {
+          "id": "tmpl-1774363024876",
+          "desc": "Bathroom Paint:\nSupply & Install:\nPaint for the bathroom",
+          "labour": 400,
+          "material": 200,
+          "createdAt": "3/24/2026, 10:37:04 AM"
+        }
+      ],
+      "sec-1773162504672-plxt8pvs8": [
+        {
+          "id": "tmpl-1773163818352",
+          "desc": "Bathroom Electrical - Supply & Install:\nPanasonic bath fan\nOne decora GFI plug\nOne decora light switch for bath fan",
+          "labour": 0,
+          "material": 0,
+          "createdAt": "3/10/2026, 1:30:18 PM"
+        },
+        {
+          "id": "tmpl-1773163953138",
+          "desc": "Install Owner Supplied Light fixtures above vanity",
+          "labour": 100,
+          "material": 0,
+          "createdAt": "3/10/2026, 1:32:33 PM"
+        },
+        {
+          "id": "tmpl-1773169051682",
+          "desc": "Heated Flooring\nSupply & install heated floor with wall thermostat",
+          "labour": 1200,
+          "material": 800,
+          "createdAt": "3/10/2026, 2:57:31 PM"
+        },
+        {
+          "id": "tmpl-1773169113468",
+          "desc": "ESSA Permit and Inspection",
+          "labour": 400,
+          "material": 0,
+          "createdAt": "3/10/2026, 2:58:33 PM"
+        },
+        {
+          "id": "tmpl-1773326999717",
+          "desc": "ESSA Permit supplied with inspections\nBasement Electrical - Supply & Install:\nWiring as needed to new bedroom and new bathroom from main panel\nPanasonic bath fan\n1 GFI plug in new bathroom\n1 light switch for bath fan and pot lights\n1 light switch for vanity lights\n6 pot lights in main area\n4 pot lights in new bedroom\n2 potlights in new bathroom\nNOTE: If more electrical is needed to meet code that is not included in this quote.",
+          "labour": 1000,
+          "material": 3000,
+          "createdAt": "3/12/2026, 10:49:59 AM"
+        },
+        {
+          "id": "tmpl-1773336770326",
+          "desc": "ESSA Permit supplied with inspections\nBasement Electrical - Supply & Install:\nWiring as needed to new bedroom and new bathroom from main panel\nPanasonic bath fan\n1 GFI plug in new bathroom\n1 light switch for bath fan and pot lights\n1 light switch for vanity lights\n6 pot lights in main area\n5 plugs in main living area \n4 pot lights in new bedroom\n1 light switch in new bedroom\n5 plugs in new bedroom\n4 potlights in new bathroom\n1 Smoke detector\n1 CO dectector\nNOTE: If more electrical is needed to meet code that is not included in this quote.",
+          "labour": 1500,
+          "material": 3200,
+          "createdAt": "3/12/2026, 1:32:50 PM"
+        },
+        {
+          "id": "tmpl-1774362467651",
+          "desc": "Bathroom Electrical:\nSupply & Install:\n4 LED pot lights\n1 Panasonic quiet bath fan\n\nInstall Owner Supplied:\n2 light fixtures above the vanity",
+          "labour": 600,
+          "material": 600,
+          "createdAt": "3/24/2026, 10:27:47 AM"
+        }
+      ],
+      "sec-1773163627022-unmr3r7ob": [
+        {
+          "id": "tmpl-1773164076347",
+          "desc": "Bathroom Plumbing  - Supply & Install:\nSchluter base & drain kit",
+          "labour": 400,
+          "material": 400,
+          "createdAt": "3/10/2026, 1:34:36 PM"
+        },
+        {
+          "id": "tmpl-1773164133553",
+          "desc": "Bathroom Plumbing - Supply & Install:\nShower faucet [Budget of $1000]",
+          "labour": 0,
+          "material": 1000,
+          "createdAt": "3/10/2026, 1:35:33 PM"
+        },
+        {
+          "id": "tmpl-1773164208065",
+          "desc": "Bathroom Plumbing - Supply & Install:\nShower doors [Budget of $1200]",
+          "labour": 600,
+          "material": 1200,
+          "createdAt": "3/10/2026, 1:36:48 PM"
+        },
+        {
+          "id": "tmpl-1773164287667",
+          "desc": "Bathroom Plumbing - Toilet\nSupply & Install Toilet [budget of $400]",
+          "labour": 100,
+          "material": 400,
+          "createdAt": "3/10/2026, 1:38:07 PM"
+        },
+        {
+          "id": "tmpl-1773168952964",
+          "desc": "Bathroom Rough in:\nRough in new tub location \nSupply & Install new ABS and Pex piping to new tub location",
+          "labour": 1000,
+          "material": 1000,
+          "createdAt": "3/10/2026, 2:55:52 PM"
+        },
+        {
+          "id": "tmpl-1773326290596",
+          "desc": "Bathroom Plumbing Tub\nSupply & Install 30x60 acrylic bathtub with overflow [budget of $1000]",
+          "labour": 1000,
+          "material": 1000,
+          "createdAt": "3/12/2026, 10:38:10 AM"
+        },
+        {
+          "id": "tmpl-1774362725239",
+          "desc": "Bathroom Plumbing:\nInstall the owner-supplied bathtub & Faucet\nReinstall the toilet removed during the demo\nRemove & cap bidet piping",
+          "labour": 700,
+          "material": 200,
+          "createdAt": "3/24/2026, 10:32:05 AM"
+        },
+        {
+          "id": "tmpl-1774363567052",
+          "desc": "Bathroom Plumbing:\nSupply & install:\nShower faucet [budget of $1000]",
+          "labour": 400,
+          "material": 1100,
+          "createdAt": "3/24/2026, 10:46:07 AM"
+        },
+        {
+          "id": "tmpl-1774363637268",
+          "desc": "Bathroom Plumbing:\nSupply & install:\n2 sinks & Faucets for vanities [Budget of $1000]",
+          "labour": 500,
+          "material": 1700,
+          "createdAt": "3/24/2026, 10:47:17 AM"
+        }
+      ],
+      "sec-1773163638472-wiqplrhdz": [
+        {
+          "id": "tmpl-1773165244621",
+          "desc": "Bathroom Vanity\nSupply & Install: \n42in bathroom vanity with sink [Budget of $1000]",
+          "labour": 200,
+          "material": 1200,
+          "createdAt": "3/10/2026, 1:54:04 PM"
+        },
+        {
+          "id": "tmpl-1773332774233",
+          "desc": "Bathroom Vanity 36\"\nSupply & Install: \n36in bathroom vanity with sink & taps [Budget of $2000]",
+          "labour": 400,
+          "material": 2100,
+          "createdAt": "3/12/2026, 12:26:14 PM"
+        },
+        {
+          "id": "tmpl-1774363137448",
+          "desc": "Bathroom Cabinetry:\nSupply & Install:\nCustom storage cabinet beside toilet [budget of $2200]\n\nInstall Owner Supplied:\nMedicine cabinet",
+          "labour": 2700,
+          "material": 0,
+          "createdAt": "3/24/2026, 10:38:57 AM"
+        }
+      ],
+      "sec-1773163643226-ic55favab": [
+        {
+          "id": "tmpl-1773164386154",
+          "desc": "HVAC - Bath Fan ductwork\nSupply and Install ducting to connect new bath fan to existing ductwork.",
+          "labour": 100,
+          "material": 100,
+          "createdAt": "3/10/2026, 1:39:46 PM"
+        },
+        {
+          "id": "tmpl-1773325837350",
+          "desc": "Basement HVAC \nBath Fan ductwork\nSupply and Install ducting to connect new bath fan to existing ductwork.\nNOTE: If no ductwork is present or ducts need to be rearranged, this will be at additional cost.",
+          "labour": 100,
+          "material": 100,
+          "createdAt": "3/12/2026, 10:30:37 AM"
+        },
+        {
+          "id": "tmpl-1774362609292",
+          "desc": "Bathroom HVAC:\nSupply & Install:\nDuctwoork to connect the new bath fan to the existing ductwork of the old bath fan\n\nNOTE: The possibility that completely new ductwork will be nessary at extra cost. To be determined at Demo.",
+          "labour": 400,
+          "material": 100,
+          "createdAt": "3/24/2026, 10:30:09 AM"
+        },
+        {
+          "id": "tmpl-1774362619633",
+          "desc": "Bathroom HVAC:\nSupply & Install:\nDuctwork to connect the new bath fan to the existing ductwork of the old bath fan\n\nNOTE: The possibility that completely new ductwork will be nessary at extra cost. To be determined at Demo.",
+          "labour": 400,
+          "material": 100,
+          "createdAt": "3/24/2026, 10:30:19 AM"
+        }
+      ],
+      "sec-1773164405902-ojkho5xnw": [
+        {
+          "id": "tmpl-1773164496132",
+          "desc": "Shower walls\nSupply & Install\n100 sq ft of ceramic tiles for shower walls [budget of $5 sq ft]",
+          "labour": 800,
+          "material": 600,
+          "createdAt": "3/10/2026, 1:41:36 PM"
+        },
+        {
+          "id": "tmpl-1773164682746",
+          "desc": "Shower Base\nSupply & Install:\n30 sq ft of ceramic tiles for shower base [budget of $10 sq ft]",
+          "labour": 400,
+          "material": 400,
+          "createdAt": "3/10/2026, 1:44:42 PM"
+        },
+        {
+          "id": "tmpl-1773165620936",
+          "desc": "Bathroom floor\nSupply & Install 100 sq ft of Floor tiles [budget of $7 sq ft]",
+          "labour": 800,
+          "material": 800,
+          "createdAt": "3/10/2026, 2:00:20 PM"
+        }
+      ],
+      "sec-1773165277897-6ukz9v0cs": [
+        {
+          "id": "tmpl-1773165353775",
+          "desc": "Install Owner Supplied:\nMirror\nToilet Roll Holder\nTowel Rack",
+          "labour": 200,
+          "material": 0,
+          "createdAt": "3/10/2026, 1:55:53 PM"
+        }
+      ],
+      "sec-1773327039429-xek701hl0": [
+        {
+          "id": "tmpl-1773327193200",
+          "desc": "Basement Insulation:\nIt is understood that the exerior walls have insulation and vapour barrier. If this is needed or needs replacing, this is at additional cost.",
+          "labour": 0,
+          "material": 0,
+          "createdAt": "3/12/2026, 10:53:13 AM"
+        },
+        {
+          "id": "tmpl-1774362905104",
+          "desc": "Bathroom Insulation:\nRepair insulation & vapour barrier in the outside wall of the shower\n\nNOTE: Spray foam insulation may be required below the flooring at extra cost. To be determined at demo.",
+          "labour": 100,
+          "material": 100,
+          "createdAt": "3/24/2026, 10:35:05 AM"
+        }
+      ],
+      "sec-1773328951316-akotk3wid": [
+        {
+          "id": "tmpl-1773332504313",
+          "desc": "Basement Baseboard & Trim:\nSupply & Install:\nBaseboard to match existing in home around basement and in new bedroom & Bathroom Approx 90 linier ft\nTrim doors of new bedroom and bathroom",
+          "labour": 0,
+          "material": 0,
+          "createdAt": "3/12/2026, 12:21:44 PM"
+        },
+        {
+          "id": "tmpl-1774363333652",
+          "desc": "Bathroom Trim:\nSupply & Install:\nBaseboards to match existing\nShoe molding",
+          "labour": 250,
+          "material": 250,
+          "createdAt": "3/24/2026, 10:42:13 AM"
+        }
+      ],
+      "sec-1773331762210-ogswzmzw5": [
+        {
+          "id": "tmpl-1773332307008",
+          "desc": "Basement - Windows & Doors\nSupply and install:\n2 interior doors with frames [budget $250 ea]\n1 each in new bedroom and new bathroom\n1 38x24 in egress window [budget $600] \n2 passage lock set to match home [[budget $50 ea]",
+          "labour": 400,
+          "material": 1300,
+          "createdAt": "3/12/2026, 12:18:27 PM"
+        }
+      ],
+      "sec-1773332837102-0qjoxwc5g": [
+        {
+          "id": "tmpl-1773335267731",
+          "desc": "Basement flooring\nSupply & Install:\n750 sq ft of VCT floor tiles in main living and bedroom area. [budget of $4 sq ft]\nIf subfloor is needed, it will be an additional cost",
+          "labour": 2500,
+          "material": 3500,
+          "createdAt": "3/12/2026, 1:07:47 PM"
+        },
+        {
+          "id": "tmpl-1773336920388",
+          "desc": "Basement flooring\nSupply & Install:\n1000 sq ft of VCT floor tiles in main living and bedroom area. [budget of $4 sq ft]\nIf subfloor is needed, it will be an additional cost",
+          "labour": 2500,
+          "material": 5000,
+          "createdAt": "3/12/2026, 1:35:20 PM"
+        },
+        {
+          "id": "tmpl-1774363189819",
+          "desc": "Bathroom Flooring:\nSupply & Install:\nBaseboards to match existing\nShoe molding",
+          "labour": 250,
+          "material": 250,
+          "createdAt": "3/24/2026, 10:39:49 AM"
+        },
+        {
+          "id": "tmpl-1774363253516",
+          "desc": "Bathroom Flooring:\nSupply & Install:\n160 sq ft of deluxe vinyl flooring [budget of $4.00 sq ft]",
+          "labour": 350,
+          "material": 750,
+          "createdAt": "3/24/2026, 10:40:53 AM"
+        }
+      ],
+      "sec-1774362744326-qmemmezv0": [
+        {
+          "id": "tmpl-1774362795953",
+          "desc": "Shower doors:\nSupply & Install:\nCustom shower doors & panel",
+          "labour": 400,
+          "material": 1100,
+          "createdAt": "3/24/2026, 10:33:15 AM"
+        }
+      ],
+      "sec-1774363348145-vi8uq9d20": [
+        {
+          "id": "tmpl-1774363416683",
+          "desc": "Bathroom Shower Walls:\nSupply & Install:\nSeamless Muraluxe shower wall [Client to choose colour]",
+          "labour": 0,
+          "material": 3600,
+          "createdAt": "3/24/2026, 10:43:36 AM"
+        }
+      ],
+      "sec-1774363908514-frys2zdow": [
+        {
+          "id": "tmpl-1774364016904",
+          "desc": "Bathroom Countertops:\nSupply & Install:\n2 Custom quartz countertops for vanities [budget of$1800]",
+          "labour": 0,
+          "material": 2000,
+          "createdAt": "3/24/2026, 10:53:36 AM"
+        }
+      ]
+    }
+  },
+  "2 Hartford Pl Nepean K2R 1A5||QT-0326-03": {
+    "savedAt": "2026-03-24, 1:59 p.m.",
+    "meta": {
+      "quoteNum": "QT-0326-03",
+      "quoteDate": "2026-03-24",
+      "quoteExpiry": "2026-04-20",
+      "clientName": "Aljis Jovaisas",
+      "clientPhone": "613-884-0697",
+      "clientEmail": "avj@bell.net",
+      "projectAddr": "2 Hartford Pl Nepean K2R 1A5",
+      "projectType": "Boys Bathroom Michel Suggestion",
+      "quoteNotes": "",
+      "taxRate": "13",
+      "markupRate": "0"
+    },
+    "rows": {
+      "sec-1773153954781-djohemfzj": [],
+      "sec-1773153954782-pv37ihso5": [
+        {
+          "id": "1773153954782-0.7750462419421884",
+          "desc": "",
+          "labour": "",
+          "material": ""
+        }
+      ],
+      "sec-1773153954782-2x1mjzymx": [
+        {
+          "id": "1773153954782-0.8505092468615991",
+          "desc": "Project managment",
+          "labour": "2000",
+          "material": "0"
+        }
+      ],
+      "sec-1773153954782-cvht4fqcv": [
+        {
+          "id": "1773153954782-0.6354635502885241",
+          "desc": "Site Prep:\nTarps for floor protection\nLight plastic to seal off work area and dust control\nProvide dumpster for demolition\n",
+          "labour": "100",
+          "material": "500"
+        }
+      ],
+      "sec-1773153954782-7gjqrjmge": [
+        {
+          "id": "1774361970181-0.9210637388628218",
+          "desc": "Bathroom Demolition:\nRemove the toilet and save for re-installation\nRemove Vanities and save for re-installation\nRemove and Dispose:\nVanity counter, sink & taps\n6 potlights\nCabinet shelving above the bidet\nCeramic tile flooring, including framing & subfloor\nBath Fan\nHeat lamp\nShower wall, facuet & doors\nFraming around the shower\nJacuzzi plumbing and vent pipe\nLedge framing at the window",
+          "labour": "1620",
+          "material": "0"
+        }
+      ],
+      "sec-1773153954782-ohyyy8ciy": [
+        {
+          "id": "1774362240361-0.8086330753046895",
+          "desc": "Bathroom Framing:\nSupply & install:\nSpruce 2x4 framing to repair shower walls\nNew subfloor",
+          "labour": "500",
+          "material": "500"
+        }
+      ],
+      "sec-1773154375242-nisfy15h6": [
+        {
+          "id": "1773154375242-0.06627063858566362",
+          "desc": "",
+          "labour": "",
+          "material": ""
+        }
+      ],
+      "sec-1773162451811-zc3o8fblx": [
+        {
+          "id": "1774362926183-0.7544325698695836",
+          "desc": "Bathroom Drywall:\nSupply & Install:\nMould-resistant 1/2 in drywall & plaster for complete bathroom repairs",
+          "labour": "1400",
+          "material": ""
+        }
+      ],
+      "sec-1773162499872-zof09rv6x": [
+        {
+          "id": "1774362991461-0.786453977390709",
+          "desc": "Bathroom Paint:\nSupply & Install:\nPaint for the bathroom",
+          "labour": "400",
+          "material": "200"
+        }
+      ],
+      "sec-1773162504672-plxt8pvs8": [
+        {
+          "id": "1774362376208-0.9313858853556218",
+          "desc": "Bathroom Electrical:\nSupply & Install:\n4 LED pot lights\n1 Panasonic quiet bath fan\n\nInstall Owner Supplied:\n2 light fixtures above the vanity",
+          "labour": "600",
+          "material": "600"
+        }
+      ],
+      "sec-1773163627022-unmr3r7ob": [
+        {
+          "id": "1774362654241-0.3271291429081562",
+          "desc": "Bathroom Plumbing:\nInstall the owner-supplied bathtub & Faucet\nReinstall the toilet removed during the demo\nRemove & cap bidet piping",
+          "labour": "700",
+          "material": "200"
+        },
+        {
+          "id": "1774363503847-0.5943135405205165",
+          "desc": "Bathroom Plumbing:\nSupply & install:\nShower faucet [budget of $1000]",
+          "labour": "400",
+          "material": "1100"
+        },
+        {
+          "id": "1774363571511-0.7618130887058129",
+          "desc": "Bathroom Plumbing:\nSupply & install:\n2 sinks & Faucets for vanities [Budget of $1000]",
+          "labour": "500",
+          "material": "1700"
+        },
+        {
+          "id": "1774363639558-0.4132832602548169",
+          "desc": "Bathroom Plumbing:\nSupply & install:\nCustom Schluter base & drain kit\n22 sq ft tiles to cover the top [budget $7.00 sq ft]",
+          "labour": "500",
+          "material": "500"
+        }
+      ],
+      "sec-1773163638472-wiqplrhdz": [
+        {
+          "id": "1774363056935-0.6504700023556201",
+          "desc": "Bathroom Cabinetry:\nSupply & Install:\nCustom storage cabinet beside toilet [budget of $2200]\n\nInstall Owner Supplied:\nMedicine cabinet",
+          "labour": "2700",
+          "material": ""
+        }
+      ],
+      "sec-1773163643226-ic55favab": [
+        {
+          "id": "1774362480279-0.16021884670716402",
+          "desc": "Bathroom HVAC:\nSupply & Install:\nDuctwork to connect the new bath fan to the existing ductwork of the old bath fan\n\nNOTE: The possibility that completely new ductwork will be nessary at extra cost. To be determined at Demo.",
+          "labour": "400",
+          "material": "100"
+        }
+      ],
+      "sec-1773164405902-ojkho5xnw": [
+        {
+          "id": "1773164405902-0.24402249814068655",
+          "desc": "Shower walls\nSupply & Install\n100 sq ft of ceramic tiles for shower walls [budget of $5 sq ft]",
+          "labour": "800",
+          "material": "600"
+        },
+        {
+          "id": "1773164501411-0.35691269379945434",
+          "desc": "Shower Base\nSupply & Install:\n30 sq ft of ceramic tiles for shower base [budget of $10 sq ft]",
+          "labour": "400",
+          "material": "400"
+        },
+        {
+          "id": "1773165502376-0.47283154669036487",
+          "desc": "Bathroom floor\nSupply & Install 100 sq ft of Floor tiles [budget of $7 sq ft] ",
+          "labour": "800",
+          "material": "800"
+        }
+      ],
+      "sec-1773165277897-6ukz9v0cs": [
+        {
+          "id": "1773165277897-0.2206165925961152",
+          "desc": "Install Owner Supplied:\n2 Mirrors\nToilet Roll Holder\nTowel Rack",
+          "labour": "300",
+          "material": ""
+        }
+      ],
+      "sec-1773327039429-xek701hl0": [
+        {
+          "id": "1774362825492-0.8445914514641008",
+          "desc": "Bathroom Insulation:\nRepair insulation & vapour barrier in the outside wall of the shower\n\nNOTE: Spray foam insulation may be required below the flooring at extra cost. To be determined at demo.",
+          "labour": "100",
+          "material": "100"
+        }
+      ],
+      "sec-1773328951316-akotk3wid": [
+        {
+          "id": "1774363282338-0.29018819659373696",
+          "desc": "Bathroom Trim:\nSupply & Install:\nBaseboards to match existing\nShoe molding",
+          "labour": "250",
+          "material": "250"
+        }
+      ],
+      "sec-1773331762210-ogswzmzw5": [
+        {
+          "id": "1773331762210-0.5434797481722796",
+          "desc": "Basement - Windows & Doors\nSupply and install:\n2 interior doors with frames [budget $250 ea]\n1 each in new bedroom and new bathroom\n1 38x24 in egress window [budget $700] \n2 passage lock set to match home [[budget $50 ea]",
+          "labour": "700",
+          "material": "1600"
+        }
+      ],
+      "sec-1773332837102-0qjoxwc5g": [
+        {
+          "id": "1774363144386-0.9815875181082988",
+          "desc": "Bathroom Flooring:\nSupply & Install:\n160 sq ft of deluxe vinyl flooring [budget of $4.00 sq ft]",
+          "labour": "350",
+          "material": "750"
+        }
+      ],
+      "sec-1773761605100-t36r4z3u7": [
+        {
+          "id": "1773761605101-0.5812163306031347",
+          "desc": "Vinyl Siding:\nSuppy & Install new vinyl siding\nInstall vinyl corners\nInstall J trim at top of walls and around windows",
+          "labour": "14970",
+          "material": ""
+        }
+      ],
+      "sec-1773761763021-g8ftmd07w": [
+        {
+          "id": "1773761763021-0.8943848730141488",
+          "desc": "Supply Bin for waste removal including dump fees",
+          "labour": "1100",
+          "material": ""
+        }
+      ],
+      "sec-1773762217905-aqd7jpc06": [
+        {
+          "id": "1773762217905-0.3875520208912634",
+          "desc": "Fascia \nSupply & Install custom formed fascia around building and on the gable ends to allow proper transition to the shingled roof",
+          "labour": "1980",
+          "material": ""
+        }
+      ],
+      "sec-1774031406493-ypsgwkjgn": [
+        {
+          "id": "1774031406493-0.19668047982960313",
+          "desc": "Bathroom Countertops:\nSupply & Install:\n2 Custom Quartz countertop for vanities [Budget of $1800]",
+          "labour": "",
+          "material": "2000"
+        }
+      ],
+      "sec-1774031869687-n4twmu7se": [
+        {
+          "id": "1774031869687-0.6586169355924456",
+          "desc": "Bathroom Shower Walls:\nSupply & install:\nSeamless Muraluxe shower wall [Client to choose colour]",
+          "labour": "",
+          "material": "3600"
+        }
+      ],
+      "sec-1774031958428-amesl4b7e": [
+        {
+          "id": "1774031958428-0.789136782663366",
+          "desc": "Shower Doors:\nSupply & Install:\ncustom shower doors & panel",
+          "labour": "",
+          "material": "2800"
+        }
+      ],
+      "sec-1774362744326-qmemmezv0": [
+        {
+          "id": "1774365006328-0.7988758933295943",
+          "desc": "Boys Bathroom\n\nShower Area Repair:\nSupply & Install:\nAdd 2 4x4 posts and back fill as described by Michel.\nInstall Shower bar for curtain install",
+          "labour": "",
+          "material": "1775"
+        }
+      ],
+      "sec-1774363348145-vi8uq9d20": [
+        {
+          "id": "1774363348145-0.14945455663866458",
+          "desc": "Bathroom Shower Walls:\nSupply & Install:\nSeamless Muraluxe shower wall [Client to choose colour]",
+          "labour": "",
+          "material": "3600"
+        }
+      ],
+      "sec-1774363908514-frys2zdow": [
+        {
+          "id": "1774363908514-0.20874997265805062",
+          "desc": "Bathroom Countertops:\nSupply & Install:\n2 Custom quartz countertops for vanities [budget of$1800]",
+          "labour": "",
+          "material": "2000"
+        }
+      ]
+    },
+    "activeSectionIds": [
+      "sec-1774362744326-qmemmezv0"
+    ],
+    "allSections": [
+      {
+        "id": "sec-1773153954781-djohemfzj",
+        "label": "Permits",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773153954782-pv37ihso5",
+        "label": "Design",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773153954782-2x1mjzymx",
+        "label": "Project Management",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773153954782-cvht4fqcv",
+        "label": "Site Prep",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773153954782-7gjqrjmge",
+        "label": "Demo",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773153954782-ohyyy8ciy",
+        "label": "Framing",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773154375242-nisfy15h6",
+        "label": "Terms & Conditions",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773162504672-plxt8pvs8",
+        "label": "Electrical",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773163643226-ic55favab",
+        "label": "HVAC",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773163627022-unmr3r7ob",
+        "label": "Plumbing",
+        "hidden": false
+      },
+      {
+        "id": "sec-1774362744326-qmemmezv0",
+        "label": "Shower Doors"
+      },
+      {
+        "id": "sec-1773327039429-xek701hl0",
+        "label": "Insulation",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773162451811-zc3o8fblx",
+        "label": "Drywall",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773162499872-zof09rv6x",
+        "label": "Paint",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773163638472-wiqplrhdz",
+        "label": "Cabinetry",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773328951316-akotk3wid",
+        "label": "Trim",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773332837102-0qjoxwc5g",
+        "label": "Flooring",
+        "hidden": false
+      },
+      {
+        "id": "sec-1774363348145-vi8uq9d20",
+        "label": "Shower Walls"
+      },
+      {
+        "id": "sec-1773164405902-ojkho5xnw",
+        "label": "Ceramic Tiles",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773165277897-6ukz9v0cs",
+        "label": "Accessories",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773331762210-ogswzmzw5",
+        "label": "Windows & Doors",
+        "hidden": false
+      },
+      {
+        "id": "sec-1774363908514-frys2zdow",
+        "label": "Countertops"
+      }
+    ],
+    "sectionTemplates": {
+      "sec-1773153954781-djohemfzj": [
+        {
+          "id": "tmpl-1773325082044",
+          "desc": "Permit & Drawings:\nSupply drawings for basement renovation with in law suite.\nSupply engineer stamp for drawings Supply building permit to City.",
+          "labour": 1500,
+          "material": 1500,
+          "createdAt": "3/12/2026, 10:18:02 AM"
+        }
+      ],
+      "sec-1773153954782-pv37ihso5": [],
+      "sec-1773153954782-2x1mjzymx": [
+        {
+          "id": "tmpl-1773162250807",
+          "desc": "Project managment",
+          "labour": 200,
+          "material": 0,
+          "createdAt": "3/10/2026, 1:04:10 PM"
+        }
+      ],
+      "sec-1773153954782-cvht4fqcv": [
+        {
+          "id": "tmpl-1773162329199",
+          "desc": "Site Prep:\nTarps for floor protection\nLight plastic to seal off work area and dust control",
+          "labour": 200,
+          "material": 200,
+          "createdAt": "3/10/2026, 1:05:29 PM"
+        }
+      ],
+      "sec-1773153954782-7gjqrjmge": [
+        {
+          "id": "tmpl-1773162416639",
+          "desc": "Bathroom Demolition - Remove and Dispose:\nToilet\nVanity, sink & taps\nBathtub & faucet\nBath Fan\nCeramic tiles on floors and walls",
+          "labour": 0,
+          "material": 0,
+          "createdAt": "3/10/2026, 1:06:56 PM"
+        },
+        {
+          "id": "tmpl-1773325726243",
+          "desc": "Basement renovation - Remove & Dispose:\nWall paneling \nCarpet\nBathroom",
+          "labour": 1000,
+          "material": 300,
+          "createdAt": "3/12/2026, 10:28:46 AM"
+        },
+        {
+          "id": "tmpl-1774362215163",
+          "desc": "Bathroom Demolition:\nRemove the toilet and save for re-installation\nRemove Vanities and save for re-installation\nRemove and Dispose:\nVanity counter, sink & taps\n6 potlights\nCabinet shelving above the bidet\nCeramic tile flooring, including framing & subfloor\nBath Fan\nHeat lamp\nShower wall, facuet & doors\nFraming around the shower\nJacuzzi plumbing and vent pipe\nLedge framing at the window",
+          "labour": 0,
+          "material": 0,
+          "createdAt": "3/24/2026, 10:23:35 AM"
+        }
+      ],
+      "sec-1773153954782-ohyyy8ciy": [
+        {
+          "id": "tmpl-1773325717385",
+          "desc": "Basement Framing:\nSuppy & Install:\nSpruce 2x4 framing as needed around perimieter\nFrame bedroom and bathroom as per drawings\nFrame around electrical panel\nResilient channel on basement ceiling",
+          "labour": 2000,
+          "material": 1500,
+          "createdAt": "3/12/2026, 10:28:37 AM"
+        },
+        {
+          "id": "tmpl-1774362300820",
+          "desc": "Bathroom Framing:\nSupply & install:\nSpruce 2x4 framing to repair shower walls\nNew subfloor",
+          "labour": 500,
+          "material": 500,
+          "createdAt": "3/24/2026, 10:25:00 AM"
+        }
+      ],
+      "sec-1773154375242-nisfy15h6": [],
+      "sec-1773162451811-zc3o8fblx": [
+        {
+          "id": "tmpl-1773162677858",
+          "desc": "Drywall Supply & Install:\nRepair walls and ceiling after demo",
+          "labour": 500,
+          "material": 1500,
+          "createdAt": "3/10/2026, 1:11:17 PM"
+        },
+        {
+          "id": "tmpl-1773328730166",
+          "desc": "Basment Drywall - Supply & Install:\n1/2 inch drywall and plaster, tape, mud, sand and prime check:\nExterior walls & ceiling\nNew bedroom walls & ceiling\nNew bathroom walls and ceiling",
+          "labour": 4500,
+          "material": 4500,
+          "createdAt": "3/12/2026, 11:18:50 AM"
+        },
+        {
+          "id": "tmpl-1774362982293",
+          "desc": "Bathroom Drywall:\nSupply & Install:\nMould-resistant 1/2 in drywall & plaster for complete bathroom repairs",
+          "labour": 1400,
+          "material": 0,
+          "createdAt": "3/24/2026, 10:36:22 AM"
+        }
+      ],
+      "sec-1773162499872-zof09rv6x": [
+        {
+          "id": "tmpl-1773162760913",
+          "desc": "Supply & Install paint for bathroom",
+          "labour": 500,
+          "material": 100,
+          "createdAt": "3/10/2026, 1:12:40 PM"
+        },
+        {
+          "id": "tmpl-1773328928456",
+          "desc": "Basement Painting:\nSupply & Install:\nPaint for bathroom [1 colour]\nPaint for main living area [1 colour]\nPaint for bedroom [1 colour]\nPaint for trim and baseboards",
+          "labour": 1700,
+          "material": 600,
+          "createdAt": "3/12/2026, 11:22:08 AM"
+        },
+        {
+          "id": "tmpl-1774363024876",
+          "desc": "Bathroom Paint:\nSupply & Install:\nPaint for the bathroom",
+          "labour": 400,
+          "material": 200,
+          "createdAt": "3/24/2026, 10:37:04 AM"
+        }
+      ],
+      "sec-1773162504672-plxt8pvs8": [
+        {
+          "id": "tmpl-1773163818352",
+          "desc": "Bathroom Electrical - Supply & Install:\nPanasonic bath fan\nOne decora GFI plug\nOne decora light switch for bath fan",
+          "labour": 0,
+          "material": 0,
+          "createdAt": "3/10/2026, 1:30:18 PM"
+        },
+        {
+          "id": "tmpl-1773163953138",
+          "desc": "Install Owner Supplied Light fixtures above vanity",
+          "labour": 100,
+          "material": 0,
+          "createdAt": "3/10/2026, 1:32:33 PM"
+        },
+        {
+          "id": "tmpl-1773169051682",
+          "desc": "Heated Flooring\nSupply & install heated floor with wall thermostat",
+          "labour": 1200,
+          "material": 800,
+          "createdAt": "3/10/2026, 2:57:31 PM"
+        },
+        {
+          "id": "tmpl-1773169113468",
+          "desc": "ESSA Permit and Inspection",
+          "labour": 400,
+          "material": 0,
+          "createdAt": "3/10/2026, 2:58:33 PM"
+        },
+        {
+          "id": "tmpl-1773326999717",
+          "desc": "ESSA Permit supplied with inspections\nBasement Electrical - Supply & Install:\nWiring as needed to new bedroom and new bathroom from main panel\nPanasonic bath fan\n1 GFI plug in new bathroom\n1 light switch for bath fan and pot lights\n1 light switch for vanity lights\n6 pot lights in main area\n4 pot lights in new bedroom\n2 potlights in new bathroom\nNOTE: If more electrical is needed to meet code that is not included in this quote.",
+          "labour": 1000,
+          "material": 3000,
+          "createdAt": "3/12/2026, 10:49:59 AM"
+        },
+        {
+          "id": "tmpl-1773336770326",
+          "desc": "ESSA Permit supplied with inspections\nBasement Electrical - Supply & Install:\nWiring as needed to new bedroom and new bathroom from main panel\nPanasonic bath fan\n1 GFI plug in new bathroom\n1 light switch for bath fan and pot lights\n1 light switch for vanity lights\n6 pot lights in main area\n5 plugs in main living area \n4 pot lights in new bedroom\n1 light switch in new bedroom\n5 plugs in new bedroom\n4 potlights in new bathroom\n1 Smoke detector\n1 CO dectector\nNOTE: If more electrical is needed to meet code that is not included in this quote.",
+          "labour": 1500,
+          "material": 3200,
+          "createdAt": "3/12/2026, 1:32:50 PM"
+        },
+        {
+          "id": "tmpl-1774362467651",
+          "desc": "Bathroom Electrical:\nSupply & Install:\n4 LED pot lights\n1 Panasonic quiet bath fan\n\nInstall Owner Supplied:\n2 light fixtures above the vanity",
+          "labour": 600,
+          "material": 600,
+          "createdAt": "3/24/2026, 10:27:47 AM"
+        }
+      ],
+      "sec-1773163627022-unmr3r7ob": [
+        {
+          "id": "tmpl-1773164076347",
+          "desc": "Bathroom Plumbing  - Supply & Install:\nSchluter base & drain kit",
+          "labour": 400,
+          "material": 400,
+          "createdAt": "3/10/2026, 1:34:36 PM"
+        },
+        {
+          "id": "tmpl-1773164133553",
+          "desc": "Bathroom Plumbing - Supply & Install:\nShower faucet [Budget of $1000]",
+          "labour": 0,
+          "material": 1000,
+          "createdAt": "3/10/2026, 1:35:33 PM"
+        },
+        {
+          "id": "tmpl-1773164208065",
+          "desc": "Bathroom Plumbing - Supply & Install:\nShower doors [Budget of $1200]",
+          "labour": 600,
+          "material": 1200,
+          "createdAt": "3/10/2026, 1:36:48 PM"
+        },
+        {
+          "id": "tmpl-1773164287667",
+          "desc": "Bathroom Plumbing - Toilet\nSupply & Install Toilet [budget of $400]",
+          "labour": 100,
+          "material": 400,
+          "createdAt": "3/10/2026, 1:38:07 PM"
+        },
+        {
+          "id": "tmpl-1773168952964",
+          "desc": "Bathroom Rough in:\nRough in new tub location \nSupply & Install new ABS and Pex piping to new tub location",
+          "labour": 1000,
+          "material": 1000,
+          "createdAt": "3/10/2026, 2:55:52 PM"
+        },
+        {
+          "id": "tmpl-1773326290596",
+          "desc": "Bathroom Plumbing Tub\nSupply & Install 30x60 acrylic bathtub with overflow [budget of $1000]",
+          "labour": 1000,
+          "material": 1000,
+          "createdAt": "3/12/2026, 10:38:10 AM"
+        },
+        {
+          "id": "tmpl-1774362725239",
+          "desc": "Bathroom Plumbing:\nInstall the owner-supplied bathtub & Faucet\nReinstall the toilet removed during the demo\nRemove & cap bidet piping",
+          "labour": 700,
+          "material": 200,
+          "createdAt": "3/24/2026, 10:32:05 AM"
+        },
+        {
+          "id": "tmpl-1774363567052",
+          "desc": "Bathroom Plumbing:\nSupply & install:\nShower faucet [budget of $1000]",
+          "labour": 400,
+          "material": 1100,
+          "createdAt": "3/24/2026, 10:46:07 AM"
+        },
+        {
+          "id": "tmpl-1774363637268",
+          "desc": "Bathroom Plumbing:\nSupply & install:\n2 sinks & Faucets for vanities [Budget of $1000]",
+          "labour": 500,
+          "material": 1700,
+          "createdAt": "3/24/2026, 10:47:17 AM"
+        }
+      ],
+      "sec-1773163638472-wiqplrhdz": [
+        {
+          "id": "tmpl-1773165244621",
+          "desc": "Bathroom Vanity\nSupply & Install: \n42in bathroom vanity with sink [Budget of $1000]",
+          "labour": 200,
+          "material": 1200,
+          "createdAt": "3/10/2026, 1:54:04 PM"
+        },
+        {
+          "id": "tmpl-1773332774233",
+          "desc": "Bathroom Vanity 36\"\nSupply & Install: \n36in bathroom vanity with sink & taps [Budget of $2000]",
+          "labour": 400,
+          "material": 2100,
+          "createdAt": "3/12/2026, 12:26:14 PM"
+        },
+        {
+          "id": "tmpl-1774363137448",
+          "desc": "Bathroom Cabinetry:\nSupply & Install:\nCustom storage cabinet beside toilet [budget of $2200]\n\nInstall Owner Supplied:\nMedicine cabinet",
+          "labour": 2700,
+          "material": 0,
+          "createdAt": "3/24/2026, 10:38:57 AM"
+        }
+      ],
+      "sec-1773163643226-ic55favab": [
+        {
+          "id": "tmpl-1773164386154",
+          "desc": "HVAC - Bath Fan ductwork\nSupply and Install ducting to connect new bath fan to existing ductwork.",
+          "labour": 100,
+          "material": 100,
+          "createdAt": "3/10/2026, 1:39:46 PM"
+        },
+        {
+          "id": "tmpl-1773325837350",
+          "desc": "Basement HVAC \nBath Fan ductwork\nSupply and Install ducting to connect new bath fan to existing ductwork.\nNOTE: If no ductwork is present or ducts need to be rearranged, this will be at additional cost.",
+          "labour": 100,
+          "material": 100,
+          "createdAt": "3/12/2026, 10:30:37 AM"
+        },
+        {
+          "id": "tmpl-1774362609292",
+          "desc": "Bathroom HVAC:\nSupply & Install:\nDuctwoork to connect the new bath fan to the existing ductwork of the old bath fan\n\nNOTE: The possibility that completely new ductwork will be nessary at extra cost. To be determined at Demo.",
+          "labour": 400,
+          "material": 100,
+          "createdAt": "3/24/2026, 10:30:09 AM"
+        },
+        {
+          "id": "tmpl-1774362619633",
+          "desc": "Bathroom HVAC:\nSupply & Install:\nDuctwork to connect the new bath fan to the existing ductwork of the old bath fan\n\nNOTE: The possibility that completely new ductwork will be nessary at extra cost. To be determined at Demo.",
+          "labour": 400,
+          "material": 100,
+          "createdAt": "3/24/2026, 10:30:19 AM"
+        }
+      ],
+      "sec-1773164405902-ojkho5xnw": [
+        {
+          "id": "tmpl-1773164496132",
+          "desc": "Shower walls\nSupply & Install\n100 sq ft of ceramic tiles for shower walls [budget of $5 sq ft]",
+          "labour": 800,
+          "material": 600,
+          "createdAt": "3/10/2026, 1:41:36 PM"
+        },
+        {
+          "id": "tmpl-1773164682746",
+          "desc": "Shower Base\nSupply & Install:\n30 sq ft of ceramic tiles for shower base [budget of $10 sq ft]",
+          "labour": 400,
+          "material": 400,
+          "createdAt": "3/10/2026, 1:44:42 PM"
+        },
+        {
+          "id": "tmpl-1773165620936",
+          "desc": "Bathroom floor\nSupply & Install 100 sq ft of Floor tiles [budget of $7 sq ft]",
+          "labour": 800,
+          "material": 800,
+          "createdAt": "3/10/2026, 2:00:20 PM"
+        }
+      ],
+      "sec-1773165277897-6ukz9v0cs": [
+        {
+          "id": "tmpl-1773165353775",
+          "desc": "Install Owner Supplied:\nMirror\nToilet Roll Holder\nTowel Rack",
+          "labour": 200,
+          "material": 0,
+          "createdAt": "3/10/2026, 1:55:53 PM"
+        }
+      ],
+      "sec-1773327039429-xek701hl0": [
+        {
+          "id": "tmpl-1773327193200",
+          "desc": "Basement Insulation:\nIt is understood that the exerior walls have insulation and vapour barrier. If this is needed or needs replacing, this is at additional cost.",
+          "labour": 0,
+          "material": 0,
+          "createdAt": "3/12/2026, 10:53:13 AM"
+        },
+        {
+          "id": "tmpl-1774362905104",
+          "desc": "Bathroom Insulation:\nRepair insulation & vapour barrier in the outside wall of the shower\n\nNOTE: Spray foam insulation may be required below the flooring at extra cost. To be determined at demo.",
+          "labour": 100,
+          "material": 100,
+          "createdAt": "3/24/2026, 10:35:05 AM"
+        }
+      ],
+      "sec-1773328951316-akotk3wid": [
+        {
+          "id": "tmpl-1773332504313",
+          "desc": "Basement Baseboard & Trim:\nSupply & Install:\nBaseboard to match existing in home around basement and in new bedroom & Bathroom Approx 90 linier ft\nTrim doors of new bedroom and bathroom",
+          "labour": 0,
+          "material": 0,
+          "createdAt": "3/12/2026, 12:21:44 PM"
+        },
+        {
+          "id": "tmpl-1774363333652",
+          "desc": "Bathroom Trim:\nSupply & Install:\nBaseboards to match existing\nShoe molding",
+          "labour": 250,
+          "material": 250,
+          "createdAt": "3/24/2026, 10:42:13 AM"
+        }
+      ],
+      "sec-1773331762210-ogswzmzw5": [
+        {
+          "id": "tmpl-1773332307008",
+          "desc": "Basement - Windows & Doors\nSupply and install:\n2 interior doors with frames [budget $250 ea]\n1 each in new bedroom and new bathroom\n1 38x24 in egress window [budget $600] \n2 passage lock set to match home [[budget $50 ea]",
+          "labour": 400,
+          "material": 1300,
+          "createdAt": "3/12/2026, 12:18:27 PM"
+        }
+      ],
+      "sec-1773332837102-0qjoxwc5g": [
+        {
+          "id": "tmpl-1773335267731",
+          "desc": "Basement flooring\nSupply & Install:\n750 sq ft of VCT floor tiles in main living and bedroom area. [budget of $4 sq ft]\nIf subfloor is needed, it will be an additional cost",
+          "labour": 2500,
+          "material": 3500,
+          "createdAt": "3/12/2026, 1:07:47 PM"
+        },
+        {
+          "id": "tmpl-1773336920388",
+          "desc": "Basement flooring\nSupply & Install:\n1000 sq ft of VCT floor tiles in main living and bedroom area. [budget of $4 sq ft]\nIf subfloor is needed, it will be an additional cost",
+          "labour": 2500,
+          "material": 5000,
+          "createdAt": "3/12/2026, 1:35:20 PM"
+        },
+        {
+          "id": "tmpl-1774363189819",
+          "desc": "Bathroom Flooring:\nSupply & Install:\nBaseboards to match existing\nShoe molding",
+          "labour": 250,
+          "material": 250,
+          "createdAt": "3/24/2026, 10:39:49 AM"
+        },
+        {
+          "id": "tmpl-1774363253516",
+          "desc": "Bathroom Flooring:\nSupply & Install:\n160 sq ft of deluxe vinyl flooring [budget of $4.00 sq ft]",
+          "labour": 350,
+          "material": 750,
+          "createdAt": "3/24/2026, 10:40:53 AM"
+        }
+      ],
+      "sec-1774362744326-qmemmezv0": [
+        {
+          "id": "tmpl-1774362795953",
+          "desc": "Shower doors:\nSupply & Install:\nCustom shower doors & panel",
+          "labour": 400,
+          "material": 1100,
+          "createdAt": "3/24/2026, 10:33:15 AM"
+        }
+      ],
+      "sec-1774363348145-vi8uq9d20": [
+        {
+          "id": "tmpl-1774363416683",
+          "desc": "Bathroom Shower Walls:\nSupply & Install:\nSeamless Muraluxe shower wall [Client to choose colour]",
+          "labour": 0,
+          "material": 3600,
+          "createdAt": "3/24/2026, 10:43:36 AM"
+        }
+      ],
+      "sec-1774363908514-frys2zdow": [
+        {
+          "id": "tmpl-1774364016904",
+          "desc": "Bathroom Countertops:\nSupply & Install:\n2 Custom quartz countertops for vanities [budget of$1800]",
+          "labour": 0,
+          "material": 2000,
+          "createdAt": "3/24/2026, 10:53:36 AM"
+        }
+      ]
+    }
+  },
+  "2 Hartford Pl Nepean K2R 1A5||QT-0326-04": {
+    "savedAt": "2026-03-24, 2:00 p.m.",
+    "meta": {
+      "quoteNum": "QT-0326-04",
+      "quoteDate": "2026-03-24",
+      "quoteExpiry": "2026-04-20",
+      "clientName": "Aljis Jovaisas",
+      "clientPhone": "613-884-0697",
+      "clientEmail": "avj@bell.net",
+      "projectAddr": "2 Hartford Pl Nepean K2R 1A5",
+      "projectType": "Donnas Bathroom",
+      "quoteNotes": "",
+      "taxRate": "13",
+      "markupRate": "0"
+    },
+    "rows": {
+      "sec-1773153954781-djohemfzj": [],
+      "sec-1773153954782-pv37ihso5": [
+        {
+          "id": "1773153954782-0.7750462419421884",
+          "desc": "",
+          "labour": "",
+          "material": ""
+        }
+      ],
+      "sec-1773153954782-2x1mjzymx": [
+        {
+          "id": "1773153954782-0.8505092468615991",
+          "desc": "Project managment",
+          "labour": "2000",
+          "material": "0"
+        }
+      ],
+      "sec-1773153954782-cvht4fqcv": [
+        {
+          "id": "1773153954782-0.6354635502885241",
+          "desc": "Site Prep:\nTarps for floor protection\nLight plastic to seal off work area and dust control\nProvide dumpster for demolition\n",
+          "labour": "100",
+          "material": "500"
+        }
+      ],
+      "sec-1773153954782-7gjqrjmge": [
+        {
+          "id": "1774361970181-0.9210637388628218",
+          "desc": "Bathroom Demolition:\nRemove the toilet and save for re-installation\nRemove Vanities and save for re-installation\nRemove and Dispose:\nVanity counter, sink & taps\n6 potlights\nCabinet shelving above the bidet\nCeramic tile flooring, including framing & subfloor\nBath Fan\nHeat lamp\nShower wall, facuet & doors\nFraming around the shower\nJacuzzi plumbing and vent pipe\nLedge framing at the window",
+          "labour": "1620",
+          "material": "0"
+        }
+      ],
+      "sec-1773153954782-ohyyy8ciy": [
+        {
+          "id": "1774362240361-0.8086330753046895",
+          "desc": "Bathroom Framing:\nSupply & install:\nSpruce 2x4 framing to repair shower walls\nNew subfloor",
+          "labour": "500",
+          "material": "500"
+        }
+      ],
+      "sec-1773154375242-nisfy15h6": [
+        {
+          "id": "1773154375242-0.06627063858566362",
+          "desc": "",
+          "labour": "",
+          "material": ""
+        }
+      ],
+      "sec-1773162451811-zc3o8fblx": [
+        {
+          "id": "1774362926183-0.7544325698695836",
+          "desc": "Bathroom Drywall:\nSupply & Install:\nMould-resistant 1/2 in drywall & plaster for complete bathroom repairs",
+          "labour": "1400",
+          "material": ""
+        }
+      ],
+      "sec-1773162499872-zof09rv6x": [
+        {
+          "id": "1774362991461-0.786453977390709",
+          "desc": "Bathroom Paint:\nSupply & Install:\nPaint for the bathroom",
+          "labour": "400",
+          "material": "200"
+        }
+      ],
+      "sec-1773162504672-plxt8pvs8": [
+        {
+          "id": "1774362376208-0.9313858853556218",
+          "desc": "Bathroom Electrical:\nSupply & Install:\n4 LED pot lights\n1 Panasonic quiet bath fan\n\nInstall Owner Supplied:\n2 light fixtures above the vanity",
+          "labour": "600",
+          "material": "600"
+        }
+      ],
+      "sec-1773163627022-unmr3r7ob": [
+        {
+          "id": "1774362654241-0.3271291429081562",
+          "desc": "Bathroom Plumbing:\nInstall the owner-supplied bathtub & Faucet\nReinstall the toilet removed during the demo\nRemove & cap bidet piping",
+          "labour": "700",
+          "material": "200"
+        },
+        {
+          "id": "1774363503847-0.5943135405205165",
+          "desc": "Bathroom Plumbing:\nSupply & install:\nShower faucet [budget of $1000]",
+          "labour": "400",
+          "material": "1100"
+        },
+        {
+          "id": "1774363571511-0.7618130887058129",
+          "desc": "Bathroom Plumbing:\nSupply & install:\n2 sinks & Faucets for vanities [Budget of $1000]",
+          "labour": "500",
+          "material": "1700"
+        },
+        {
+          "id": "1774363639558-0.4132832602548169",
+          "desc": "Bathroom Plumbing:\nSupply & install:\nCustom Schluter base & drain kit\n22 sq ft tiles to cover the top [budget $7.00 sq ft]",
+          "labour": "500",
+          "material": "500"
+        }
+      ],
+      "sec-1773163638472-wiqplrhdz": [
+        {
+          "id": "1774363056935-0.6504700023556201",
+          "desc": "Bathroom Cabinetry:\nSupply & Install:\nCustom storage cabinet beside toilet [budget of $2200]\n\nInstall Owner Supplied:\nMedicine cabinet",
+          "labour": "2700",
+          "material": ""
+        }
+      ],
+      "sec-1773163643226-ic55favab": [
+        {
+          "id": "1774362480279-0.16021884670716402",
+          "desc": "Bathroom HVAC:\nSupply & Install:\nDuctwork to connect the new bath fan to the existing ductwork of the old bath fan\n\nNOTE: The possibility that completely new ductwork will be nessary at extra cost. To be determined at Demo.",
+          "labour": "400",
+          "material": "100"
+        }
+      ],
+      "sec-1773164405902-ojkho5xnw": [
+        {
+          "id": "1773164405902-0.24402249814068655",
+          "desc": "Shower walls\nSupply & Install\n100 sq ft of ceramic tiles for shower walls [budget of $5 sq ft]",
+          "labour": "800",
+          "material": "600"
+        },
+        {
+          "id": "1773164501411-0.35691269379945434",
+          "desc": "Shower Base\nSupply & Install:\n30 sq ft of ceramic tiles for shower base [budget of $10 sq ft]",
+          "labour": "400",
+          "material": "400"
+        },
+        {
+          "id": "1773165502376-0.47283154669036487",
+          "desc": "Bathroom floor\nSupply & Install 100 sq ft of Floor tiles [budget of $7 sq ft] ",
+          "labour": "800",
+          "material": "800"
+        }
+      ],
+      "sec-1773165277897-6ukz9v0cs": [
+        {
+          "id": "1773165277897-0.2206165925961152",
+          "desc": "Install Owner Supplied:\n2 Mirrors\nToilet Roll Holder\nTowel Rack",
+          "labour": "300",
+          "material": ""
+        }
+      ],
+      "sec-1773327039429-xek701hl0": [
+        {
+          "id": "1774362825492-0.8445914514641008",
+          "desc": "Bathroom Insulation:\nRepair insulation & vapour barrier in the outside wall of the shower\n\nNOTE: Spray foam insulation may be required below the flooring at extra cost. To be determined at demo.",
+          "labour": "100",
+          "material": "100"
+        }
+      ],
+      "sec-1773328951316-akotk3wid": [
+        {
+          "id": "1774363282338-0.29018819659373696",
+          "desc": "Bathroom Trim:\nSupply & Install:\nBaseboards to match existing\nShoe molding",
+          "labour": "250",
+          "material": "250"
+        }
+      ],
+      "sec-1773331762210-ogswzmzw5": [
+        {
+          "id": "1773331762210-0.5434797481722796",
+          "desc": "Basement - Windows & Doors\nSupply and install:\n2 interior doors with frames [budget $250 ea]\n1 each in new bedroom and new bathroom\n1 38x24 in egress window [budget $700] \n2 passage lock set to match home [[budget $50 ea]",
+          "labour": "700",
+          "material": "1600"
+        }
+      ],
+      "sec-1773332837102-0qjoxwc5g": [
+        {
+          "id": "1774363144386-0.9815875181082988",
+          "desc": "Bathroom Flooring:\nSupply & Install:\n160 sq ft of deluxe vinyl flooring [budget of $4.00 sq ft]",
+          "labour": "350",
+          "material": "750"
+        }
+      ],
+      "sec-1773761605100-t36r4z3u7": [
+        {
+          "id": "1773761605101-0.5812163306031347",
+          "desc": "Vinyl Siding:\nSuppy & Install new vinyl siding\nInstall vinyl corners\nInstall J trim at top of walls and around windows",
+          "labour": "14970",
+          "material": ""
+        }
+      ],
+      "sec-1773761763021-g8ftmd07w": [
+        {
+          "id": "1773761763021-0.8943848730141488",
+          "desc": "Supply Bin for waste removal including dump fees",
+          "labour": "1100",
+          "material": ""
+        }
+      ],
+      "sec-1773762217905-aqd7jpc06": [
+        {
+          "id": "1773762217905-0.3875520208912634",
+          "desc": "Fascia \nSupply & Install custom formed fascia around building and on the gable ends to allow proper transition to the shingled roof",
+          "labour": "1980",
+          "material": ""
+        }
+      ],
+      "sec-1774031406493-ypsgwkjgn": [
+        {
+          "id": "1774031406493-0.19668047982960313",
+          "desc": "Bathroom Countertops:\nSupply & Install:\n2 Custom Quartz countertop for vanities [Budget of $1800]",
+          "labour": "",
+          "material": "2000"
+        }
+      ],
+      "sec-1774031869687-n4twmu7se": [
+        {
+          "id": "1774031869687-0.6586169355924456",
+          "desc": "Bathroom Shower Walls:\nSupply & install:\nSeamless Muraluxe shower wall [Client to choose colour]",
+          "labour": "",
+          "material": "3600"
+        }
+      ],
+      "sec-1774031958428-amesl4b7e": [
+        {
+          "id": "1774031958428-0.789136782663366",
+          "desc": "Shower Doors:\nSupply & Install:\ncustom shower doors & panel",
+          "labour": "",
+          "material": "2800"
+        }
+      ],
+      "sec-1774362744326-qmemmezv0": [
+        {
+          "id": "1774365006328-0.7988758933295943",
+          "desc": "Donna's Bathroom\n\nSupply & Install:\n48x80 Glass panel with ceiling brace",
+          "labour": "",
+          "material": "1566"
+        }
+      ],
+      "sec-1774363348145-vi8uq9d20": [
+        {
+          "id": "1774363348145-0.14945455663866458",
+          "desc": "Bathroom Shower Walls:\nSupply & Install:\nSeamless Muraluxe shower wall [Client to choose colour]",
+          "labour": "",
+          "material": "3600"
+        }
+      ],
+      "sec-1774363908514-frys2zdow": [
+        {
+          "id": "1774363908514-0.20874997265805062",
+          "desc": "Bathroom Countertops:\nSupply & Install:\n2 Custom quartz countertops for vanities [budget of$1800]",
+          "labour": "",
+          "material": "2000"
+        }
+      ]
+    },
+    "activeSectionIds": [
+      "sec-1774362744326-qmemmezv0"
+    ],
+    "allSections": [
+      {
+        "id": "sec-1773153954781-djohemfzj",
+        "label": "Permits",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773153954782-pv37ihso5",
+        "label": "Design",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773153954782-2x1mjzymx",
+        "label": "Project Management",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773153954782-cvht4fqcv",
+        "label": "Site Prep",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773153954782-7gjqrjmge",
+        "label": "Demo",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773153954782-ohyyy8ciy",
+        "label": "Framing",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773154375242-nisfy15h6",
+        "label": "Terms & Conditions",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773162504672-plxt8pvs8",
+        "label": "Electrical",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773163643226-ic55favab",
+        "label": "HVAC",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773163627022-unmr3r7ob",
+        "label": "Plumbing",
+        "hidden": false
+      },
+      {
+        "id": "sec-1774362744326-qmemmezv0",
+        "label": "Shower Doors"
+      },
+      {
+        "id": "sec-1773327039429-xek701hl0",
+        "label": "Insulation",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773162451811-zc3o8fblx",
+        "label": "Drywall",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773162499872-zof09rv6x",
+        "label": "Paint",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773163638472-wiqplrhdz",
+        "label": "Cabinetry",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773328951316-akotk3wid",
+        "label": "Trim",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773332837102-0qjoxwc5g",
+        "label": "Flooring",
+        "hidden": false
+      },
+      {
+        "id": "sec-1774363348145-vi8uq9d20",
+        "label": "Shower Walls"
+      },
+      {
+        "id": "sec-1773164405902-ojkho5xnw",
+        "label": "Ceramic Tiles",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773165277897-6ukz9v0cs",
+        "label": "Accessories",
+        "hidden": false
+      },
+      {
+        "id": "sec-1773331762210-ogswzmzw5",
+        "label": "Windows & Doors",
+        "hidden": false
+      },
+      {
+        "id": "sec-1774363908514-frys2zdow",
+        "label": "Countertops"
+      }
+    ],
+    "sectionTemplates": {
+      "sec-1773153954781-djohemfzj": [
+        {
+          "id": "tmpl-1773325082044",
+          "desc": "Permit & Drawings:\nSupply drawings for basement renovation with in law suite.\nSupply engineer stamp for drawings Supply building permit to City.",
+          "labour": 1500,
+          "material": 1500,
+          "createdAt": "3/12/2026, 10:18:02 AM"
+        }
+      ],
+      "sec-1773153954782-pv37ihso5": [],
+      "sec-1773153954782-2x1mjzymx": [
+        {
+          "id": "tmpl-1773162250807",
+          "desc": "Project managment",
+          "labour": 200,
+          "material": 0,
+          "createdAt": "3/10/2026, 1:04:10 PM"
+        }
+      ],
+      "sec-1773153954782-cvht4fqcv": [
+        {
+          "id": "tmpl-1773162329199",
+          "desc": "Site Prep:\nTarps for floor protection\nLight plastic to seal off work area and dust control",
+          "labour": 200,
+          "material": 200,
+          "createdAt": "3/10/2026, 1:05:29 PM"
+        }
+      ],
+      "sec-1773153954782-7gjqrjmge": [
+        {
+          "id": "tmpl-1773162416639",
+          "desc": "Bathroom Demolition - Remove and Dispose:\nToilet\nVanity, sink & taps\nBathtub & faucet\nBath Fan\nCeramic tiles on floors and walls",
+          "labour": 0,
+          "material": 0,
+          "createdAt": "3/10/2026, 1:06:56 PM"
+        },
+        {
+          "id": "tmpl-1773325726243",
+          "desc": "Basement renovation - Remove & Dispose:\nWall paneling \nCarpet\nBathroom",
+          "labour": 1000,
+          "material": 300,
+          "createdAt": "3/12/2026, 10:28:46 AM"
+        },
+        {
+          "id": "tmpl-1774362215163",
+          "desc": "Bathroom Demolition:\nRemove the toilet and save for re-installation\nRemove Vanities and save for re-installation\nRemove and Dispose:\nVanity counter, sink & taps\n6 potlights\nCabinet shelving above the bidet\nCeramic tile flooring, including framing & subfloor\nBath Fan\nHeat lamp\nShower wall, facuet & doors\nFraming around the shower\nJacuzzi plumbing and vent pipe\nLedge framing at the window",
+          "labour": 0,
+          "material": 0,
+          "createdAt": "3/24/2026, 10:23:35 AM"
+        }
+      ],
+      "sec-1773153954782-ohyyy8ciy": [
+        {
+          "id": "tmpl-1773325717385",
+          "desc": "Basement Framing:\nSuppy & Install:\nSpruce 2x4 framing as needed around perimieter\nFrame bedroom and bathroom as per drawings\nFrame around electrical panel\nResilient channel on basement ceiling",
+          "labour": 2000,
+          "material": 1500,
+          "createdAt": "3/12/2026, 10:28:37 AM"
+        },
+        {
+          "id": "tmpl-1774362300820",
+          "desc": "Bathroom Framing:\nSupply & install:\nSpruce 2x4 framing to repair shower walls\nNew subfloor",
+          "labour": 500,
+          "material": 500,
+          "createdAt": "3/24/2026, 10:25:00 AM"
+        }
+      ],
+      "sec-1773154375242-nisfy15h6": [],
+      "sec-1773162451811-zc3o8fblx": [
+        {
+          "id": "tmpl-1773162677858",
+          "desc": "Drywall Supply & Install:\nRepair walls and ceiling after demo",
+          "labour": 500,
+          "material": 1500,
+          "createdAt": "3/10/2026, 1:11:17 PM"
+        },
+        {
+          "id": "tmpl-1773328730166",
+          "desc": "Basment Drywall - Supply & Install:\n1/2 inch drywall and plaster, tape, mud, sand and prime check:\nExterior walls & ceiling\nNew bedroom walls & ceiling\nNew bathroom walls and ceiling",
+          "labour": 4500,
+          "material": 4500,
+          "createdAt": "3/12/2026, 11:18:50 AM"
+        },
+        {
+          "id": "tmpl-1774362982293",
+          "desc": "Bathroom Drywall:\nSupply & Install:\nMould-resistant 1/2 in drywall & plaster for complete bathroom repairs",
+          "labour": 1400,
+          "material": 0,
+          "createdAt": "3/24/2026, 10:36:22 AM"
+        }
+      ],
+      "sec-1773162499872-zof09rv6x": [
+        {
+          "id": "tmpl-1773162760913",
+          "desc": "Supply & Install paint for bathroom",
+          "labour": 500,
+          "material": 100,
+          "createdAt": "3/10/2026, 1:12:40 PM"
+        },
+        {
+          "id": "tmpl-1773328928456",
+          "desc": "Basement Painting:\nSupply & Install:\nPaint for bathroom [1 colour]\nPaint for main living area [1 colour]\nPaint for bedroom [1 colour]\nPaint for trim and baseboards",
+          "labour": 1700,
+          "material": 600,
+          "createdAt": "3/12/2026, 11:22:08 AM"
+        },
+        {
+          "id": "tmpl-1774363024876",
+          "desc": "Bathroom Paint:\nSupply & Install:\nPaint for the bathroom",
+          "labour": 400,
+          "material": 200,
+          "createdAt": "3/24/2026, 10:37:04 AM"
+        }
+      ],
+      "sec-1773162504672-plxt8pvs8": [
+        {
+          "id": "tmpl-1773163818352",
+          "desc": "Bathroom Electrical - Supply & Install:\nPanasonic bath fan\nOne decora GFI plug\nOne decora light switch for bath fan",
+          "labour": 0,
+          "material": 0,
+          "createdAt": "3/10/2026, 1:30:18 PM"
+        },
+        {
+          "id": "tmpl-1773163953138",
+          "desc": "Install Owner Supplied Light fixtures above vanity",
+          "labour": 100,
+          "material": 0,
+          "createdAt": "3/10/2026, 1:32:33 PM"
+        },
+        {
+          "id": "tmpl-1773169051682",
+          "desc": "Heated Flooring\nSupply & install heated floor with wall thermostat",
+          "labour": 1200,
+          "material": 800,
+          "createdAt": "3/10/2026, 2:57:31 PM"
+        },
+        {
+          "id": "tmpl-1773169113468",
+          "desc": "ESSA Permit and Inspection",
+          "labour": 400,
+          "material": 0,
+          "createdAt": "3/10/2026, 2:58:33 PM"
+        },
+        {
+          "id": "tmpl-1773326999717",
+          "desc": "ESSA Permit supplied with inspections\nBasement Electrical - Supply & Install:\nWiring as needed to new bedroom and new bathroom from main panel\nPanasonic bath fan\n1 GFI plug in new bathroom\n1 light switch for bath fan and pot lights\n1 light switch for vanity lights\n6 pot lights in main area\n4 pot lights in new bedroom\n2 potlights in new bathroom\nNOTE: If more electrical is needed to meet code that is not included in this quote.",
+          "labour": 1000,
+          "material": 3000,
+          "createdAt": "3/12/2026, 10:49:59 AM"
+        },
+        {
+          "id": "tmpl-1773336770326",
+          "desc": "ESSA Permit supplied with inspections\nBasement Electrical - Supply & Install:\nWiring as needed to new bedroom and new bathroom from main panel\nPanasonic bath fan\n1 GFI plug in new bathroom\n1 light switch for bath fan and pot lights\n1 light switch for vanity lights\n6 pot lights in main area\n5 plugs in main living area \n4 pot lights in new bedroom\n1 light switch in new bedroom\n5 plugs in new bedroom\n4 potlights in new bathroom\n1 Smoke detector\n1 CO dectector\nNOTE: If more electrical is needed to meet code that is not included in this quote.",
+          "labour": 1500,
+          "material": 3200,
+          "createdAt": "3/12/2026, 1:32:50 PM"
+        },
+        {
+          "id": "tmpl-1774362467651",
+          "desc": "Bathroom Electrical:\nSupply & Install:\n4 LED pot lights\n1 Panasonic quiet bath fan\n\nInstall Owner Supplied:\n2 light fixtures above the vanity",
+          "labour": 600,
+          "material": 600,
+          "createdAt": "3/24/2026, 10:27:47 AM"
+        }
+      ],
+      "sec-1773163627022-unmr3r7ob": [
+        {
+          "id": "tmpl-1773164076347",
+          "desc": "Bathroom Plumbing  - Supply & Install:\nSchluter base & drain kit",
+          "labour": 400,
+          "material": 400,
+          "createdAt": "3/10/2026, 1:34:36 PM"
+        },
+        {
+          "id": "tmpl-1773164133553",
+          "desc": "Bathroom Plumbing - Supply & Install:\nShower faucet [Budget of $1000]",
+          "labour": 0,
+          "material": 1000,
+          "createdAt": "3/10/2026, 1:35:33 PM"
+        },
+        {
+          "id": "tmpl-1773164208065",
+          "desc": "Bathroom Plumbing - Supply & Install:\nShower doors [Budget of $1200]",
+          "labour": 600,
+          "material": 1200,
+          "createdAt": "3/10/2026, 1:36:48 PM"
+        },
+        {
+          "id": "tmpl-1773164287667",
+          "desc": "Bathroom Plumbing - Toilet\nSupply & Install Toilet [budget of $400]",
+          "labour": 100,
+          "material": 400,
+          "createdAt": "3/10/2026, 1:38:07 PM"
+        },
+        {
+          "id": "tmpl-1773168952964",
+          "desc": "Bathroom Rough in:\nRough in new tub location \nSupply & Install new ABS and Pex piping to new tub location",
+          "labour": 1000,
+          "material": 1000,
+          "createdAt": "3/10/2026, 2:55:52 PM"
+        },
+        {
+          "id": "tmpl-1773326290596",
+          "desc": "Bathroom Plumbing Tub\nSupply & Install 30x60 acrylic bathtub with overflow [budget of $1000]",
+          "labour": 1000,
+          "material": 1000,
+          "createdAt": "3/12/2026, 10:38:10 AM"
+        },
+        {
+          "id": "tmpl-1774362725239",
+          "desc": "Bathroom Plumbing:\nInstall the owner-supplied bathtub & Faucet\nReinstall the toilet removed during the demo\nRemove & cap bidet piping",
+          "labour": 700,
+          "material": 200,
+          "createdAt": "3/24/2026, 10:32:05 AM"
+        },
+        {
+          "id": "tmpl-1774363567052",
+          "desc": "Bathroom Plumbing:\nSupply & install:\nShower faucet [budget of $1000]",
+          "labour": 400,
+          "material": 1100,
+          "createdAt": "3/24/2026, 10:46:07 AM"
+        },
+        {
+          "id": "tmpl-1774363637268",
+          "desc": "Bathroom Plumbing:\nSupply & install:\n2 sinks & Faucets for vanities [Budget of $1000]",
+          "labour": 500,
+          "material": 1700,
+          "createdAt": "3/24/2026, 10:47:17 AM"
+        }
+      ],
+      "sec-1773163638472-wiqplrhdz": [
+        {
+          "id": "tmpl-1773165244621",
+          "desc": "Bathroom Vanity\nSupply & Install: \n42in bathroom vanity with sink [Budget of $1000]",
+          "labour": 200,
+          "material": 1200,
+          "createdAt": "3/10/2026, 1:54:04 PM"
+        },
+        {
+          "id": "tmpl-1773332774233",
+          "desc": "Bathroom Vanity 36\"\nSupply & Install: \n36in bathroom vanity with sink & taps [Budget of $2000]",
+          "labour": 400,
+          "material": 2100,
+          "createdAt": "3/12/2026, 12:26:14 PM"
+        },
+        {
+          "id": "tmpl-1774363137448",
+          "desc": "Bathroom Cabinetry:\nSupply & Install:\nCustom storage cabinet beside toilet [budget of $2200]\n\nInstall Owner Supplied:\nMedicine cabinet",
+          "labour": 2700,
+          "material": 0,
+          "createdAt": "3/24/2026, 10:38:57 AM"
+        }
+      ],
+      "sec-1773163643226-ic55favab": [
+        {
+          "id": "tmpl-1773164386154",
+          "desc": "HVAC - Bath Fan ductwork\nSupply and Install ducting to connect new bath fan to existing ductwork.",
+          "labour": 100,
+          "material": 100,
+          "createdAt": "3/10/2026, 1:39:46 PM"
+        },
+        {
+          "id": "tmpl-1773325837350",
+          "desc": "Basement HVAC \nBath Fan ductwork\nSupply and Install ducting to connect new bath fan to existing ductwork.\nNOTE: If no ductwork is present or ducts need to be rearranged, this will be at additional cost.",
+          "labour": 100,
+          "material": 100,
+          "createdAt": "3/12/2026, 10:30:37 AM"
+        },
+        {
+          "id": "tmpl-1774362609292",
+          "desc": "Bathroom HVAC:\nSupply & Install:\nDuctwoork to connect the new bath fan to the existing ductwork of the old bath fan\n\nNOTE: The possibility that completely new ductwork will be nessary at extra cost. To be determined at Demo.",
+          "labour": 400,
+          "material": 100,
+          "createdAt": "3/24/2026, 10:30:09 AM"
+        },
+        {
+          "id": "tmpl-1774362619633",
+          "desc": "Bathroom HVAC:\nSupply & Install:\nDuctwork to connect the new bath fan to the existing ductwork of the old bath fan\n\nNOTE: The possibility that completely new ductwork will be nessary at extra cost. To be determined at Demo.",
+          "labour": 400,
+          "material": 100,
+          "createdAt": "3/24/2026, 10:30:19 AM"
+        }
+      ],
+      "sec-1773164405902-ojkho5xnw": [
+        {
+          "id": "tmpl-1773164496132",
+          "desc": "Shower walls\nSupply & Install\n100 sq ft of ceramic tiles for shower walls [budget of $5 sq ft]",
+          "labour": 800,
+          "material": 600,
+          "createdAt": "3/10/2026, 1:41:36 PM"
+        },
+        {
+          "id": "tmpl-1773164682746",
+          "desc": "Shower Base\nSupply & Install:\n30 sq ft of ceramic tiles for shower base [budget of $10 sq ft]",
+          "labour": 400,
+          "material": 400,
+          "createdAt": "3/10/2026, 1:44:42 PM"
+        },
+        {
+          "id": "tmpl-1773165620936",
+          "desc": "Bathroom floor\nSupply & Install 100 sq ft of Floor tiles [budget of $7 sq ft]",
+          "labour": 800,
+          "material": 800,
+          "createdAt": "3/10/2026, 2:00:20 PM"
+        }
+      ],
+      "sec-1773165277897-6ukz9v0cs": [
+        {
+          "id": "tmpl-1773165353775",
+          "desc": "Install Owner Supplied:\nMirror\nToilet Roll Holder\nTowel Rack",
+          "labour": 200,
+          "material": 0,
+          "createdAt": "3/10/2026, 1:55:53 PM"
+        }
+      ],
+      "sec-1773327039429-xek701hl0": [
+        {
+          "id": "tmpl-1773327193200",
+          "desc": "Basement Insulation:\nIt is understood that the exerior walls have insulation and vapour barrier. If this is needed or needs replacing, this is at additional cost.",
+          "labour": 0,
+          "material": 0,
+          "createdAt": "3/12/2026, 10:53:13 AM"
+        },
+        {
+          "id": "tmpl-1774362905104",
+          "desc": "Bathroom Insulation:\nRepair insulation & vapour barrier in the outside wall of the shower\n\nNOTE: Spray foam insulation may be required below the flooring at extra cost. To be determined at demo.",
+          "labour": 100,
+          "material": 100,
+          "createdAt": "3/24/2026, 10:35:05 AM"
+        }
+      ],
+      "sec-1773328951316-akotk3wid": [
+        {
+          "id": "tmpl-1773332504313",
+          "desc": "Basement Baseboard & Trim:\nSupply & Install:\nBaseboard to match existing in home around basement and in new bedroom & Bathroom Approx 90 linier ft\nTrim doors of new bedroom and bathroom",
+          "labour": 0,
+          "material": 0,
+          "createdAt": "3/12/2026, 12:21:44 PM"
+        },
+        {
+          "id": "tmpl-1774363333652",
+          "desc": "Bathroom Trim:\nSupply & Install:\nBaseboards to match existing\nShoe molding",
+          "labour": 250,
+          "material": 250,
+          "createdAt": "3/24/2026, 10:42:13 AM"
+        }
+      ],
+      "sec-1773331762210-ogswzmzw5": [
+        {
+          "id": "tmpl-1773332307008",
+          "desc": "Basement - Windows & Doors\nSupply and install:\n2 interior doors with frames [budget $250 ea]\n1 each in new bedroom and new bathroom\n1 38x24 in egress window [budget $600] \n2 passage lock set to match home [[budget $50 ea]",
+          "labour": 400,
+          "material": 1300,
+          "createdAt": "3/12/2026, 12:18:27 PM"
+        }
+      ],
+      "sec-1773332837102-0qjoxwc5g": [
+        {
+          "id": "tmpl-1773335267731",
+          "desc": "Basement flooring\nSupply & Install:\n750 sq ft of VCT floor tiles in main living and bedroom area. [budget of $4 sq ft]\nIf subfloor is needed, it will be an additional cost",
+          "labour": 2500,
+          "material": 3500,
+          "createdAt": "3/12/2026, 1:07:47 PM"
+        },
+        {
+          "id": "tmpl-1773336920388",
+          "desc": "Basement flooring\nSupply & Install:\n1000 sq ft of VCT floor tiles in main living and bedroom area. [budget of $4 sq ft]\nIf subfloor is needed, it will be an additional cost",
+          "labour": 2500,
+          "material": 5000,
+          "createdAt": "3/12/2026, 1:35:20 PM"
+        },
+        {
+          "id": "tmpl-1774363189819",
+          "desc": "Bathroom Flooring:\nSupply & Install:\nBaseboards to match existing\nShoe molding",
+          "labour": 250,
+          "material": 250,
+          "createdAt": "3/24/2026, 10:39:49 AM"
+        },
+        {
+          "id": "tmpl-1774363253516",
+          "desc": "Bathroom Flooring:\nSupply & Install:\n160 sq ft of deluxe vinyl flooring [budget of $4.00 sq ft]",
+          "labour": 350,
+          "material": 750,
+          "createdAt": "3/24/2026, 10:40:53 AM"
+        }
+      ],
+      "sec-1774362744326-qmemmezv0": [
+        {
+          "id": "tmpl-1774362795953",
+          "desc": "Shower doors:\nSupply & Install:\nCustom shower doors & panel",
+          "labour": 400,
+          "material": 1100,
+          "createdAt": "3/24/2026, 10:33:15 AM"
+        }
+      ],
+      "sec-1774363348145-vi8uq9d20": [
+        {
+          "id": "tmpl-1774363416683",
+          "desc": "Bathroom Shower Walls:\nSupply & Install:\nSeamless Muraluxe shower wall [Client to choose colour]",
+          "labour": 0,
+          "material": 3600,
+          "createdAt": "3/24/2026, 10:43:36 AM"
+        }
+      ],
+      "sec-1774363908514-frys2zdow": [
+        {
+          "id": "tmpl-1774364016904",
+          "desc": "Bathroom Countertops:\nSupply & Install:\n2 Custom quartz countertops for vanities [budget of$1800]",
+          "labour": 0,
+          "material": 2000,
+          "createdAt": "3/24/2026, 10:53:36 AM"
+        }
+      ]
+    }
   }
 }
