@@ -1261,7 +1261,7 @@
 
     /* ── CONTRACT MODAL ── */
     .contract-modal-overlay {
-      display: none;
+      display: none !important;
       position: fixed;
       inset: 0;
       background: rgba(0,0,0,0.6);
@@ -1271,7 +1271,7 @@
       overflow-y: auto;
       padding: 30px 16px;
     }
-    .contract-modal-overlay.open { display: flex; }
+    .contract-modal-overlay.open { display: flex !important; }
     .contract-modal {
       background: #fff;
       border-radius: 12px;
@@ -1451,8 +1451,8 @@
     /* ── CONTRACT PRINT STYLES ── */
     @media print {
       body.printing-contract .contract-modal-overlay {
-        position: static !important;
         display: block !important;
+        position: static !important;
         padding: 0 !important;
         background: none !important;
         overflow: visible !important;
